@@ -1,0 +1,326 @@
+:root {
+    --primary-color: #7b68ee;
+    --secondary-color: #6a5acd;
+    --background-color: #1e1e2e;
+    --card-bg: #2a2a3a;
+    --text-color: #e0e0e0;
+    --border-color: #444;
+    --input-bg: #363646;  /* Darker background for inputs */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+}
+
+        
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: var(--primary-color);
+}
+
+/* Responsive tabs */
+.tabs-container {
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.tabs-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.tabs {
+    display: flex;
+    min-width: min-content;
+    white-space: nowrap;
+    padding-bottom: 2px; /* Prevent bottom border cutoff */
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.tab.active {
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.tab:hover:not(.active) {
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Custom styled inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    box-sizing: border-box;
+    -moz-appearance: textfield; /* Firefox */
+}
+
+/* Remove default spinner buttons for number inputs */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Custom select styling */
+.custom-select {
+    position: relative;
+    width: 100%;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.custom-select:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--primary-color);
+    pointer-events: none;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Custom styled checkbox */
+.checkbox-wrapper .custom-checkbox {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-wrapper .custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-wrapper .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+}
+
+.checkbox-wrapper .custom-checkbox:hover input ~ .checkmark {
+    background-color: #494959;
+}
+
+.checkbox-wrapper .custom-checkbox input:checked ~ .checkmark {
+    background-color: var(--primary-color);
+}
+
+.checkbox-wrapper .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-wrapper .custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-wrapper .custom-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(123, 104, 238, 0.2);
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info-section {
+    margin-top: 30px;
+}
+
+.info-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.footnote {
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Custom number input controls */
+.number-input-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Update number controls positioning */
+.number-controls {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    width: 34px;  /* Reduced from 35px */
+    border-left: 1px solid var(--border-color);
+    overflow: hidden;
+    border-radius: 0 3px 3px 0;  /* Reduced from 4px */
+}
+
+.number-control-btn {
+    height: 50%;
+    border: none;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+    font-size: 14px;
+}
+
+.number-control-btn:hover {
+    background-color: #494959;
+}
+
+.number-control-btn:first-child {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.number-input-container input[type="number"] {
+    padding-right: 40px;
+}
+
+/* Focus styles for inputs and selects */
+input:focus,
+select:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
+
+/* Ensure number input maintains right border with controls */
+input[type="number"]:focus {
+    border-right: 1px solid var(--primary-color);  /* Match the focus border color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        padding: 15px;
+    }
+}

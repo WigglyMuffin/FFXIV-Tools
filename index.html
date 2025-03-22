@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFXIV Tools</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" title="style" href="assets/css/style.css">
+    <!-- Scripts -->
+    <script src="assets/js/tab-handler.js"></script>
+    <script src="assets/js/fc-calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>FFXIV Tools</h1>
+            <p>Utilities for FFXIV </p>
+        </div>
+        
+        <div class="tabs-container">
+            <div class="tabs">
+                <button class="tab active" data-target="fc-calculator">FC Calculator</button>
+                <button class="tab" data-target="coming-soon">Coming Soon</button>
+                <button class="tab" data-target="about">About</button>
+            </div>
+        </div>
+        
+        <div id="fc-calculator" class="tab-content active">
+            <div class="card">
+                <h2>Free Company Rank Calculator</h2>
+                <p>Calculate items needed to reach FC Rank 6</p>
+                
+                <div class="form-group">
+                    <label for="item-level">Item Level (ilvl):</label>
+                    <div class="number-input-container">
+                        <input type="number" id="item-level" value="640" min="1" max="1000">
+                        <div class="number-controls">
+                            <button class="number-control-btn" onclick="changeValue('item-level', 1)">+</button>
+                            <button class="number-control-btn" onclick="changeValue('item-level', -1)">-</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="checkbox-wrapper">
+                        <label class="custom-checkbox">
+                            High Quality (HQ) Items
+                            <input type="checkbox" id="is-hq" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="current-fc-rank">Current FC Rank:</label>
+                    <div class="custom-select">
+                        <select id="current-fc-rank">
+                            <option value="1">Rank 1</option>
+                            <option value="2">Rank 2</option>
+                            <option value="3">Rank 3</option>
+                            <option value="4">Rank 4</option>
+                            <option value="5">Rank 5</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="current-credits">Current Company Credits:</label>
+                    <div class="number-input-container">
+                        <input type="number" id="current-credits" value="0" min="0">
+                        <div class="number-controls">
+                            <button class="number-control-btn" onclick="changeValue('current-credits', 100)">+</button>
+                            <button class="number-control-btn" onclick="changeValue('current-credits', -100)">-</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="calculate-btn">Calculate</button>
+                
+                <div id="result" class="result hidden">
+                    You will need to turn in <span id="items-needed">0</span> items to reach Rank 6.
+                </div>
+                
+                <div class="info-section">
+                    <div class="info-title">Additional Information:</div>
+                    <ul>
+                        <li>Acceptable items include all gear with names that are not yellow in their help window.</li>
+                        <li>Items must be of Aetherial, Green, or Blue rarity.</li>
+                        <li>The item must be sellable to vendors, which is indicated by a "Sells for" value in its tooltip.</li>
+                        <li>For Company Credits, HQ items yield double the amount when compared to NQ items.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="coming-soon" class="tab-content">
+            <div class="card">
+                <h2>Coming Soon (Filler page for now...)</h2>
+                <p>More tools for FFXIV are in development:</p>
+                <ul>
+                    <li>Stuff</li>
+                </ul>
+                <p>Check back later for updates!</p>
+            </div>
+        </div>
+        
+        <div id="about" class="tab-content">
+            <div class="card">
+                <h2>About This Tool</h2>
+                <p>This FC turn in calculator helps determine how many items are needed to reach FC Rank 6.</p>
+                <p>The calculations are based on in-game formulas for Company Credits earned from item turn-ins.</p>
+                <p>This web tool version was created to make these calculations more accessible than using in-game scripts.</p>
+            </div>
+        </div>
+        
+        <div class="footnote">
+            Created for FFXIV. Not affiliated with Square Enix.
+        </div>
+    </div>
+</body>
+</html>
