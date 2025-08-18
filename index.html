@@ -20,7 +20,6 @@
         <div class="tabs-container">
             <div class="tabs">
                 <button class="tab active" data-target="fc-calculator">FC Calculator</button>
-                <button class="tab" data-target="coming-soon">Coming Soon</button>
                 <button class="tab" data-target="about">About</button>
             </div>
         </div>
@@ -75,10 +74,53 @@
                     </div>
                 </div>
                 
-                <button id="calculate-btn">Calculate</button>
+                <div class="form-group">
+                    <label for="num-fcs">Number of Free Companies:</label>
+                    <div class="number-input-container">
+                        <input type="number" id="num-fcs" value="1" min="1" max="50">
+                        <div class="number-controls">
+                            <button class="number-control-btn" onclick="changeValue('num-fcs', 1)">+</button>
+                            <button class="number-control-btn" onclick="changeValue('num-fcs', -1)">-</button>
+                        </div>
+                    </div>
+                    <small class="form-hint">Calculate items needed for multiple FCs at once</small>
+                </div>
                 
-                <div id="result" class="result hidden">
-                    You will need to turn in <span id="items-needed">0</span> items to reach Rank 6.
+                <div id="result" class="result">
+                    <div class="calculation-card">
+                        <div class="calculation-summary">
+                            <div class="summary-main">
+                                <span class="summary-label">Items needed:</span>
+                                <span class="summary-value" id="items-needed">0</span>
+                            </div>
+                        </div>
+                        
+                        <div class="calculation-details">
+                            <h4>Calculation Details</h4>
+                            <div class="breakdown-grid" id="calculation-breakdown"></div>
+                        </div>
+                        
+                        <div class="breakdown-toggle-container">
+                            <button id="breakdown-toggle" class="breakdown-toggle-btn" onclick="toggleBreakdown()">
+                                <span id="breakdown-toggle-text">Compare Item Levels</span>
+                                <span id="breakdown-toggle-icon">▼</span>
+                            </button>
+                        </div>
+                        
+                        <div id="ilvl-breakdown" class="ilvl-breakdown hidden">
+                            <h4>Item Level Comparison</h4>
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th>Gear Set</th>
+                                        <th id="items-column-header">Items Needed</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ilvl-comparison">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="info-section">
@@ -90,17 +132,6 @@
                         <li>For Company Credits, HQ items yield double the amount when compared to NQ items.</li>
                     </ul>
                 </div>
-            </div>
-        </div>
-        
-        <div id="coming-soon" class="tab-content">
-            <div class="card">
-                <h2>Coming Soon (Filler page for now...)</h2>
-                <p>More tools for FFXIV are in development:</p>
-                <ul>
-                    <li>Stuff</li>
-                </ul>
-                <p>Check back later for updates!</p>
             </div>
         </div>
         
