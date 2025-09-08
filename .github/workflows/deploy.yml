@@ -1,0 +1,136 @@
+name: Update Quest Data
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    # Run every 6 hours to check for new quest data
+    - cron: '0 */6 * * *'
+
+jobs:
+  update-quest-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Create data directory
+      run: |
+        mkdir -p assets/data
+    
+    - name: Fetch quest data
+      run: |
+        echo "Fetching quest data"
+        
+        # Define expansions
+        declare -a expansions=(
+          "2.x - A Realm Reborn"
+          "3.x - Heavensward" 
+          "4.x - Stormblood"
+          "5.x - Shadowbringers"
+          "6.x - Endwalker"
+          "7.x - Dawntrail"
+        )
+        
+        # Start building JSON
+        echo '{' > assets/data/quest-data.json
+        echo "  \"lastUpdated\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\"," >> assets/data/quest-data.json
+        echo '  "expansions": {' >> assets/data/quest-data.json
+        
+        first=true
+        for expansion in "${expansions[@]}"; do
+          if [ "$first" = false ]; then
+            echo ',' >> assets/data/quest-data.json
+          fi
+          first=false
+          
+          expansion_key=$(echo "$expansion" | cut -d' ' -f1)
+          echo "    \"$expansion_key\": {" >> assets/data/quest-data.json
+          echo "      \"name\": \"$expansion\"," >> assets/data/quest-data.json
+          echo '      "available": [' >> assets/data/quest-data.json
+          
+          # Fetch quest files for this expansion using Git Trees API (recursive)
+          echo "Fetching quest files for: $expansion"
+          
+          # Use Git Trees API to get all files recursively
+          TREE_RESPONSE=$(curl -s \
+            -H "Authorization: token ${{ secrets.AMBIV_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/WigglyMuffin/Ambivalence/git/trees/main?recursive=1")
+          
+          if echo "$TREE_RESPONSE" | jq -e '.tree' > /dev/null 2>&1; then
+            echo "Successfully got repository tree"
+            
+            # Extract quest files for this specific expansion
+            expansion_path="QuestPaths/$expansion"
+            quest_files=$(echo "$TREE_RESPONSE" | jq -r --arg path "$expansion_path" \
+              '.tree[] | select(.path | startswith($path) and endswith(".json")) | .path' | \
+              sed "s|^$expansion_path/||" | sed 's|.*/||' | sed 's|\.json$||' | sort | uniq)
+            
+            echo "Quest files found for $expansion:"
+            echo "$quest_files"
+            
+            quest_first=true
+            while IFS= read -r quest_name; do
+              if [ -n "$quest_name" ]; then
+                if [ "$quest_first" = false ]; then
+                  echo ',' >> assets/data/quest-data.json
+                fi
+                quest_first=false
+                echo "        \"$quest_name\"" >> assets/data/quest-data.json
+                echo "Added quest: $quest_name"
+              fi
+            done <<< "$quest_files"
+          else
+            echo "Failed to fetch repository tree"
+            if echo "$TREE_RESPONSE" | jq -e '.message' > /dev/null 2>&1; then
+              echo "Error: $(echo "$TREE_RESPONSE" | jq -r '.message')"
+            fi
+          fi
+          
+          echo '' >> assets/data/quest-data.json
+          echo '      ]' >> assets/data/quest-data.json
+          echo '    }' >> assets/data/quest-data.json
+        done
+        
+        echo '' >> assets/data/quest-data.json
+        echo '  }' >> assets/data/quest-data.json
+        echo '}' >> assets/data/quest-data.json
+        
+        echo "Quest data compilation complete!"
+    
+    - name: Validate quest data JSON
+      run: |
+        if jq empty assets/data/quest-data.json; then
+          echo "Quest data JSON is valid"
+          echo "Quest data summary:"
+          jq -r '.expansions | to_entries[] | "  " + .value.name + ": " + (.value.available | length | tostring) + " quests"' assets/data/quest-data.json
+        else
+          echo "Quest data JSON is invalid"
+          exit 1
+        fi
+    
+    - name: Commit updated quest data
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add assets/data/quest-data.json
+        if git diff --staged --quiet; then
+          echo "No changes to quest data"
+        else
+          git commit -m "Update quest data - $(date -u +"%Y-%m-%d %H:%M UTC")"
+          git push origin main
+          echo "Quest data updated and committed"
+        fi
