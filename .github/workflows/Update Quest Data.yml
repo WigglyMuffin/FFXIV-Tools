@@ -1,0 +1,71 @@
+name: Update Quest Data
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    # Run every 6 hours to check for new quest data
+    - cron: '0 */6 * * *'
+
+jobs:
+  update-quest-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Create data directory
+      run: |
+        mkdir -p assets/data
+    
+    - name: Download quest data
+      run: |
+        echo "Downloading quest data from private source..."
+        curl -s \
+          -H "Authorization: token ${{ secrets.QUEST_DATA_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3.raw" \
+          -o assets/data/quest-data.json \
+          "https://api.github.com/repos/WigglyMuffin/ffxiv-data-processor/contents/assets/data/quest-data.json"
+        
+        if [ ! -f assets/data/quest-data.json ]; then
+          echo "Failed to download quest data"
+          exit 1
+        fi
+        
+        echo "Quest data downloaded successfully"
+    
+    - name: Validate quest data JSON
+      run: |
+        if jq empty assets/data/quest-data.json; then
+          echo "Quest data JSON is valid"
+          echo "Quest data summary:"
+          jq -r '.expansions | to_entries[] | "  " + .value.name + ": " + (.value.available | length | tostring) + " quests"' assets/data/quest-data.json
+        else
+          echo "Quest data JSON is invalid"
+          exit 1
+        fi
+    
+    - name: Commit updated quest data
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add assets/data/quest-data.json
+        if git diff --staged --quiet; then
+          echo "No changes to quest data"
+        else
+          git commit -m "Update quest data - $(date -u +"%Y-%m-%d %H:%M UTC")"
+          git push origin main
+          echo "Quest data updated and committed"
+        fi
