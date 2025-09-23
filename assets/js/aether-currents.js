@@ -499,11 +499,11 @@ class AetherCurrentsMap {
         const fontSize = Math.max(8, (canvasWidth / mapConfig.baseWidth) * 10);
         
         // Game coordinate ranges
-        const gameMinX = -900;
-        const gameMaxX = 1000;
-        const gameMinY = -900; 
-        const gameMaxY = 900;
-        
+        const gameMinX = -1024;
+        const gameMaxX = 1024;
+        const gameMinY = -1024; 
+        const gameMaxY = 1024;
+
         this.ctx.fillStyle = '#aaa';
         this.ctx.font = `${fontSize}px Arial`;
         this.ctx.textAlign = 'center';
