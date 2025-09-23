@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-21T14:32:32Z",
+  "lastUpdated": "2025-09-23T18:03:57Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -1663,6 +1663,14 @@
         "984_Come-Into-My-Castrum"
 ,
         "986_Getting Even with Garlemald"
+,
+        "N1_Limsa Lominsa"
+,
+        "N2_Gridania"
+,
+        "N3_Ul'dah"
+,
+        "N4_The Gold Saucer"
 
       ]
     }
@@ -2706,6 +2714,10 @@
 ,
         "A7_Vath"
 ,
+        "N5_Ishgard"
+,
+        "N6_Idyllshire"
+,
         "S1_Zhloe Aliapoh"
 
       ]
@@ -3661,6 +3673,12 @@
         "3198_The Real Folk Blues"
 ,
         "3199_Turning Over a Blue Leaf"
+,
+        "N7_Rhalgr's Reach"
+,
+        "N8_Kugane"
+,
+        "N9_Doman Enclave"
 ,
         "S2_M'naago"
 ,
@@ -4619,6 +4637,10 @@
         "4066_Death Unto Dawn"
 ,
         "4079_You Can Count on It"
+,
+        "N10_The Crystarium"
+,
+        "N11_Eulmore"
 ,
         "S5_Kai-Shirr"
 ,
@@ -5612,6 +5634,10 @@
 ,
         "5252_A Present from the Present"
 ,
+        "N12_Old Sharlayan"
+,
+        "N13_Radz-at-Han"
+,
         "S10_Margrat"
 ,
         "S8_Ameliance"
@@ -6593,6 +6619,10 @@
         "5382_Wrought by Hands Phantasmal"
 ,
         "5409_Go Forth, Brave Explorers"
+,
+        "N14_Tuliyollal"
+,
+        "N15_Solution Nine"
 ,
         "S11_Nitowikwe"
 ,
