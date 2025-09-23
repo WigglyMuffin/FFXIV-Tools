@@ -22,6 +22,14 @@ Compare current Questionable quest path coverage against the complete FFXIV ques
 - **Missing Path Detection**: Identifies which quests don't have quest paths created yet
 - **Coverage Analytics**: Shows total quests, available paths, missing paths, and coverage percentage
 
+### Aether Currents & Aetherytes Interactive Maps
+
+Comprehensive mapping tool for locating Aether Currents and Aetherytes across all FFXIV zones:
+
+- **Complete Zone Coverage**: Maps for all zones from Heavensward through Dawntrail expansions
+- **Interactive Visualization**: Maps with hover tooltips showing coordinates and location names
+- **Coordinate Reference**: Detailed lists of all locations with precise in-game coordinates
+
 ## License
 
 This project is licensed under a proprietary license - see the [LICENSE](LICENSE) file for details.
