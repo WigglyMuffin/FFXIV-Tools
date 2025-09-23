@@ -223,6 +223,27 @@ input[type="number"]:focus {
     cursor: pointer;
 }
 
+.custom-select select optgroup {
+    background-color: var(--card-bg);
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: normal;
+    margin: 4px 0;
+}
+
+.custom-select select optgroup option {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.custom-select select option {
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    padding: 4px 8px;
+}
+
 .custom-select:after {
     content: "";
     position: absolute;
@@ -1302,5 +1323,149 @@ button:hover {
     
     .quest-name {
         margin-right: 0;
+    }
+}
+
+/* ===================================
+   AETHER CURRENTS STYLES
+   =================================== */
+.map-display {
+    margin-top: 20px;
+}
+
+.map-container {
+    background-color: var(--input-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#aether-map {
+    background-color: #1a1a1a;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto 15px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.map-legend {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.current-color {
+    background-color: #4fc3f7;
+    border-color: #0288d1;
+}
+
+.aetheryte-color {
+    background-color: #9c27b0;
+    border-color: #6a1b9a;
+}
+
+.location-lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.location-column h4 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.location-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location-list li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.location-list li:hover {
+    background-color: var(--card-bg);
+}
+
+.location-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.location-number {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.coordinates {
+    color: #888;
+    font-size: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments for Aether Currents */
+@media (max-width: 768px) {
+    .location-lists {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    #aether-map {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+    
+    .map-legend {
+        gap: 15px;
+    }
+    
+    .location-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    
+    .coordinates {
+        align-self: flex-start;
+        margin-left: 20px;
     }
 }
