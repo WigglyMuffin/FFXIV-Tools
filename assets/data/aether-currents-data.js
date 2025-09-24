@@ -282,14 +282,7 @@ const aetherData = {
                 "name": "Aether Current 4"
             }
         ],
-        "aetherytes": [
-            {
-                "x": 71.94617,
-                "y": -18.905945,
-                "z": 211.26111,
-                "name": "Idyllshire"
-            }
-        ]
+        "aetherytes": []
     },
     "The Peaks": {
         "currents": [
