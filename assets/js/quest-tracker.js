@@ -18,6 +18,7 @@ class QuestTracker {
         this.lastUpdated = null;
         this.dataSource = 'Unknown';
         this.totalQuestCount = 0;
+        this.expansionStates = {};
     }
 
     async init() {
@@ -36,6 +37,9 @@ class QuestTracker {
             
             console.log('Rendering quest data...');
             this.renderQuestData();
+
+            console.log('Applying filters...');
+            this.applyFilters();
             
             console.log('Setting up event listeners...');
             this.setupEventListeners();
@@ -727,6 +731,13 @@ class QuestTracker {
             
             console.log(`${expansion.key}: ${available.length} available, ${missing.length} missing, ${totalQuests} total`);
 
+            if (this.expansionStates[expansion.key] === undefined) {
+                this.expansionStates[expansion.key] = false;
+            }
+
+            const isExpanded = this.expansionStates[expansion.key];
+            const toggleText = isExpanded ? 'Hide Quests' : 'Show Quests';
+
             // Show expansion even if no quests to indicate it exists
             const expansionDiv = document.createElement('div');
             expansionDiv.className = 'expansion-container';
@@ -755,8 +766,9 @@ class QuestTracker {
                             <span class="stat total">Total: ${totalQuests}</span>
                             ${missing.length > 0 ? `<span class="stat coverage">${coverage}% coverage</span>` : ''}
                         </div>
+                        <button class="toggle-btn" onclick="questTrackerInstance.toggleExpansion('${expansion.key}')">${toggleText}</button>
                     </div>
-                    <div class="quest-grid" id="quest-grid-${expansion.key}">
+                    <div class="quest-grid ${isExpanded ? '' : 'collapsed'}" id="quest-grid-${expansion.key}">
                         ${this.renderQuestCards(this.sortQuestsByType([...available, ...missing]))}
                     </div>
                 `;
@@ -768,6 +780,22 @@ class QuestTracker {
 
         this.updateSummaryStats();
         console.log('renderQuestData complete');
+    }
+
+    // Add method to toggle expansion visibility
+    toggleExpansion(expansionKey) {
+        this.expansionStates[expansionKey] = !this.expansionStates[expansionKey];
+        this.renderQuestData();
+        this.applyFilters();
+    }
+
+    // Add method to expand/collapse all expansions
+    toggleAllExpansions(expand) {
+        this.expansions.forEach(expansion => {
+            this.expansionStates[expansion.key] = expand;
+        });
+        this.renderQuestData();
+        this.applyFilters();
     }
 
     sortQuestsByType(quests) {
@@ -796,30 +824,83 @@ class QuestTracker {
         });
     }
 
+    // Add the missing updateSummaryStats method
+    updateSummaryStats() {
+        const totalEl = document.getElementById('total-quests');
+        const availableEl = document.getElementById('available-quests');
+        const missingEl = document.getElementById('missing-quests');
+
+        const total = this.totalQuestCount || 0;
+        const available = this.getTotalAvailable();
+        const missing = this.getTotalMissing();
+
+        // Full stats breakdown for debugging
+        console.log('=== FULL QUEST STATS BREAKDOWN ===');
+        console.log(`Overall Totals - Total Quests: ${total}, Available: ${available}, Missing: ${missing}`);
+        
+        // Per-expansion breakdown
+        console.log('Per-Expansion Breakdown:');
+        Object.keys(this.questData).forEach(expKey => {
+            const exp = this.questData[expKey];
+            const expTotal = exp.available.length + exp.missing.length;
+            console.log(`  ${expKey}: Available: ${exp.available.length}, Missing: ${exp.missing.length}, Total: ${expTotal}`);
+        });
+        
+        // Quest type breakdown (if data is available)
+        let regular = 0, unlock = 0, customDelivery = 0, achievement = 0, crafting = 0, npc = 0;
+        Object.values(this.questData).forEach(exp => {
+            exp.available.forEach(quest => {
+                if (quest.isUnlockQuest) unlock++;
+                else if (quest.isCustomDelivery) customDelivery++;
+                else if (quest.isAchievementQuest) achievement++;
+                else if (quest.isCraftingQuest) crafting++;
+                else if (quest.isNpcQuest) npc++;
+                else regular++;
+            });
+        });
+        console.log('Quest Type Breakdown (Available Only):');
+        console.log(`  Regular: ${regular}, Unlock (U): ${unlock}, Custom Delivery (S): ${customDelivery}, Allied Society (A): ${achievement}, Aether Current (C): ${crafting}, Aethernet (N): ${npc}`);
+        console.log('=====================================');
+
+        if (totalEl) {
+            totalEl.textContent = total;
+        }
+        if (availableEl) {
+            availableEl.textContent = available;
+        }
+        if (missingEl) {
+            missingEl.textContent = missing;
+        }
+    }
+
+    // Add method to get descriptive quest type string
+    getQuestTypeString(quest) {
+        if (quest.isUnlockQuest) return "Unlock Quest";
+        if (quest.isCustomDelivery) return "Custom Delivery";
+        if (quest.isAchievementQuest) return "Achievement Quest";
+        if (quest.isCraftingQuest) return "Crafting Quest";
+        if (quest.isNpcQuest) return "NPC Quest";
+        return "Side Quest"; // Default for regular quests
+    }
+
     renderQuestCards(quests) {
         return quests.map(quest => `
-            <div class="quest-card ${quest.status}" data-expansion="${quest.expansion}" data-status="${quest.status}" data-name="${quest.name.toLowerCase()}" data-unlock-quest="${quest.isUnlockQuest || false}" data-custom-delivery="${quest.isCustomDelivery || false}" data-achievement-quest="${quest.isAchievementQuest || false}" data-crafting-quest="${quest.isCraftingQuest || false}" data-npc-quest="${quest.isNpcQuest || false}" data-unobtainable="${quest.isUnobtainable || false}">
-                <div class="quest-header">
-                    <span class="quest-name">${quest.name}${quest.isUnlockQuest ? ' (U)' : ''}${quest.isCustomDelivery ? ' (S)' : ''}${quest.isAchievementQuest ? ' (A)' : ''}${quest.isCraftingQuest ? ' (C)' : ''}${quest.isNpcQuest ? ' (N)' : ''}</span>
-                </div>
-                <div class="quest-info">
-                    <span class="quest-expansion">${quest.expansionName}</span>
+        <div class="quest-card ${quest.status}" data-expansion="${quest.expansion}" data-status="${quest.status}" data-name="${quest.name.toLowerCase()}" data-unlock-quest="${quest.isUnlockQuest || false}" data-custom-delivery="${quest.isCustomDelivery || false}" data-achievement-quest="${quest.isAchievementQuest || false}" data-crafting-quest="${quest.isCraftingQuest || false}" data-npc-quest="${quest.isNpcQuest || false}" data-unobtainable="${quest.isUnobtainable || false}" title="${quest.name} - ${quest.status === 'available' ? 'Path available' : 'Needs path'}">
+            <div class="quest-content">
+                <span class="quest-name">${quest.name}${quest.isUnlockQuest ? ' (U)' : ''}${quest.isCustomDelivery ? ' (S)' : ''}${quest.isAchievementQuest ? ' (A)' : ''}${quest.isCraftingQuest ? ' (C)' : ''}${quest.isNpcQuest ? ' (N)' : ''}</span>
+                <div class="quest-pills">
+                    <span class="quest-type-pill">${this.getQuestTypeString(quest)}</span>
                     ${this.renderQuestTypeInfo(quest)}
-                    ${quest.isUnlockQuest ? '<span class="quest-type unlock">Unlock Link</span>' : ''}
-                    ${quest.isCustomDelivery ? '<span class="quest-type custom-delivery">Custom Delivery</span>' : ''}
-                    ${quest.isAchievementQuest ? '<span class="quest-type allied-society">Allied Society</span>' : ''}
-                    ${quest.isCraftingQuest ? '<span class="quest-type aether-current">Aether Current</span>' : ''}
-                    ${quest.isNpcQuest ? '<span class="quest-type aethernet">Aethernet</span>' : ''}
+                    ${quest.isUnlockQuest ? '<span class="quest-type-pill unlock">Unlock Link</span>' : ''}
+                    ${quest.isCustomDelivery ? '<span class="quest-type-pill custom-delivery">Custom Delivery</span>' : ''}
+                    ${quest.isAchievementQuest ? '<span class="quest-type-pill allied-society">Allied Society</span>' : ''}
+                    ${quest.isCraftingQuest ? '<span class="quest-type-pill aether-current">Aether Current</span>' : ''}
+                    ${quest.isNpcQuest ? '<span class="quest-type-pill aethernet">Aethernet</span>' : ''}
                 </div>
-                <div class="quest-notes">
-                    ${quest.status === 'available' ? 
-                        `<span class="quest-note available">${quest.isUnlockQuest || quest.isCustomDelivery || quest.isAchievementQuest || quest.isCraftingQuest || quest.isNpcQuest ? 'Path available' : 'Quest path available'}</span>` : 
-                        `<span class="quest-note missing">${quest.isUnlockQuest || quest.isCustomDelivery || quest.isAchievementQuest || quest.isCraftingQuest || quest.isNpcQuest ? 'Needs path' : 'Needs quest path'}</span>`
-                    }
-                    ${quest.id ? `<span class="quest-id">${quest.id}</span>` : ''}
-                </div>
+                ${quest.id ? `<span class="quest-id">${quest.id}</span>` : ''}
             </div>
-        `).join('');
+        </div>
+    `).join('');
     }
 
     renderQuestTypeInfo(quest) {
@@ -834,7 +915,7 @@ class QuestTracker {
         
         // Skip if both are missing or unknown
         if (!genre && !category) {
-            return '<span class="quest-type">Quest</span>';
+            return '<span class="quest-type-pill">Quest</span>';
         }
         
         // Skip "Unknown" and "Local Path" values
@@ -876,14 +957,14 @@ class QuestTracker {
             displayGenre = genreMappings[validGenre] || validGenre;
         }
         
-        // If we have valid info, show it
+        // If we have valid info, show it as pills
         if (displayGenre || displayCategory) {
             let typeInfo = '';
             if (displayCategory) {
-                typeInfo += `<span class="quest-category">${displayCategory}</span>`;
+                typeInfo += `<span class="quest-type-pill">${displayCategory}</span>`;
             }
             if (displayGenre && displayGenre !== displayCategory) {
-                typeInfo += `<span class="quest-genre">${displayGenre}</span>`;
+                typeInfo += `<span class="quest-type-pill">${displayGenre}</span>`;
             }
             return typeInfo;
         }
@@ -895,53 +976,53 @@ class QuestTracker {
             
             // Check for Main Scenario Quests
             if (id.includes('msq') || name.includes('main scenario')) {
-                return '<span class="quest-type">Main Scenario</span>';
+                return '<span class="quest-type-pill">Main Scenario</span>';
             }
             
             // Check for Job Quests
             if (id.includes('job') || id.includes('class') || name.includes('job quest')) {
-                return '<span class="quest-type">Job Quest</span>';
+                return '<span class="quest-type-pill">Job Quest</span>';
             }
             
             // Check for Trials
             if (name.includes('trial') || id.includes('trial') ||
                 name.includes('primal') || name.includes('extreme') || name.includes('hard')) {
-                return '<span class="quest-type">Trial</span>';
+                return '<span class="quest-type-pill">Trial</span>';
             }
             
             // Check for Dungeons
             if (name.includes('dungeon') || id.includes('dungeon') ||
                 name.includes('deep dungeon') || name.includes('palace of the dead') || 
                 name.includes('heaven-on-high')) {
-                return '<span class="quest-type">Dungeon</span>';
+                return '<span class="quest-type-pill">Dungeon</span>';
             }
             
             // Check for Raids
             if (name.includes('raid') || id.includes('raid') ||
                 name.includes('savage') || name.includes('ultimate')) {
-                return '<span class="quest-type">Raid</span>';
+                return '<span class="quest-type-pill">Raid</span>';
             }
             
             // Check for Beast Tribe/Tribal Quests
             if (name.includes('beast tribe') || name.includes('tribal') ||
                 id.includes('beast') || id.includes('tribal')) {
-                return '<span class="quest-type">Beast Tribe</span>';
+                return '<span class="quest-type-pill">Beast Tribe</span>';
             }
             
             // Check for Levequests
             if (name.includes('levequest') || name.includes('leve') ||
                 id.includes('leve') || name.includes('guildleve')) {
-                return '<span class="quest-type">Levequest</span>';
+                return '<span class="quest-type-pill">Levequest</span>';
             }
             
             // Check for Side Quests
             if (id.includes('side') || id.includes('sq')) {
-                return '<span class="quest-type">Side Quest</span>';
+                return '<span class="quest-type-pill">Side Quest</span>';
             }
         }
         
         // Final fallback
-        return '<span class="quest-type">Quest</span>';
+        return '<span class="quest-type-pill">Quest</span>';
     }
 
     setupEventListeners() {
@@ -989,6 +1070,7 @@ class QuestTracker {
         this.applyFilters();
     }
 
+    // Enhanced applyFilters with visual feedback
     applyFilters() {
         const expansionFilter = document.getElementById('expansion-filter').value;
         const statusFilter = document.getElementById('status-filter').value;
@@ -996,7 +1078,8 @@ class QuestTracker {
         const searchTerm = document.getElementById('search-input').value.toLowerCase();
 
         const questCards = document.querySelectorAll('.quest-card');
-        
+        let visibleCount = 0;
+
         questCards.forEach(card => {
             const expansion = card.dataset.expansion;
             const status = card.dataset.status;
@@ -1012,19 +1095,41 @@ class QuestTracker {
 
             const shouldShow = matchesExpansion && matchesStatus && matchesObtainable && matchesSearch;
 
-            card.style.display = shouldShow ? 'block' : 'none';
+            if (shouldShow) {
+                card.style.display = 'block';
+                card.classList.add('fade-in'); // Add fade-in animation
+                visibleCount++;
+            } else {
+                card.style.display = 'none';
+                card.classList.remove('fade-in');
+            }
         });
 
-        // Hide empty expansion containers
+        // Update a dynamic counter for visible quests (add this to HTML if needed)
+        const counterElement = document.getElementById('visible-quests-counter');
+        if (counterElement) {
+            counterElement.textContent = `Showing ${visibleCount} quests`;
+        }
+
+        // Show/hide quest grids based on visible cards
+        document.querySelectorAll('.quest-grid').forEach(grid => {
+            const visibleCardsInGrid = Array.from(grid.querySelectorAll('.quest-card')).filter(card => card.style.display === 'block');
+            if (visibleCardsInGrid.length > 0) {
+                grid.classList.remove('collapsed'); // Show the grid
+            } else {
+                grid.classList.add('collapsed'); // Hide the grid
+            }
+        });
+
+        // Hide empty expansion containers with smoother transitions
         document.querySelectorAll('.expansion-container').forEach(container => {
-            const visibleCards = container.querySelectorAll('.quest-card[style="display: block"], .quest-card:not([style*="display: none"])');
+            const visibleCards = Array.from(container.querySelectorAll('.quest-card')).filter(card => card.style.display === 'block');
             const expansion = container.getAttribute('data-expansion');
+            const isExpanded = this.expansionStates[expansion];
             
-            // Show expansion if it matches filter or if no expansion filter is set
             const shouldShowExpansion = !expansionFilter || expansion === expansionFilter;
             const hasVisibleCards = visibleCards.length > 0;
             
-            // Check if expansion has any quests matching the obtainable filter
             let hasMatchingObtainableQuests = true;
             if (obtainableFilter) {
                 const allCardsInExpansion = container.querySelectorAll('.quest-card');
@@ -1036,216 +1141,91 @@ class QuestTracker {
                 hasMatchingObtainableQuests = matchingObtainableCards.length > 0;
             }
             
-            // If there's a search term, only show expansions with visible cards
-            // If there's an expansion filter, show the expansion even if no cards (to show empty state)
-            // If there's an obtainable filter, only show expansions that have matching obtainable/unobtainable quests
-            // If neither search nor expansion filter, show all expansions
             const shouldDisplay = shouldShowExpansion && hasMatchingObtainableQuests && (hasVisibleCards || (!searchTerm && !expansionFilter && !obtainableFilter));
             
-            container.style.display = shouldDisplay ? 'block' : 'none';
+            // Show if shouldDisplay and (expanded or has visible cards)
+            const finalDisplay = shouldDisplay && (isExpanded || hasVisibleCards);
+            container.style.display = finalDisplay ? 'block' : 'none';
+            container.classList.toggle('hidden', !finalDisplay);
         });
-    }
 
-    updateSummaryStats() {
-        const totalQuests = this.allQuests.length;
-        const availableQuests = this.getTotalAvailable();
-        const missingQuests = this.getTotalMissing();
-        
-        // Debug: Log the breakdown
-        console.log(`\nSUMMARY STATS BREAKDOWN:`);
-        console.log(`Total quests in allQuests: ${totalQuests}`);
-        console.log(`Available quests (getTotalAvailable): ${availableQuests}`);
-        console.log(`Missing quests (getTotalMissing): ${missingQuests}`);
-        console.log(`XIVAPI total count: ${this.totalQuestCount}`);
-        
-        // Calculate coverage percentage
-        const totalGameQuests = availableQuests + missingQuests;
-        const coveragePercentage = totalGameQuests > 0 ? Math.floor((availableQuests / totalGameQuests) * 100) : 0;
-        
-        console.log(`Calculated total (available + missing): ${totalGameQuests}`);
-        
-        if (this.dataSource.includes('XIVAPI')) {
-            const correctMissingCount = this.totalQuestCount - availableQuests;
-            console.log(`Correct missing count should be: ${this.totalQuestCount} - ${availableQuests} = ${correctMissingCount}`);
-        }
-
-        // Show the full XIVAPI count vs processed count for debugging
-        if (this.dataSource.includes('XIVAPI')) {
-            document.getElementById('total-quests').textContent = this.totalQuestCount;
-        } else {
-            document.getElementById('total-quests').textContent = totalQuests;
-        }
-        
-        document.getElementById('available-quests').textContent = `${availableQuests}${this.dataSource.includes('XIVAPI') ? ` (${coveragePercentage}%)` : ''}`;
-        
-        // Calculate the correct missing count based on XIVAPI total vs available
-        const correctMissingCount = this.dataSource.includes('XIVAPI') ? 
-            (this.totalQuestCount - availableQuests) : missingQuests;
-        
-        document.getElementById('missing-quests').textContent = correctMissingCount;
-    }
-
-    showLastUpdated() {
-        if (this.lastUpdated) {
-            const date = new Date(this.lastUpdated);
-            const formattedDate = date.toLocaleString();
-            
-            // Calculate processed vs total for more accurate display
-            const totalCount = this.totalQuestCount;
-            
-            // Add last updated info to the page
-            const summaryElement = document.getElementById('quest-summary');
-            const existingInfo = summaryElement.querySelector('.last-updated-info');
-            
-            if (!existingInfo) {
-                const updateInfo = document.createElement('div');
-                updateInfo.className = 'last-updated-info';
-                updateInfo.innerHTML = `
-                    <small>
-                        Data source: ${this.dataSource} | 
-                        Processed: ${totalCount} quests | 
-                        Last updated: ${formattedDate}
-                    </small>
-                `;
-                summaryElement.appendChild(updateInfo);
-            } else {
-                // Update existing info
-                existingInfo.innerHTML = `
-                    <small>
-                        Data source: ${this.dataSource} | 
-                        Processed: ${totalCount} quests | 
-                        Last updated: ${formattedDate}
-                    </small>
-                `;
-            }
+        // Recalculate visible count based on visible containers
+        let newVisibleCount = 0;
+        document.querySelectorAll('.expansion-container[style="display: block"] .quest-card[style="display: block"]').forEach(() => newVisibleCount++);
+        if (counterElement) {
+            counterElement.textContent = `Showing ${newVisibleCount} quests`;
         }
     }
 
-    showLoading(show, message = 'Loading quest data...') {
-        const loadingElement = document.getElementById('loading');
-        if (loadingElement) {
-            loadingElement.style.display = show ? 'flex' : 'none';
-            const messageElement = loadingElement.querySelector('.loading-message');
-            if (messageElement) {
-                messageElement.textContent = message;
+    showLoading(show, message = 'Loading...') {
+        const loading = document.getElementById('loading');
+        if (loading) {
+            loading.style.display = show ? 'block' : 'none';
+            if (show && message) {
+                const messageEl = loading.querySelector('.loading-message');
+                if (messageEl) messageEl.textContent = message;
             }
         }
     }
 
     showProgress(message) {
-        const loadingElement = document.getElementById('loading');
-        if (loadingElement) {
-            const messageElement = loadingElement.querySelector('.loading-message');
-            if (messageElement) {
-                messageElement.textContent = message;
-            }
-        }
-    }
-
-    showSummary(show) {
-        document.getElementById('quest-summary').style.display = show ? 'block' : 'none';
-    }
-
-    showError(message) {
-        const errorElement = document.getElementById('error-message');
-        document.getElementById('error-text').textContent = message;
-        errorElement.style.display = 'block';
+        // Reuse the loading container for progress messages
+        this.showLoading(true, message);
     }
 
     hideError() {
-        document.getElementById('error-message').style.display = 'none';
+        const errorEl = document.getElementById('error-message');
+        if (errorEl) errorEl.style.display = 'none';
+    }
+
+    showError(message) {
+        const errorEl = document.getElementById('error-message');
+        const errorText = document.getElementById('error-text');
+        if (errorEl && errorText) {
+            errorText.textContent = message;
+            errorEl.style.display = 'block';
+        }
+        this.showLoading(false); // Hide loading on error
+    }
+
+    showSummary(show) {
+        const summary = document.getElementById('quest-summary');
+        if (summary) summary.style.display = show ? 'block' : 'none';
+    }
+
+    showLastUpdated() {
+        // Assuming you have an element like <div id="last-updated"></div> in the HTML for this
+        const lastUpdatedEl = document.getElementById('last-updated');
+        if (lastUpdatedEl && this.lastUpdated) {
+            lastUpdatedEl.textContent = `Last updated: ${new Date(this.lastUpdated).toLocaleString()}`;
+        }
+    }
+
+    async refreshQuestData() {
+        console.log('Refreshing quest data...');
+        this.showLoading(true, 'Refreshing quest data...');
+        this.hideError();
+        
+        try {
+            await this.loadQuestData();
+            this.renderQuestData();
+            this.applyFilters();            
+            this.updateSummaryStats();
+            this.showLastUpdated();
+            console.log('Quest data refreshed successfully!');
+        } catch (error) {
+            console.error('Failed to refresh quest data:', error);
+            this.showError(`Failed to refresh data: ${error.message}`);
+        } finally {
+            this.showLoading(false);
+        }
     }
 }
 
-// Global instance
-let questTrackerInstance = null;
-
-// Function to reset quest tracker filters to default values
-function resetQuestTrackerFilters() {
-    // Reset expansion filter to "All Expansions"
-    const expansionFilter = document.getElementById('expansion-filter');
-    if (expansionFilter) {
-        expansionFilter.value = '';
-    }
-    
-    // Reset status filter to "All"
-    const statusFilter = document.getElementById('status-filter');
-    if (statusFilter) {
-        statusFilter.value = '';
-    }
-    
-    // Reset obtainable filter to "All Quests"
-    const obtainableFilter = document.getElementById('obtainable-filter');
-    if (obtainableFilter) {
-        obtainableFilter.value = '';
-    }
-    
-    // Clear search input
-    const searchInput = document.getElementById('search-input');
-    if (searchInput) {
-        searchInput.value = '';
-    }
-}
-
-// Initialize when the quest tracker tab is activated
-document.addEventListener('DOMContentLoaded', function() {
-    // Reset filters on page load
-    resetQuestTrackerFilters();
-    
-    const questTab = document.querySelector('[data-target="quest-tracker"]');
-    if (questTab) {
-        questTab.addEventListener('click', function() {
-            // Reset filters when quest tracker tab is clicked
-            resetQuestTrackerFilters();
-            
-            if (!questTrackerInstance) {
-                questTrackerInstance = new QuestTracker();
-            }
-            if (!questTrackerInstance.initialized) {
-                questTrackerInstance.init();
-            }
-        });
-    }
+// Initialize the quest tracker when the page loads
+const questTrackerInstance = new QuestTracker();
+document.addEventListener('DOMContentLoaded', () => {
+    questTrackerInstance.init();
 });
 
-// Reset filters when the page is about to be refreshed/reloaded
-window.addEventListener('beforeunload', function() {
-    resetQuestTrackerFilters();
-});
-
-// Global function for refresh button
-function refreshQuestData() {
-    if (questTrackerInstance) {
-        // Save current filter states
-        const savedFilters = {
-            expansion: document.getElementById('expansion-filter')?.value || '',
-            status: document.getElementById('status-filter')?.value || '',
-            obtainable: document.getElementById('obtainable-filter')?.value || '',
-            search: document.getElementById('search-input')?.value || ''
-        };
-        
-        questTrackerInstance.initialized = false;
-        
-        // Reinitialize the quest tracker
-        questTrackerInstance.init().then(() => {
-            // Restore filter states after initialization
-            if (document.getElementById('expansion-filter')) {
-                document.getElementById('expansion-filter').value = savedFilters.expansion;
-            }
-            if (document.getElementById('status-filter')) {
-                document.getElementById('status-filter').value = savedFilters.status;
-            }
-            if (document.getElementById('obtainable-filter')) {
-                document.getElementById('obtainable-filter').value = savedFilters.obtainable;
-            }
-            if (document.getElementById('search-input')) {
-                document.getElementById('search-input').value = savedFilters.search;
-            }
-            
-            // Apply the restored filters
-            questTrackerInstance.applyFilters();
-        }).catch(error => {
-            console.error('Error during refresh:', error);
-        });
-    }
-}
+window.refreshQuestData = () => questTrackerInstance.refreshQuestData();

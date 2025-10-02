@@ -143,74 +143,83 @@
                 <h2>Quest Path Tracker</h2>
                 <p>Compare Questionable's current quest paths against the FFXIV quest database to identify missing coverage</p>
                 
-                <!-- Loading state -->
+                <!-- Global toggle buttons -->
+                <div class="global-toggles">
+                    <button onclick="questTrackerInstance.toggleAllExpansions(true)">Expand All</button>
+                    <button onclick="questTrackerInstance.toggleAllExpansions(false)">Collapse All</button>
+                </div>
+                
+                <!-- Filters section -->
+                <div class="filters-section">
+                    <div class="filter-group">
+                        <label for="expansion-filter">Expansion:</label>
+                        <select id="expansion-filter" class="filter-select">
+                            <option value="">All Expansions</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="status-filter">Status:</label>
+                        <select id="status-filter" class="filter-select">
+                            <option value="">All</option>
+                            <option value="available">Available</option>
+                            <option value="missing">Missing</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="obtainable-filter">Obtainable:</label>
+                        <select id="obtainable-filter" class="filter-select">
+                            <option value="">All Quests</option>
+                            <option value="obtainable">Obtainable Only</option>
+                            <option value="unobtainable">Unobtainable Only</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="search-input">Search:</label>
+                        <input type="text" id="search-input" class="filter-input" placeholder="Search quests...">
+                    </div>
+                    
+                    <button onclick="refreshQuestData()" class="refresh-btn">Refresh Data</button>
+                </div>
+                
+                <!-- Quest summary with stats -->
+                <div id="quest-summary" class="quest-summary" style="display: none;">
+                    <div class="summary-stats">
+                        <div class="stat-item">
+                            <div class="stat-label">Total Quests</div>
+                            <div class="stat-value" id="total-quests">0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Available</div>
+                            <div class="stat-value available" id="available-quests">0</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Missing</div>
+                            <div class="stat-value missing" id="missing-quests">0</div>
+                        </div>
+                    </div>
+                    <div id="last-updated" class="last-updated"></div>
+                </div>
+                
+                <!-- Loading indicator -->
                 <div id="loading" class="loading-container" style="display: none;">
                     <div class="loading-spinner"></div>
                     <p class="loading-message">Loading quest data...</p>
                 </div>
                 
-                <!-- Error state -->
+                <!-- Error message -->
                 <div id="error-message" class="error-container" style="display: none;">
-                    <p id="error-text" class="error-message">Failed to load quest data. Please try again later.</p>
+                    <p id="error-text">An error occurred while loading data.</p>
                 </div>
                 
-                <!-- Summary stats -->
-                <div id="quest-summary" class="quest-summary" style="display: none;">
-                    <div class="summary-stats">
-                        <div class="stat-item">
-                            <span class="stat-label">Total Quests in Game:</span>
-                            <span class="stat-value" id="total-quests">0</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Paths Available:</span>
-                            <span class="stat-value available" id="available-quests">0</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Paths Missing:</span>
-                            <span class="stat-value missing" id="missing-quests">0</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Filters -->
-                    <div class="filters-section">
-                        <div class="filter-group">
-                            <label for="expansion-filter">Expansion:</label>
-                            <select id="expansion-filter" class="filter-select">
-                                <option value="">All Expansions</option>
-                            </select>
-                        </div>
-                        
-                        <div class="filter-group">
-                            <label for="status-filter">Status:</label>
-                            <select id="status-filter" class="filter-select">
-                                <option value="">All</option>
-                                <option value="available">Available</option>
-                                <option value="missing">Missing</option>
-                            </select>
-                        </div>
-                        
-                        <div class="filter-group">
-                            <label for="obtainable-filter">Obtainable:</label>
-                            <select id="obtainable-filter" class="filter-select">
-                                <option value="">All Quests</option>
-                                <option value="obtainable">Obtainable Only</option>
-                                <option value="unobtainable">Unobtainable Only</option>
-                            </select>
-                        </div>
-                        
-                        <div class="filter-group">
-                            <label for="search-input">Search:</label>
-                            <input type="text" id="search-input" class="filter-input" placeholder="Search quests...">
-                        </div>
-                        
-                        <button onclick="refreshQuestData()" class="refresh-btn">Refresh Data</button>
-                    </div>
-                </div>
-                
-                <!-- Quest data display -->
-                <div id="quest-containers" class="quest-containers">
+                <!-- Quest containers -->
+                <div id="quest-containers">
                     <!-- Quest data will be rendered here -->
                 </div>
+                
+                <div id="visible-quests-counter" class="visible-counter"></div>
             </div>
         </div>
         
