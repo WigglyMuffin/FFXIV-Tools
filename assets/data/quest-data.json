@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-07T18:04:07Z",
+  "lastUpdated": "2025-10-07T19:49:30Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -6594,6 +6594,8 @@
 ,
         "5329_Apocalypse Nigh"
 ,
+        "5330_Frosty Neighbors"
+,
         "5364_Targeted Tragedy"
 ,
         "5365_The Endless Choice"
@@ -6613,6 +6615,12 @@
         "5372_Blades in Waiting"
 ,
         "5373_The Promise of Tomorrow"
+,
+        "5374_The White Wanderer"
+,
+        "5378_A Vandal in the Wild"
+,
+        "5379_On the Trail of Destruction"
 ,
         "5380_Keeping the Old Ways Alive"
 ,
