@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-08T18:04:07Z",
+  "lastUpdated": "2025-10-08T22:46:30Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -6596,6 +6596,18 @@
 ,
         "5330_Frosty Neighbors"
 ,
+        "5331_Still as Stone"
+,
+        "5338_Will Work for Supplies"
+,
+        "5339_Getting a Glow On"
+,
+        "5340_Hold My Hand Warmers"
+,
+        "5341_For a Goods Cause"
+,
+        "5342_Happiness Is a Warm Poncho"
+,
         "5364_Targeted Tragedy"
 ,
         "5365_The Endless Choice"
@@ -6629,6 +6641,8 @@
         "5382_Wrought by Hands Phantasmal"
 ,
         "5405_Pilgrimage of Light"
+,
+        "5406_Faerie Tale"
 ,
         "5409_Go Forth, Brave Explorers"
 ,
