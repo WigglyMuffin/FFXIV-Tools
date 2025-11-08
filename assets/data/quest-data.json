@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-08T12:04:00Z",
+  "lastUpdated": "2025-11-08T18:03:36Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -518,6 +518,8 @@
 ,
         "1426_Good for What Ales You"
 ,
+        "1427_Help Me, Lord of the Dance"
+,
         "1431_Rising to the Challenge"
 ,
         "1432_An Ill-conceived Venture (Gridania)"
@@ -561,6 +563,8 @@
         "145_Slave to the Code"
 ,
         "1460_Brave New Companions"
+,
+        "1463_Marvelously Mutable Materia"
 ,
         "146_Grinners in the Mist"
 ,
@@ -649,6 +653,8 @@
         "1523_A High Wind in Ishgard"
 ,
         "1528_Like Civilized Men and Women (Maelstrom)"
+,
+        "152_Gone to Pieces"
 ,
         "1530_Judgment Bolts and Lightning"
 ,
@@ -831,6 +837,10 @@
         "28_To the Bannock"
 ,
         "291_Way of the Blacksmith"
+,
+        "3017_If I Had a Glamour"
+,
+        "3018_Absolutely Glamourous"
 ,
         "303_Step Nine"
 ,
@@ -1298,6 +1308,10 @@
 ,
         "638_Forging the Spirit"
 ,
+        "639_Waking the Spirit"
+,
+        "640_Melding Materia Muchly"
+,
         "641_A Matter of Tradition"
 ,
         "660_Into a Copper Hell"
@@ -1339,6 +1353,8 @@
         "697_Hallo Halatali"
 ,
         "698_Burning Up the Quarter Malm"
+,
+        "699_Color Your World"
 ,
         "69_Dark Words, Dark Deeds"
 ,
@@ -6705,6 +6721,16 @@
         "5407_A Branch and Their Sapling"
 ,
         "5409_Go Forth, Brave Explorers"
+,
+        "5410_The Brightest Star"
+,
+        "5411_A Manager's Discernment"
+,
+        "5412_Perspective Reflected"
+,
+        "5413_Pilot Wanted"
+,
+        "5414_A Manager's Delegation"
 ,
         "N14_Tuliyollal"
 ,
