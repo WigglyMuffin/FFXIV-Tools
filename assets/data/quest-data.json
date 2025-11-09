@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-08T18:03:36Z",
+  "lastUpdated": "2025-11-09T00:11:05Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -5668,6 +5668,8 @@
     "7.x": {
       "name": "7.x - Dawntrail",
       "available": [
+        "4801_Just Crowning Around"
+,
         "4817_Uncouth Customers"
 ,
         "4818_The Narwhal Beckons"
