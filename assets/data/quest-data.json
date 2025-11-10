@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-10T06:04:08Z",
+  "lastUpdated": "2025-11-10T12:04:28Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -5446,6 +5446,10 @@
 ,
         "4650_Soaring Profits"
 ,
+        "4652_Make It a Manderville"
+,
+        "4653_Make Another Manderville"
+,
         "4660_Shadowed Pasts"
 ,
         "4661_Shadowed Pasts Once More"
@@ -5556,6 +5560,10 @@
 ,
         "4719_Generational Bonding"
 ,
+        "4725_Well-oiled"
+,
+        "4726_The Next Mander-level"
+,
         "4735_Currying Flavor"
 ,
         "4736_Going Haam"
@@ -5612,6 +5620,10 @@
 ,
         "4762_Forever in Our Hearts"
 ,
+        "4771_A Spirited Reforging"
+,
+        "4772_In Need of Adjustment"
+,
         "4773_And the Crowd Goes Mild"
 ,
         "4774_The Beard, the Myth, the Legend"
@@ -5641,6 +5653,10 @@
         "4799_Of Duplicity and Duplication"
 ,
         "4800_Gentlemen at Heart"
+,
+        "4806_Resonating with Perfection"
+,
+        "4807_Positively Mandervillous"
 ,
         "4812_Treasured Bonds"
 ,
