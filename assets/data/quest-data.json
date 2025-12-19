@@ -1,0 +1,6803 @@
+{
+  "lastUpdated": "2025-12-19T06:04:05Z",
+  "expansions": {
+    "2.x": {
+      "name": "2.x - A Realm Reborn",
+      "available": [
+        "1001_Drowning Out the Voices"
+,
+        "1002_Acting the Part"
+,
+        "1004_Fool Me Twice"
+,
+        "1005_Every Little Thing She Does Is Magitek"
+,
+        "1007_Primal Fear"
+,
+        "1008_Who Was That Man in Black"
+,
+        "1009_The Dark Divinity"
+,
+        "1010_Slim Pickings"
+,
+        "1011_Serveth Thy Master"
+,
+        "1012_All You Wanted to Know about Odin"
+,
+        "101_So You Want to Be a Rogue"
+,
+        "1021_What's It to U"
+,
+        "1022_Zombies Are People Too"
+,
+        "102_My First Dagger"
+,
+        "1035_The Way the Crystals Crumble"
+,
+        "1037_A Hero in Need"
+,
+        "1047_A Recurring Problem"
+,
+        "1048_Ifrit Bleeds, We Can Kill It"
+,
+        "1049_Pride and Duty (Will Take You from the Mountain)"
+,
+        "104_Stabbers in Yer Fambles"
+,
+        "1050_Embracing the Beast"
+,
+        "1051_Curious Gorge Goes to Wineport"
+,
+        "1052_Looking the Part"
+,
+        "1053_Proof Is the Pudding"
+,
+        "1054_How to Quit You"
+,
+        "1055_Paladin's Pledge"
+,
+        "1056_Honor Lost"
+,
+        "1057_Power Struggles"
+,
+        "1058_Poisoned Hearts"
+,
+        "1059_Parley in the Sagolii"
+,
+        "105_Way of the Leatherworker"
+,
+        "1060_Keeping the Oath"
+,
+        "1061_Brother from Another Mother"
+,
+        "1062_Insulted Intelligence"
+,
+        "1063_A Slave to the Aether"
+,
+        "1064_The Pursuit of Power"
+,
+        "1065_Good Vibrations"
+,
+        "1066_Five Easy Pieces"
+,
+        "1067_Eye of the Dragon"
+,
+        "1068_Lance of Fury"
+,
+        "1069_Unfading Skies"
+,
+        "1070_Double Dragoon"
+,
+        "1071_Fatal Seduction"
+,
+        "1072_Into the Dragon's Maw"
+,
+        "1073_Taking the Black"
+,
+        "1074_You'll Never Go Back"
+,
+        "1075_International Relations"
+,
+        "1076_The Voidgate Breathes Gloomy"
+,
+        "1077_The Blood Must Flow"
+,
+        "1078_Always Bet on Black"
+,
+        "1079_Seer Folly"
+,
+        "107_Coming to Limsa Lominsa"
+,
+        "1080_Only You Can Prevent Forest Ire"
+,
+        "1081_O Brother, Where Art Thou"
+,
+        "1082_Following in His Footsteps"
+,
+        "1083_Yearn for the Urn"
+,
+        "1084_Heart of the Forest"
+,
+        "1085_A Song of Bards and Bowmen"
+,
+        "1086_The Archer's Anthem"
+,
+        "1087_Bard's-eye View"
+,
+        "1088_Doing It the Bard Way"
+,
+        "1089_Pieces of the Past"
+,
+        "108_MRD_Close to Home"
+,
+        "1090_Requiem for the Fallen"
+,
+        "1091_Austerities of Flame"
+,
+        "1092_Austerities of Earth"
+,
+        "1093_Shadowing the Summoner"
+,
+        "1094_Allagan Attire"
+,
+        "1095_Austerities of Wind"
+,
+        "1096_Primal Burdens"
+,
+        "1097_Forgotten but Not Gone"
+,
+        "1098_The Last Remnants"
+,
+        "1099_The Consequences of Anger"
+,
+        "109_ACN_Close to Home"
+,
+        "1100_In the Image of the Ancients"
+,
+        "1101_For Your Fellow Man"
+,
+        "1102_The Beast Within"
+,
+        "1103_Topaz Teachings"
+,
+        "1104_A Pup No Longer (Maelstrom)"
+,
+        "1105_A Pup No Longer (Twin Adder)"
+,
+        "1106_A Pup No Longer (Immortal Flames)"
+,
+        "1107_Way of the Fisher"
+,
+        "1108_My First Fishing Rod"
+,
+        "110_A Dainty Dilemma"
+,
+        "111_Making a Name"
+,
+        "1127_A Relic Reborn (Omnilex)"
+,
+        "1128_Shadows Uncast (Maelstrom)"
+,
+        "1129_Shadows Uncast (Twin Adder)"
+,
+        "112_Suspiciously Sober"
+,
+        "1130_Shadows Uncast (Immortal Flames)"
+,
+        "1131_Gilding the Bilious (Maelstrom)"
+,
+        "1132_Gilding the Bilious (Twin Adder)"
+,
+        "1133_Gilding the Bilious (Immortal Flames)"
+,
+        "1134_So You Want to Be a Fisher"
+,
+        "113_Proper Procedure"
+,
+        "114_The Right Price"
+,
+        "1157_In for Garuda Awakening"
+,
+        "1158_In a Titan Spot"
+,
+        "1159_Primal Awakening"
+,
+        "115_Duty Calls"
+,
+        "1160_Alisaie's Pledge"
+,
+        "1162_My Feisty Little Chocobo"
+,
+        "116_A Sheepish Request"
+,
+        "1175_The Price of Principles"
+,
+        "117_A Thousand Words"
+,
+        "1189_Hail to the King, Kupo"
+,
+        "1190_You Have Selected Regicide"
+,
+        "1191_On the Properties of Primals"
+,
+        "1192_The Gifted"
+,
+        "1194_Primal Nature"
+,
+        "1195_Gale-force Warning"
+,
+        "1196_Quake Me Up Before You O'Ghomoro"
+,
+        "1197_Ifrit Ain't Broke"
+,
+        "1198_To Tussle with Gods"
+,
+        "1200_Sanding It Down"
+,
+        "1201_A Performance for the Ages"
+,
+        "1202_Labyrinth of the Ancients"
+,
+        "1203_For Prosperity"
+,
+        "1204_The Rise and Fall of a Gentlemen"
+,
+        "1205_Back in the Saddle"
+,
+        "1206_After Her Own Heart"
+,
+        "1207_The Immaculate Deception"
+,
+        "1210_Beauty Is Only Scalp Deep"
+,
+        "1211_Treasures and Tribulations"
+,
+        "1212_Where the Heart Is (The Lavender Beds)"
+,
+        "1213_Where the Heart Is (The Goblet)"
+,
+        "1214_Where the Heart Is (Mist)"
+,
+        "1217_Peace for Thanalan"
+,
+        "1218_Brotherhood of Ash"
+,
+        "1219_Ranger Rescue"
+,
+        "121_Back in the Water"
+,
+        "1222_A Shell to Scry On"
+,
+        "1223_Borderline Slaughter"
+,
+        "1224_A Sappy Ending"
+,
+        "1225_Luring Lacovie"
+,
+        "1226_Fighting Firesand with Fire"
+,
+        "1227_Smothering Instinct"
+,
+        "1228_Losing One's Tempered"
+,
+        "1230_Arms of the U"
+,
+        "1231_Blitzing the Beacons"
+,
+        "1234_Forged in Flame"
+,
+        "1235_Beacon Keepers"
+,
+        "1236_Singed Fur Their Own Good"
+,
+        "123_ARC_Close to Home"
+,
+        "1240_Hard to Port"
+,
+        "1241_This Infernal Heat"
+,
+        "1242_Elite Beating"
+,
+        "1243_Unholier than Thou"
+,
+        "1244_Raiding the Cache"
+,
+        "1245_Pulling Fangs"
+,
+        "1249_Fodder for the Flamefangs"
+,
+        "124_CNJ_Close to Home"
+,
+        "1252_Seeking Solace"
+,
+        "1253_Voyce of Concern"
+,
+        "1259_Gourd Grief"
+,
+        "1260_Feed Me"
+,
+        "1262_Now You See Me"
+,
+        "1264_The Magitek Menace"
+,
+        "1266_Raising a Stink"
+,
+        "126_Stray into the Shadows"
+,
+        "1274_In the Sylphlands, Treasure Hunts You"
+,
+        "1275_Perilous Pumpkins"
+,
+        "1276_Fungal Foulness"
+,
+        "1289_Like Cats and Dogs"
+,
+        "1290_Man's Best Fiend"
+,
+        "1291_Curiosity Killed the Coeurl"
+,
+        "129_Spirithold Broken"
+,
+        "1309_Primal Focus"
+,
+        "1310_Toss Fit Workout"
+,
+        "1313_Another Turn in the Coil"
+,
+        "1314_Alisaie's Resolve"
+,
+        "1315_The Science of Deduction"
+,
+        "1316_The Hammer"
+,
+        "1317_Manderville Men"
+,
+        "1318_The Three Collectors"
+,
+        "131_Way of the Archer"
+,
+        "1320_Highway Robbery"
+,
+        "1321_How Low Can You Go"
+,
+        "1322_No-good Zo Ga's Ambition"
+,
+        "1323_The Kobold and the Beautiful"
+,
+        "1324_Revenge of the Furred"
+,
+        "1325_Rubbish for Refuse"
+,
+        "1326_No Such Thing as a Free Lunch"
+,
+        "1327_Finger Licking Good"
+,
+        "1328_Battle of the Bottom-feeders"
+,
+        "1329_Mothers of All Bombs"
+,
+        "132_Way of the Lancer"
+,
+        "1330_Know Your Place"
+,
+        "1331_Misery Loves Company"
+,
+        "1332_Ill-gotten Gains"
+,
+        "1333_Hells Have No Fury"
+,
+        "1334_Bo Zu's Blown Cover"
+,
+        "1335_Ambushing the Assessors"
+,
+        "1336_The Lode Warrior"
+,
+        "1337_Armed and Dangerous"
+,
+        "1338_Too Hot to Handle"
+,
+        "1339_Operation Riffraff"
+,
+        "133_Way of the Conjurer"
+,
+        "1340_The Sly Salvages"
+,
+        "1341_Belles of the Ball"
+,
+        "1342_Contents Unknown"
+,
+        "1343_Brain Buster"
+,
+        "1344_A Dangerous Delivery"
+,
+        "1346_A Final Temptation"
+,
+        "1347_The Mother of Exiles"
+,
+        "134_Training with Leih"
+,
+        "1352_Why We Adventure"
+,
+        "1356_The Sea Rises"
+,
+        "1358_Scouts in Distress"
+,
+        "1359_The Gift of Eternity"
+,
+        "1360_Into the Heart of the Whorl"
+,
+        "1361_Lord of the Whorl"
+,
+        "1362_When Yugiri Met the Fraternity"
+,
+        "1363_Through the Maelstrom"
+,
+        "1364_A Coblyn Catastrophe"
+,
+        "1365_Friends in Low Places"
+,
+        "1366_Glutton for Punishment"
+,
+        "1367_Genius at Work"
+,
+        "1368_Fulminating Furnaces"
+,
+        "1369_A Meal Fit for a Fugleman"
+,
+        "1370_Spread the Wealth"
+,
+        "1371_Ba Go's Behest"
+,
+        "1372_Wrath of the Roundsman"
+,
+        "1373_Angry Angry Acolyte"
+,
+        "1374_They Came from the Deep"
+,
+        "1375_Clutch and Kin"
+,
+        "1376_The Scarlet Bloodletter"
+,
+        "1377_Watching the Spawn"
+,
+        "1378_Like Clutchfather, Like Son"
+,
+        "1379_A Killer Strategy"
+,
+        "1380_Standard Procedure"
+,
+        "1381_Enemy at the Tidegates"
+,
+        "1383_Spawning Ground Salvation"
+,
+        "1386_Wind from Their Sails"
+,
+        "1387_A Crate-ful Response"
+,
+        "1388_Skullduggery"
+,
+        "138_Way of the Carpenter"
+,
+        "1390_Move Along, Nothing to Heal Here"
+,
+        "1391_Ain't Got Time to Breed"
+,
+        "1392_Get a Lode of This"
+,
+        "1393_Ballista Bust-up"
+,
+        "1396_Clutchfather Knows Best"
+,
+        "1397_A Nap Before Drowning"
+,
+        "1399_Learn by Destroying"
+,
+        "1400_Tines of the Trident"
+,
+        "1401_Shellfish Schemes"
+,
+        "1402_An Enthralling Engagement"
+,
+        "1404_Reaving in a Hurry"
+,
+        "1405_The Tail's the Best Part"
+,
+        "1406_Unfair Trading"
+,
+        "1407_Sea Scraps"
+,
+        "1409_Removing the Stain"
+,
+        "1412_The King Lives"
+,
+        "1413_Whorl of a Time"
+,
+        "1423_Just Tooling Around"
+,
+        "1425_Saw That One Coming"
+,
+        "1426_Good for What Ales You"
+,
+        "1427_Help Me, Lord of the Dance"
+,
+        "1431_Rising to the Challenge"
+,
+        "1432_An Ill-conceived Venture (Gridania)"
+,
+        "1433_An Ill-conceived Venture (Limsa)"
+,
+        "1434_An Ill-conceived Venture (Ul'dah)"
+,
+        "1438_The Business of Betrothal"
+,
+        "1439_A Burst of Inspiration"
+,
+        "143_Courage of Stone"
+,
+        "1440_Seeds of Rebellion"
+,
+        "1441_A Case of Indecency"
+,
+        "1442_The Great Divide"
+,
+        "1443_Desperate Times"
+,
+        "1446_Revolution"
+,
+        "1447_Stories We Tell"
+,
+        "1448_Lord of Levin"
+,
+        "144_Stifled Screams"
+,
+        "1453_What Little Gods Are Made Of"
+,
+        "1456_Guardian of Eorzea"
+,
+        "1457_Recruiting the Realm"
+,
+        "1458_Heretical Harassment"
+,
+        "1459_When the Cold Sets In"
+,
+        "145_Slave to the Code"
+,
+        "1460_Brave New Companions"
+,
+        "1463_Marvelously Mutable Materia"
+,
+        "146_Grinners in the Mist"
+,
+        "1474_Syrcus Tower"
+,
+        "147_Trial by Wind"
+,
+        "1481_Of Errant Epistles"
+,
+        "1482_Carline Memories"
+,
+        "1483_A Debt Unpaid"
+,
+        "1484_Dream On"
+,
+        "1485_Thwack-a-Mole"
+,
+        "1486_A Bad Bladder"
+,
+        "1487_Reaching for Cloud Nine"
+,
+        "1488_A Designer Job"
+,
+        "1489_The Boy from Gridania"
+,
+        "148_Sweet Sorrows"
+,
+        "1490_Lathe to the Party"
+,
+        "1491_Standing at the Helm"
+,
+        "1492_Never Be Royal"
+,
+        "1493_Spread Your Wings and Soar"
+,
+        "1494_Trust, but Verify"
+,
+        "1495_Misdirected Woo"
+,
+        "1496_Keeping Up Appearances"
+,
+        "1497_Blow, Ye Winds"
+,
+        "1498_Reach for the Starboard"
+,
+        "1499_Larboard and Lodging"
+,
+        "1500_Right-wing Aeronautics"
+,
+        "1501_Left-wing Aeronautics"
+,
+        "1503_Hells-vent on the Heavens"
+,
+        "1504_Gyrodriven"
+,
+        "1505_Of Rodents and Rigging"
+,
+        "1506_What Evil Lurks in the Hearts of Golems"
+,
+        "1507_One Ixal's Buzzard"
+,
+        "1508_The Right Tool for the Tools"
+,
+        "1510_A Hard Knock Life"
+,
+        "1511_Manual Labor"
+,
+        "1512_Leave Nothing to Waste"
+,
+        "1513_Tanks for Nothing"
+,
+        "1515_An Empty Sack Cannot Hang Downright"
+,
+        "1516_Hot Cross Buns"
+,
+        "1517_Simply the Biast"
+,
+        "1518_A Long Way to the Top"
+,
+        "1519_Never Steer You Wrong"
+,
+        "1521_Your Gil's No Good Here"
+,
+        "1522_Mining for Compliments"
+,
+        "1523_A High Wind in Ishgard"
+,
+        "1528_Like Civilized Men and Women (Maelstrom)"
+,
+        "152_Gone to Pieces"
+,
+        "1530_Judgment Bolts and Lightning"
+,
+        "1531_Spirits Most Foul"
+,
+        "1532_Dubious Dancing"
+,
+        "1533_Stroking the Haft"
+,
+        "154_Market for Death"
+,
+        "1553_Can't Do It without U"
+,
+        "1558_Simply to Dye For"
+,
+        "155_Cloying Victory"
+,
+        "1560_Bird in Hand"
+,
+        "1563_Let the Hunt Begin (Twin Adder)"
+,
+        "1564_Let the Hunt Begin (Maelstrom)"
+,
+        "1565_Let the Hunt Begin (Immortal Flames)"
+,
+        "1566_Bring Your Own Ectoplasm"
+,
+        "1567_In Case of Emergency"
+,
+        "1568_We Fly High (Squawkin')"
+,
+        "1570_Death of a Mailman"
+,
+        "1571_The Captain of Her Heart"
+,
+        "1572_Thanks for Your Support"
+,
+        "1573_Of Siblings and Side-whiskers"
+,
+        "1574_The Past Is a Story We Never Tell"
+,
+        "1575_Hostages to Fortune"
+,
+        "1576_All in the Family"
+,
+        "1577_Duel Personalities"
+,
+        "161_Leia's Legacy"
+,
+        "166_Eight-armed and Dangerous"
+,
+        "1709_Legacy of Allag"
+,
+        "175_Surveying the Damage"
+,
+        "176_On to Bentbranch"
+,
+        "177_So You Want to Be a Gladiator"
+,
+        "178_So You Want to Be a Pugilist"
+,
+        "179_So You Want to Be a Marauder"
+,
+        "180_So You Want to Be a Lancer"
+,
+        "181_So You Want to Be an Archer"
+,
+        "182_So You Want to Be a Conjurer"
+,
+        "183_So You Want to Be a Thaumaturge"
+,
+        "184_So You Want to Be a Carpenter"
+,
+        "185_So You Want to Be a Blacksmith"
+,
+        "186_So You Want to Be an Armorer"
+,
+        "187_So You Want to Be a Goldsmith"
+,
+        "188_So You Want to Be a Leatherworker"
+,
+        "189_So You Want to Be a Weaver"
+,
+        "190_So You Want to Be an Alchemist"
+,
+        "191_So You Want to Be a Culinarian"
+,
+        "192_So You Want to Be a Miner"
+,
+        "193_So You Want to Be a Botanist"
+,
+        "201_Passing Muster"
+,
+        "202_What Price Victory"
+,
+        "203_The Trouble with Truffles"
+,
+        "204_The Coliseum Conundrum"
+,
+        "205_My First Saw"
+,
+        "208_My First Hatchet"
+,
+        "211_My First Cane"
+,
+        "212_Peasants by Day, Ninjas by Night"
+,
+        "213_My First Mudra"
+,
+        "214_Killer Combinations"
+,
+        "215_Once Upon a Time in Doma"
+,
+        "216_Pirates versus Ninjas"
+,
+        "217_Ninja Bathin'"
+,
+        "218_My First Spear"
+,
+        "219_My First Bow"
+,
+        "21_Way of the Archer"
+,
+        "22_Way of the Conjurer"
+,
+        "232_Tough Guys"
+,
+        "233_The Crow Knows"
+,
+        "234_Master and Student"
+,
+        "235_Strangers in a Strange Land"
+,
+        "23_Way of the Lancer"
+,
+        "240_Blues on Emerald Avenue"
+,
+        "241_Lone Survivor"
+,
+        "242_Guildmaster, Prelate, and Plot"
+,
+        "243_A Qiqirn Always Pays His Debts"
+,
+        "244_The Hazy Professor"
+,
+        "245_It's Probably Pirates"
+,
+        "24_Coarse Correspondence"
+,
+        "253_Way of the Gladiator"
+,
+        "256_Kicking the Hornet's Nest"
+,
+        "25_Quarrels with Squirrels"
+,
+        "261_Ul'dah's Most Wanted"
+,
+        "262_That Old Familiar Feeling"
+,
+        "263_The Face of Thal"
+,
+        "264_On Holy Ground"
+,
+        "265_The Rematch"
+,
+        "271_Way of the Culinarian"
+,
+        "272_Life, Materia and Everything"
+,
+        "273_Way of the Armorer"
+,
+        "27_Preserving the Past"
+,
+        "285_Way of the Gladiator"
+,
+        "286_My First Gladius"
+,
+        "288_Ul'dah's Most Wanted"
+,
+        "28_To the Bannock"
+,
+        "291_Way of the Blacksmith"
+,
+        "3017_If I Had a Glamour"
+,
+        "3018_Absolutely Glamourous"
+,
+        "303_Step Nine"
+,
+        "307_Out of House and Home"
+,
+        "3081_Passion for Fashion"
+,
+        "310_Way of the Marauder"
+,
+        "311_Way of the Marauder"
+,
+        "312_My First Axe"
+,
+        "313_Axe in the Stone"
+,
+        "314_Wake of Destruction"
+,
+        "315_Wake of Destruction"
+,
+        "316_Brutal Strength"
+,
+        "317_The Mountain That Strides"
+,
+        "318_Bleeder of the Pack"
+,
+        "319_Bringing Down the Mountain"
+,
+        "3201_Every Little Thing She Does Is Mahjong"
+,
+        "320_Way Down in the Hole"
+,
+        "323_Edelweiss, Edelweiss"
+,
+        "328_Supply and Demands"
+,
+        "329_The Perfect Swarm"
+,
+        "330_Last Letter to Lost Hope"
+,
+        "332_Passing the Blade"
+,
+        "333_Following Footfalls"
+,
+        "334_Storms on the Horizon"
+,
+        "336_Oh Captain, My Captain"
+,
+        "33_Sweet Words, Shadowy Dealings"
+,
+        "343_Lord of the Inferno"
+,
+        "344_Way of the Thaumaturge"
+,
+        "345_Way of the Thaumaturge"
+,
+        "346_My First Scepter"
+,
+        "347_The Threat of Intimacy"
+,
+        "348_The Threat of Paucity"
+,
+        "349_The Threat of Paucity"
+,
+        "350_The Threat of Superiority"
+,
+        "351_The Threat of Perplexity"
+,
+        "352_The Hidden Chapter"
+,
+        "353_Facing Your Demons"
+,
+        "357_A Ponze of Flesh"
+,
+        "358_Labor of Love"
+,
+        "359_Method in His Malice"
+,
+        "35_Courage of Stone"
+,
+        "360_A Treasured Mother"
+,
+        "362_The Little Postmoogle That Could"
+,
+        "363_Good Intentions"
+,
+        "364_Bait and Switch"
+,
+        "365_Best Laid Schemes"
+,
+        "366_The Rising Chorus"
+,
+        "368_On the Counteroffensive"
+,
+        "369_An Uninvited Ascian"
+,
+        "36_Sudul Eht Nioj"
+,
+        "370_Mask of Grief"
+,
+        "371_Defenders for Ishgard"
+,
+        "372_The Wyrm's Roar"
+,
+        "373_Committed to the Cause"
+,
+        "376_You Shall Not Trespass"
+,
+        "377_Don't Look Down"
+,
+        "379_In the Grim Darkness of the Forest"
+,
+        "380_Threat Level Elevated"
+,
+        "381_Migrant Marauders"
+,
+        "3843_All the Fish in the Sea"
+,
+        "384_A Hearer is Often Late"
+,
+        "3852_Prudence at This Junction"
+,
+        "3853_Heir Today, Gone Tomorrow"
+,
+        "3854_Eggs over Queasy"
+,
+        "3855_A Soldier's Breakfast"
+,
+        "3856_We Come in Peace"
+,
+        "3857_Dance Dance Diplomacy"
+,
+        "3858_Forest Friend"
+,
+        "3859_Druthers House Rules"
+,
+        "3860_Never Forget"
+,
+        "3861_Microbrewing"
+,
+        "3862_Nouveau Riche"
+,
+        "3863_Terror at Fallgourd"
+,
+        "3864_Ziz Is So Ridiculous"
+,
+        "3865_Trial by Turtle"
+,
+        "3866_What Do You Mean You Forgot the Wine"
+,
+        "3867_You Can't Take It with You"
+,
+        "3868_The Final Flight of the Enterprise"
+,
+        "3869_The Best Inventions"
+,
+        "3870_The Curious Case of Giggity"
+,
+        "3871_Dressed for Conquest"
+,
+        "3872_Hearts on Fire"
+,
+        "3873_Rock the Castrum"
+,
+        "3874_Moving On"
+,
+        "3875_All Things in Time"
+,
+        "3876_Laying the Foundation"
+,
+        "3877_It's Possibly a Primal"
+,
+        "3878_Build on the Stone"
+,
+        "3879_Still Waters"
+,
+        "387_Salvaging the Scene"
+,
+        "3880_Promises to Keep"
+,
+        "3881_Yugiri's Game"
+,
+        "3882_All Due Respect"
+,
+        "3883_Shock and Awe"
+,
+        "3884_Reap the Whirlwind"
+,
+        "3885_Levin an Impression"
+,
+        "3886_Chasing Ivy"
+,
+        "3887_In Flagrante Delicto"
+,
+        "3888_Aether on Demand"
+,
+        "38_Parsemontrenomics"
+,
+        "391_Volunteer Dragonslayers"
+,
+        "397_Sky-high"
+,
+        "39_Coming to Gridania"
+,
+        "3_Way of the Botanist"
+,
+        "402_Thanks a Million"
+,
+        "403_Relighting the Torch"
+,
+        "406_On to the Drydocks"
+,
+        "407_A Bridge Too Full"
+,
+        "411_Constant Carvings"
+,
+        "412_Without a Doubt"
+,
+        "413_Do Angry Pirates Dream"
+,
+        "414_Victory in Peril"
+,
+        "415_Righting the Shipwright"
+,
+        "418_An Allied Perspective"
+,
+        "420_Administrative Decision"
+,
+        "421_An Unexpected Ambition"
+,
+        "422_Ancient Ways, Timeless Wants"
+,
+        "423_Where We Are Needed"
+,
+        "424_The Least among Us"
+,
+        "425_A Time to Every Purpose"
+,
+        "426_Come, but Not Gone"
+,
+        "427_The Parting Glass"
+,
+        "428_Before the Dawn"
+,
+        "429_In Memory of Moenbryda"
+,
+        "42_Sylphic Gratitude"
+,
+        "433_Fear and Odin in the Shroud"
+,
+        "434_It Could Happen to You"
+,
+        "435_World of Wonders"
+,
+        "436_So You Want to Be a Jockey"
+,
+        "437_Triple Triad Trial"
+,
+        "438_Questions and Lancers"
+,
+        "439_Proof of Might"
+,
+        "43_Fragments of Truth"
+,
+        "440_Like Mother, Like Daughter"
+,
+        "441_In Nature's Embrace"
+,
+        "445_Chasing Shadows"
+,
+        "446_Dread Is in the Air"
+,
+        "447_To Guard a Guardian"
+,
+        "448_Festive Endeavors"
+,
+        "449_Renewing the Covenant"
+,
+        "44_Alisaie's Path"
+,
+        "451_So You Want to Be an Arcanist"
+,
+        "4521_Operation Archon"
+,
+        "4522_The Ultimate Weapon"
+,
+        "452_Way of the Arcanist"
+,
+        "453_Way of the Arcanist"
+,
+        "454_My First Grimoire"
+,
+        "455_What's in the Box"
+,
+        "456_Tactical Planning"
+,
+        "457_Tactical Planning"
+,
+        "458_Over the Rails"
+,
+        "4591_The Steps of Faith"
+,
+        "459_Pincer Maneuver"
+,
+        "460_Grimoire Fandango"
+,
+        "461_Sinking Doesmaga"
+,
+        "462_On to Summerford"
+,
+        "463_Dressed to Call"
+,
+        "465_Washed Up"
+,
+        "466_Double Dealing"
+,
+        "467_Loam Maintenance"
+,
+        "468_Plowshares to Swords"
+,
+        "469_Just Deserts"
+,
+        "46_A Matter of Perspective"
+,
+        "4764_A Faerie Tale Come True"
+,
+        "47_Spear of the Fearless"
+,
+        "48_Trial by Earth"
+,
+        "490_Shades of Sil'dih"
+,
+        "491_Sibling Strife"
+,
+        "492_Beneath the Mask"
+,
+        "493_Truths Untold"
+,
+        "494_The World of Darkness"
+,
+        "495_The Light of Hope"
+,
+        "496_Better Left Unfound"
+,
+        "49_I Am Millicent, Hear Me Roar"
+,
+        "4_Sap for Smiles"
+,
+        "502_Her Last Vow"
+,
+        "503_Give It to Me Raw"
+,
+        "507_The Gridanian Envoy"
+,
+        "509_The Scions of the Seventh Dawn"
+,
+        "510_A Wild Rose By Any Other Name"
+,
+        "511_A Hero in the Making"
+,
+        "513_Sylph-management"
+,
+        "514_Into the Beast's Maw"
+,
+        "516_Wrath of the Titan"
+,
+        "517_All Good Things"
+,
+        "5187_Bottled Fantasy"
+,
+        "518_Eyes on Me"
+,
+        "519_Lady of the Vortex"
+,
+        "520_Reclamation"
+,
+        "521_Escape from Castrum Centri"
+,
+        "522_The Black Wolf's Ultimatum"
+,
+        "528_The Ul'dahn Envoy"
+,
+        "52_Traitor in the Midst"
+,
+        "532_Way of the Pugilist"
+,
+        "533_Way of the Pugilist"
+,
+        "534_Way of the Weaver"
+,
+        "53_Back and Fourth"
+,
+        "543_Lurkers in the Grotto"
+,
+        "544_Feint and Strike"
+,
+        "545_A Mizzenmast Repast"
+,
+        "546_The Lominsan Envoy"
+,
+        "54_Coming to Terms"
+,
+        "550_Underneath the Sultantree"
+,
+        "551_Duty, Honor, Country"
+,
+        "552_A Royal Reception"
+,
+        "553_My First Hora"
+,
+        "554_Harder than Rock"
+,
+        "555_Burning Up the Quarter Malm"
+,
+        "558_The Spirit Is Willing"
+,
+        "55_A Dangerous Proposition"
+,
+        "562_Keeping the Spirit Alive"
+,
+        "565_So You Think You Can Ride This Chocobo"
+,
+        "566_Star-crossed Rivals"
+,
+        "567_Return of the Holyfist"
+,
+        "568_GLA_Close to Home"
+,
+        "569_PGL_Close to Home"
+,
+        "56_Lance of Destiny"
+,
+        "570_THM_Close to Home"
+,
+        "574_Dressed to Deceive"
+,
+        "575_Way of the Alchemist"
+,
+        "576_Like Sire Like Fledgling"
+,
+        "57_The Intercession of Saints"
+,
+        "594_Coming to Ul'dah"
+,
+        "595_We Must Rebuild"
+,
+        "597_Way of the Miner"
+,
+        "599_My First Pickaxe"
+,
+        "5_Weapons of a Feather"
+,
+        "600_Know Thy Land"
+,
+        "608_Way of the Goldsmith"
+,
+        "618_Unsolved Mystery"
+,
+        "619_What Poor People Think"
+,
+        "620_A Proper Burial"
+,
+        "621_For the Children"
+,
+        "622_Amalj'aa Wrong Places"
+,
+        "623_Takin' What They're Givin'"
+,
+        "628_Secrets and Lies"
+,
+        "62_Strength in Unity"
+,
+        "638_Forging the Spirit"
+,
+        "639_Waking the Spirit"
+,
+        "640_Melding Materia Muchly"
+,
+        "641_A Matter of Tradition"
+,
+        "660_Into a Copper Hell"
+,
+        "661_The Rats in the Wharf"
+,
+        "671_Nothing to See Here"
+,
+        "673_Call of the Sea"
+,
+        "674_Call of the Sea"
+,
+        "676_Call of the Forest"
+,
+        "677_Fire in the Gloom"
+,
+        "678_Call of the Desert"
+,
+        "67_School of Hard Nocks"
+,
+        "680_The Company You Keep (Twin Adders)"
+,
+        "681_The Company You Keep (Maelstrom)"
+,
+        "682_The Company You Keep (Immortal Flames)"
+,
+        "683_Wood's Will Be Done"
+,
+        "684_Till Sea Swallows All"
+,
+        "685_For Coin and Country"
+,
+        "689_Men of the Blue Tattoos"
+,
+        "68_Violators Will Be Shot"
+,
+        "690_High Society"
+,
+        "697_Hallo Halatali"
+,
+        "698_Burning Up the Quarter Malm"
+,
+        "699_Color Your World"
+,
+        "69_Dark Words, Dark Deeds"
+,
+        "6_Haste Makes Waste"
+,
+        "700_My Little Chocobo (Twin Adder)"
+,
+        "701_My Little Chocobo (Maelstrom)"
+,
+        "702_My Little Chocobo (Immortal Flames)"
+,
+        "705_The Weaponsmith of Legend"
+,
+        "709_Sylphic Studies"
+,
+        "70_To Catch a Poacher"
+,
+        "710_First Impressions"
+,
+        "711_The Replacement Culler"
+,
+        "712_Meat of the Matter"
+,
+        "715_First Contact"
+,
+        "716_Roof Riders"
+,
+        "719_Presence of the Enemy"
+,
+        "71_Homecoming"
+,
+        "720_Sylph Says"
+,
+        "722_A Porcine Plight"
+,
+        "723_Threads Unraveled"
+,
+        "724_Brotherly Love"
+,
+        "725_Spirited Away"
+,
+        "727_Cloven-hoofed Horrors"
+,
+        "728_The Trees Have Eyes"
+,
+        "729_No Guts, No Glory"
+,
+        "731_Potsherds for Posterity"
+,
+        "732_Stash Saboteur"
+,
+        "737_Like Fine Wine"
+,
+        "738_Sylphish Concerns"
+,
+        "739_Enemy Mine"
+,
+        "742_Shadows of the Empire"
+,
+        "743_A Simple Gift"
+,
+        "744_Believe in Your Sylph"
+,
+        "745_The Blood Price"
+,
+        "746_Back from the Wood"
+,
+        "747_Shadow of Darkness"
+,
+        "748_Highbridge Times"
+,
+        "74_First Blood"
+,
+        "756_Where There Is Smoke"
+,
+        "757_On to Little Ala Mhigo"
+,
+        "75_The Path of the Righteous"
+,
+        "760_Blast from the Past"
+,
+        "761_Tea for Three"
+,
+        "762_Foot in the Door"
+,
+        "763_Meeting with the Resistance"
+,
+        "764_Braving New Depths"
+,
+        "765_Killing Him Softly"
+,
+        "766_Savage Snares"
+,
+        "767_Forest Law"
+,
+        "768_An Apple a Day"
+,
+        "769_A Bumper Crop"
+,
+        "76_The One That Got Away"
+,
+        "770_Wretched Hive of Villainy"
+,
+        "771_In Grandfather's Name"
+,
+        "772_The Marvelous Mun-Tuy Bean"
+,
+        "773_Masher for a Day"
+,
+        "774_Helping Horn"
+,
+        "775_He Ain't Heavy"
+,
+        "776_Come Highly Recommended"
+,
+        "777_The Bear and the Young'uns' Cares"
+,
+        "778_Wilred Wants You"
+,
+        "77_For the Greater Good"
+,
+        "782_Big Trouble in Little Ala Mhigo"
+,
+        "783_Back to Square One"
+,
+        "786_Seeing Eye to Winged Eye"
+,
+        "787_Rock of Rancor"
+,
+        "788_Potable Perils"
+,
+        "789_No News Is Good News"
+,
+        "78_Tendrils of Intrigue"
+,
+        "792_Cleaning House"
+,
+        "793_Trouble on the Road"
+,
+        "794_A Welcome Overstayed"
+,
+        "795_No Place Like Home"
+,
+        "796_Meals for Miners"
+,
+        "797_Digging in the Dark"
+,
+        "798_A Leg Up"
+,
+        "799_Power of Deduction"
+,
+        "7_Dressed to Harvest"
+,
+        "800_Secret of the White Lily"
+,
+        "801_Skeletons in Her Closet"
+,
+        "802_Broadening Horizons"
+,
+        "804_Fungal Frolic"
+,
+        "805_Shocking Discoveries"
+,
+        "806_In Too Deep"
+,
+        "807_Doing the Dirty Work"
+,
+        "809_Tales from the Tidus Slayer"
+,
+        "810_Hungry Hungry Goobbues"
+,
+        "811_The Lominsan Way"
+,
+        "812_Nix That"
+,
+        "814_A Modest Proposal"
+,
+        "817_We'll Always Have Ul'dah"
+,
+        "818_A Burning Request"
+,
+        "821_The Perfect Prey"
+,
+        "822_When the Worm Turns"
+,
+        "823_Fetch the Freshman"
+,
+        "829_Mind Games"
+,
+        "82_A Simple Plan"
+,
+        "830_U Don't Know Me"
+,
+        "831_There and Back Again"
+,
+        "832_The Things We Do for Cheese"
+,
+        "840_An Offer You Can Refuse"
+,
+        "843_It Won't Work"
+,
+        "845_Give a Man a Drink"
+,
+        "846_That Weight"
+,
+        "848_Battle Scars"
+,
+        "84_The Instruments of Our Deliverance"
+,
+        "850_It Was a Very Good Year"
+,
+        "855_In the Company of Heroes"
+,
+        "856_As You Wish"
+,
+        "857_Lord of Crags"
+,
+        "85_LNC_Close to Home"
+,
+        "862_Deduce, Reuse, Recycle"
+,
+        "863_Don't Let the Cat out of the Bag"
+,
+        "86_The Road Less Traveled"
+,
+        "876_Bringing out the Dead"
+,
+        "878_Bury Me Not on the Lone Prairie"
+,
+        "87_Eyes Unclouded"
+,
+        "883_He Who Waited Behind"
+,
+        "884_Cold Reception"
+,
+        "885_Hunger Is the Best Sauce"
+,
+        "886_The Unending War"
+,
+        "887_Men of Honor"
+,
+        "889_Three for Three"
+,
+        "88_The Reason Roaille"
+,
+        "890_The Rose and the Unicorn"
+,
+        "897_The Talk of Coerthas"
+,
+        "89_Let Us Cling Together"
+,
+        "90_Drop Dead Shiva"
+,
+        "910_Road to Redemption"
+,
+        "911_Following the Evidence"
+,
+        "912_In the Eyes of Gods and Men"
+,
+        "91_Trial by Wind"
+,
+        "921_Dishonor Before Death"
+,
+        "924_Ye of Little Faith"
+,
+        "927_Factual Folklore"
+,
+        "92_Trial by Water"
+,
+        "938_Influencing Inquisitors"
+,
+        "939_By the Lights of Ishgard"
+,
+        "93_Sylphie's Trials"
+,
+        "940_Blood for Blood"
+,
+        "941_The Heretic among Us"
+,
+        "952_In Pursuit of the Past"
+,
+        "953_Into the Eye of the Storm"
+,
+        "955_Sealed With Science"
+,
+        "956_With the Utmost Care"
+,
+        "959_A Promising Prospect"
+,
+        "960_It's Probably Not Pirates"
+,
+        "961_Representing the Representative"
+,
+        "962_The Reluctant Researcher"
+,
+        "963_Sweet Somethings"
+,
+        "967_History Repeating"
+,
+        "969_Adventurer for Hire"
+,
+        "970_Some Seedy Business"
+,
+        "972_This One's for the Lovers"
+,
+        "973_Windy Wedding"
+,
+        "975_Better Late than Never"
+,
+        "978_Casing the Castrum"
+,
+        "979_Fort of Fear"
+,
+        "980_Eyes on the Empire"
+,
+        "981_Footprints in the Snow"
+,
+        "982_Monumental Hopes"
+,
+        "983_Notorious Biggs"
+,
+        "984_Come-Into-My-Castrum"
+,
+        "986_Getting Even with Garlemald"
+,
+        "N1_Limsa Lominsa"
+,
+        "N2_Gridania"
+,
+        "N3_Ul'dah"
+,
+        "N4_The Gold Saucer"
+
+      ]
+    }
+,
+    "3.x": {
+      "name": "3.x - Heavensward",
+      "available": [
+        "100_Short Arms of the Law"
+,
+        "1475_The Paths We Walk"
+,
+        "1476_The Oaths We Swear"
+,
+        "1477_The Legacies We Leave"
+,
+        "1478_The Triumphs We Share"
+,
+        "1479_The Burdens We Bear"
+,
+        "1480_Unidentified Flying Object"
+,
+        "1551_Arms Wide Open"
+,
+        "1580_Coming to Ishgard"
+,
+        "1581_Taking in the Sights"
+,
+        "1582_The Better Half"
+,
+        "1583_Over the Wall"
+,
+        "1584_Work in Progress"
+,
+        "1585_The First and Foremost"
+,
+        "1586_From on High"
+,
+        "1587_Reconnaissance Lost"
+,
+        "1588_At the End of Our Hope"
+,
+        "1589_Knights Be Not Proud"
+,
+        "1590_Onwards and Upwards"
+,
+        "1591_An Indispensable Ally"
+,
+        "1592_Meeting the Neighbors"
+,
+        "1593_Sense of Urgency"
+,
+        "1594_Hope Springs Eternal"
+,
+        "1595_A Series of Unfortunate Events"
+,
+        "1596_A Reward Long in Coming"
+,
+        "1597_Divine Intervention"
+,
+        "1598_Disclosure"
+,
+        "1599_Flame General Affairs"
+,
+        "1600_In Search of Raubahn"
+,
+        "1601_Keeping the Flame Alive"
+,
+        "1602_To Siege or Not to Siege"
+,
+        "1603_Alphinaud's Way"
+,
+        "1604_In Search of Iceheart"
+,
+        "1605_From One Heretic to Another"
+,
+        "1606_Sounding Out the Amphitheatre"
+,
+        "1607_Camp of the Convictors"
+,
+        "1608_Purple Flame, Purple Flame"
+,
+        "1609_Where the Chocobos Roam"
+,
+        "1610_Worse than Dragons"
+,
+        "1611_The Trine Towers"
+,
+        "1612_Gifts for the Outcasts"
+,
+        "1613_The Nonmind"
+,
+        "1614_A Gnathic Deity"
+,
+        "1615_Breaking into Hives"
+,
+        "1616_Lord of the Hive"
+,
+        "1617_Mourn in Passing"
+,
+        "1618_Beyond the Clouds"
+,
+        "1619_Mountaintop Diplomacy"
+,
+        "1620_Moghan's Trial"
+,
+        "1621_Mogmug's Trial"
+,
+        "1622_Mogwin's Trial"
+,
+        "1623_Moglin's Judgment"
+,
+        "1624_Leaving Moghome"
+,
+        "1625_The Road to Zenith"
+,
+        "1626_Waiting for the Wind to Change"
+,
+        "1627_Heart of Ice"
+,
+        "1628_The Wyrm's Lair"
+,
+        "1629_New Winds, Old Friends"
+,
+        "1630_A General Summons"
+,
+        "1631_Awakening in Ul'dah"
+,
+        "1632_A Brave Resolution"
+,
+        "1633_Ready to Fly"
+,
+        "1634_Into the Aery"
+,
+        "1635_The Song Begins"
+,
+        "1636_Unrest in Ishgard"
+,
+        "1637_He Who Would Not Be Denied"
+,
+        "1638_Ill-weather Friends"
+,
+        "1639_Fire and Blood"
+,
+        "1640_A Knight's Calling"
+,
+        "1641_The Sins of Antiquity"
+,
+        "1642_In Search of the Soleil"
+,
+        "1643_Into the Blue"
+,
+        "1644_Familiar Faces"
+,
+        "1645_Devourer of Worlds"
+,
+        "1646_Black and the White"
+,
+        "1647_Bolt, Chain, and Island"
+,
+        "1648_A Difference of Opinion"
+,
+        "1649_One Good Turn"
+,
+        "1650_An Engineering Enterprise"
+,
+        "1651_Aetherial Trail"
+,
+        "1652_Lost in the Lifestream"
+,
+        "1653_Tataru's Surprise"
+,
+        "1654_Onward to Sharlayan"
+,
+        "1655_A Great New Nation"
+,
+        "1656_Golems Begone"
+,
+        "1657_An Illuminati Incident"
+,
+        "1658_Leaving Idyllshire"
+,
+        "1659_Matoya's Cave"
+,
+        "1660_Forbidden Knowledge"
+,
+        "1661_An Eye for Aether"
+,
+        "1662_Hour of Departure"
+,
+        "1663_The First Flight of the Excelsior"
+,
+        "1664_Systematic Exploration"
+,
+        "1665_In Node We Trust"
+,
+        "1666_Chimerical Maintenance"
+,
+        "1667_Close Encounters of the VIth Kind"
+,
+        "1668_Fetters of Lament"
+,
+        "1669_Heavensward"
+,
+        "1671_The Green Death"
+,
+        "1672_Quarantine"
+,
+        "1673_False Friends"
+,
+        "1674_Ooh Rah"
+,
+        "1675_Unseen"
+,
+        "1676_Forward, the Royal Marines"
+,
+        "1677_How to Train Your Warrior"
+,
+        "1678_Black Books"
+,
+        "1679_An Unexpected Journey"
+,
+        "1680_A Cunning Plan"
+,
+        "1681_Black Squawk Down"
+,
+        "1682_Destruction in the Name of Justice"
+,
+        "1683_The Defiant Ones"
+,
+        "1684_The Impossible Girl"
+,
+        "1685_Ninja Assassin"
+,
+        "1686_Medieval Espionage"
+,
+        "1687_Staying Alive"
+,
+        "1688_In Her Defense"
+,
+        "1689_Sky's the Limit"
+,
+        "1690_Days of Azure"
+,
+        "1691_Heart of Justice"
+,
+        "1692_Sworn Upon a Lance"
+,
+        "1693_Dragoon's Errand"
+,
+        "1694_Sanguine Dragoon"
+,
+        "1695_Dragoon's Fate"
+,
+        "1696_Savior of Skysteel"
+,
+        "1697_Master of Marksmanship"
+,
+        "1698_Always the Last Place You Look"
+,
+        "1699_Rook Before You Reap"
+,
+        "1700_Securing the Locks"
+,
+        "1701_A Suppressive Strategy"
+,
+        "1702_Blood on the Sands"
+,
+        "1703_Rage against the Machinists"
+,
+        "1704_The Power of a Tourney"
+,
+        "1705_A Joye-less Celebration"
+,
+        "1706_Pushing the Brume"
+,
+        "1707_A Joye-ful Reunion"
+,
+        "1708_Wheels of Justice"
+,
+        "1710_Taking the Fall"
+,
+        "1711_Rusted Steel"
+,
+        "1712_Rise of the Machinists"
+,
+        "1713_On the Road Again"
+,
+        "1714_The Stiff and the Spent"
+,
+        "1715_Requiem on Ice"
+,
+        "1716_When Gnaths Cry"
+,
+        "1717_A Saint of Song"
+,
+        "1718_The Ballad of Oblivion"
+,
+        "1719_Taint Misbehaving"
+,
+        "1720_A Journey of Purification"
+,
+        "1721_The Girl with the Dragon Tissue"
+,
+        "1722_The Dark Blight Writhes"
+,
+        "1723_In the Wake of Death"
+,
+        "1724_Trials of the Padjals"
+,
+        "1725_Hands of Healing"
+,
+        "1730_Cold Days, Colder Nights"
+,
+        "1744_Bridge over Frozen Water"
+,
+        "1748_Clipped Wings"
+,
+        "1759_Protecting What's Important"
+,
+        "1760_Baby Steps"
+,
+        "1762_The Secret to Success"
+,
+        "1764_Introductory Dragonslaying"
+,
+        "1765_Intermediate Dragonslaying"
+,
+        "1766_Advanced Dragonslaying"
+,
+        "1769_Expert Dragonslaying"
+,
+        "1771_Some Bad News"
+,
+        "1790_Stolen Munitions"
+,
+        "1791_Feat of Clay"
+,
+        "1793_Yellow Stones"
+,
+        "1797_The Hunter Becomes the Kweh"
+,
+        "1802_A Lesson in Humility"
+,
+        "1819_The Bathing Bully"
+,
+        "1821_A Pebble for Your Thoughts"
+,
+        "1823_Road Kill"
+,
+        "1824_Spineless Wadjets"
+,
+        "1828_Hide Your Moogles"
+,
+        "1831_Far from Home"
+,
+        "1832_A Nutty Initiation"
+,
+        "1835_Waiting to Inhale"
+,
+        "1840_A Secret from Everyone"
+,
+        "1863_Protecting the Pom"
+,
+        "1864_Save the Pomguard"
+,
+        "1865_An Urgent Message"
+,
+        "1866_An Uneasy Feeling"
+,
+        "1867_A Moogle's Intuition"
+,
+        "1868_Trouble at Zenith"
+,
+        "1869_Keeping the Ledger"
+,
+        "1870_Caught in the Act"
+,
+        "1871_Laying the First Brick"
+,
+        "1872_Into the Mists"
+,
+        "1873_Enlisted"
+,
+        "1874_Honoring the Past"
+,
+        "1878_Bitter Is the Night"
+,
+        "1879_These Things Take Time"
+,
+        "1880_Thar Be Dragons"
+,
+        "1881_Cleaning House"
+,
+        "1882_Finders Keepers"
+,
+        "1883_An Unwelcome Surprise"
+,
+        "1884_A Meter Too Far"
+,
+        "1889_Unknown Ultimatum"
+,
+        "1890_Personal Effects"
+,
+        "1891_Ayleth Absconds"
+,
+        "1892_A Missing Tooth"
+,
+        "1893_A Noble Purpose"
+,
+        "1898_A War without End"
+,
+        "1909_Sleepless in Ok' Zundu"
+,
+        "1910_Flying the Nest"
+,
+        "1936_Louder than Words"
+,
+        "1945_Ebb and Aetherflow"
+,
+        "1947_A Bum Rap"
+,
+        "1963_Taking Stock"
+,
+        "1964_What the Boat Brought In"
+,
+        "1965_Over My Dead Gobbie"
+,
+        "1966_Saro Roggo's Common Life"
+,
+        "1979_Basic Training"
+,
+        "1980_Good Clean Fun"
+,
+        "1981_General Protection Fault"
+,
+        "1982_Excessive Force"
+,
+        "1983_Chimerical Abominations"
+,
+        "1984_Pollution Solution"
+,
+        "1985_Good Hunting"
+,
+        "1986_Defense Protocols"
+,
+        "1987_Snikt"
+,
+        "1988_A Crude Facsimile"
+,
+        "1989_Recycling"
+,
+        "1990_Inadequate Safety Measures"
+,
+        "1991_Environmental Unbalance"
+,
+        "1992_Elevated Aggression Levels"
+,
+        "1993_The Spice of Life"
+,
+        "1994_Noble Indiscretions"
+,
+        "1995_A Child Apart"
+,
+        "1996_Bloodlines"
+,
+        "2012_Stairway to the Heavens"
+,
+        "2013_Fortune Favors the Bole"
+,
+        "2014_Hanging in the Balance"
+,
+        "2015_A Lesson in Patience"
+,
+        "2016_Slings and Arrows"
+,
+        "2017_Ewer Right"
+,
+        "2018_Loved by the Sun"
+,
+        "2019_Spearheading Initiatives"
+,
+        "2020_Sharlayan Ascending"
+,
+        "2021_Empty Nest"
+,
+        "2022_Conviction"
+,
+        "2023_Feather in the Cap"
+,
+        "2024_Trumped"
+,
+        "2025_The Hands of Fate"
+,
+        "2026_The Legend Continues"
+,
+        "2027_Let's Talk about Sects"
+,
+        "2028_Against the Shadow"
+,
+        "2029_Fight the Battle to Win"
+,
+        "2030_Stop the Senseless Killing"
+,
+        "2031_Appetite for Destruction"
+,
+        "2032_An Exemplary Example"
+,
+        "2033_The Paladin Who Cried Wolf"
+,
+        "2034_Big Sollerets to Fill"
+,
+        "2035_Hey Soul Crystal"
+,
+        "2036_All According to Plan"
+,
+        "2037_This Little Sword of Mine"
+,
+        "2053_Our End"
+,
+        "2054_Ishgardian Justice"
+,
+        "2055_The Voice in the Abyss"
+,
+        "2056_Heroic Reprise"
+,
+        "2057_Declaration of Blood"
+,
+        "2058_Our Answer"
+,
+        "2059_The Wages of Mercy"
+,
+        "2060_The Knight and the Maiden Fair"
+,
+        "2061_Kindred Spirits"
+,
+        "2062_Original Sins"
+,
+        "2063_The Flame in the Abyss"
+,
+        "2064_Absolution"
+,
+        "2090_Disarmed"
+,
+        "2091_Steel and Steam"
+,
+        "2092_Tinker, Seeker, Soldier, Spy"
+,
+        "2093_The Pulsing Heart"
+,
+        "2094_Enigma"
+,
+        "2095_Inscrutable Tastes"
+,
+        "2097_No Longer a Collectable"
+,
+        "2098_Go West, Craftsman"
+,
+        "2100_A Fitting Tomestone"
+,
+        "2101_A Matter of Fact"
+,
+        "2102_A Miner Negotiation"
+,
+        "2103_Mad, Bad, and Ebon-clad"
+,
+        "2104_I Could Have Tranced All Night"
+,
+        "2105_A Flare for the Dramatic"
+,
+        "2106_Leves of Ishgard"
+,
+        "2107_Sights of the North"
+,
+        "2109_So You Want to Be a Machinist"
+,
+        "2110_A Dark Spectacle"
+,
+        "2111_For All the Nights to Come"
+,
+        "2114_Gods of Eld"
+,
+        "2115_The Diabolical Bismarck"
+,
+        "2116_Thok Around the Clock"
+,
+        "2118_A Striking Opportunity"
+,
+        "2119_Let the Clan Hunt Begin"
+,
+        "2120_Better Bill Hunting"
+,
+        "2121_Top Marks"
+,
+        "2122_Elite and Dangerous"
+,
+        "2123_What's Your Sign"
+,
+        "2152_Contradicting Convictions"
+,
+        "2153_The Benefits of Consultation"
+,
+        "2154_Balancing the Spear"
+,
+        "2155_More than Meets Her Eye"
+,
+        "2156_An Uncertain Future"
+,
+        "2157_Breaking the Cycle"
+,
+        "2158_Another Time, Another Place"
+,
+        "2159_In the Eye of the Beholder"
+,
+        "2160_A Little Slow, a Little Late"
+,
+        "2161_Dreams of the Lost"
+,
+        "2162_Against the Dying of the Light"
+,
+        "2163_As Goes Light, So Goes Darkness"
+,
+        "2164_Three Beaks to the Wind"
+,
+        "2165_A Tribal Reunion"
+,
+        "2166_Linu's Lovely Bones"
+,
+        "2167_In the Skycage over the Sea"
+,
+        "2168_Fishing for Friendship"
+,
+        "2169_Sundrop the Beat"
+,
+        "2170_Nest Side Story"
+,
+        "2171_Veni, Vundu, Vici"
+,
+        "2172_Pussyfooting About"
+,
+        "2173_Endymion Disco"
+,
+        "2174_Pilfering Pots from the Pantry"
+,
+        "2175_Chigoe Cha-cha"
+,
+        "2176_Water Crystal Waltz"
+,
+        "2177_Hard-boiled Hustle"
+,
+        "2178_Sanuwa Samba"
+,
+        "2179_Bird Watching"
+,
+        "2180_Comb and Get It"
+,
+        "2181_The Binding Soil"
+,
+        "2182_Flight of the Midges"
+,
+        "2183_Fishing in Troubled Waters"
+,
+        "2184_Reeling in the Vundu"
+,
+        "2185_Nailed Down"
+,
+        "2186_The House That Ginu Built"
+,
+        "2187_A Bone to Pick"
+,
+        "2188_A Hut to Dye For"
+,
+        "2189_Shady Premonitions"
+,
+        "2190_Pestered Ancestors"
+,
+        "2191_Smooth as Silk, Cool as Air"
+,
+        "2192_Gaelicat's Out of the Bag"
+,
+        "2193_Rotten to the Korrigan"
+,
+        "2194_Gastornis Groove"
+,
+        "2195_The Cat's Meow"
+,
+        "2196_Easy as Paissa"
+,
+        "2197_Dance Commander"
+,
+        "2198_Electric Gunduloo"
+,
+        "2199_Wildwort and Sundrop"
+,
+        "2200_Vanish, Vile Vundu"
+,
+        "2204_Sky Pirates"
+,
+        "2205_To Rule the Skies"
+,
+        "2207_Divine Reckoning"
+,
+        "2208_Through the Grapevine"
+,
+        "2209_A Familial Resemblance"
+,
+        "2210_Finding Ulaa"
+,
+        "2225_The Nest of Honor"
+,
+        "2226_A Gentleman Falls, Rather than Flies"
+,
+        "2227_Don't Call It a Comeback"
+,
+        "2228_The Gigi Situation"
+,
+        "2229_The Measure of a Mammet"
+,
+        "2230_When the Bough Wakes"
+,
+        "2231_As It Once Was"
+,
+        "2232_The Word of the Mother"
+,
+        "2233_This War of Ours"
+,
+        "2234_Staunch Conviction"
+,
+        "2235_Once More, a Favor"
+,
+        "2236_For Those We Have Lost"
+,
+        "2237_Consequences"
+,
+        "2238_Choices"
+,
+        "2239_A Spectacle for the Ages"
+,
+        "2240_For Those We Can Yet Save"
+,
+        "2241_Causes and Costs"
+,
+        "2242_The Man Within"
+,
+        "2243_An Ally for Ishgard"
+,
+        "2244_Winning Over the Wyrm"
+,
+        "2245_An End to the Song"
+,
+        "2246_Heroes of the Hour"
+,
+        "2247_Litany of Peace"
+,
+        "2249_Rearmed"
+,
+        "2250_The Folly of Youth"
+,
+        "2251_Toppling the Tyrant"
+,
+        "2252_One Step Behind"
+,
+        "2253_A Gob in the Machine"
+,
+        "2255_The Naming of Vath"
+,
+        "2256_Adventurers Don't Get Cold Feet"
+,
+        "2257_An Acquired Taste"
+,
+        "2258_Your Enemy and Mine"
+,
+        "2259_Resistance Is Futile"
+,
+        "2260_A Symbiotic Friendship"
+,
+        "2261_Getting the Shaft"
+,
+        "2262_Breath of Fresh Air"
+,
+        "2263_Bugging the Bugs"
+,
+        "2264_Too Much to Bear"
+,
+        "2265_The Foodstuff of Champions"
+,
+        "2266_A Long Shot"
+,
+        "2267_Where the Silver Dew Grows"
+,
+        "2268_The Caelumtree Wine Spree"
+,
+        "2269_Ploughing Ahead"
+,
+        "2270_At Full Pelt"
+,
+        "2271_Failure to Deliver"
+,
+        "2272_Shoo Fly, Don't Bother Me"
+,
+        "2273_All about the Eggs"
+,
+        "2274_Smells Like Trouble"
+,
+        "2275_When Hunting Goes Wrong"
+,
+        "2276_Flea Troubles"
+,
+        "2277_Fifty Shades of Yellow"
+,
+        "2278_A Romp around the Foothills"
+,
+        "2279_Neighborhood Squabbles"
+,
+        "2280_Not for the Faint of Heart"
+,
+        "2281_A Fiendish Likeness"
+,
+        "2285_The Weeping City"
+,
+        "2286_Freedom for Our Skies"
+,
+        "2288_The Fate of Stars"
+,
+        "2290_With a Little Help"
+,
+        "2291_Hasty Conclusions"
+,
+        "2292_A Fundamentally Important Task"
+,
+        "2293_Deep into the Weeds"
+,
+        "2294_Moogle on the Wall"
+,
+        "2295_Kupo for Kupo Nuts"
+,
+        "2296_Work That Mallow"
+,
+        "2297_A Little Pick-me-up"
+,
+        "2298_A Fine Finish"
+,
+        "2299_The Mining Mishap"
+,
+        "2300_Stumbling Blocks"
+,
+        "2301_Tricks without Treats"
+,
+        "2302_For Moogles in Peril"
+,
+        "2303_The Negotiator"
+,
+        "2304_Back to the Drawing Board"
+,
+        "2305_Built to Last"
+,
+        "2306_Let There Be Light"
+,
+        "2307_Rare Refreshments"
+,
+        "2308_A Stone's Throw Away"
+,
+        "2309_A Revivifying Roar"
+,
+        "2310_Journey of a Thousand Hews"
+,
+        "2311_Ship of Dreams"
+,
+        "2312_Stirring by Sternutation"
+,
+        "2313_Dragon Draff for Their Behalf"
+,
+        "2314_A Fish for His Favors"
+,
+        "2315_From Lax to Max"
+,
+        "2316_An Ishgardian Treat"
+,
+        "2317_Mine and Craft"
+,
+        "2318_The Moogle Motivator"
+,
+        "2319_Tremble Finishing"
+,
+        "2320_Tricks and Stones"
+,
+        "2321_The Milk of Moogle Kindness"
+,
+        "2322_Trying Times"
+,
+        "2323_A Crystalline Solution"
+,
+        "2324_The Tools Make the Moogle"
+,
+        "2325_A Monumental Task"
+,
+        "2326_Piecing Together the Past"
+,
+        "2327_The Zenith of Craftsmanship"
+,
+        "2332_Balance unto All"
+,
+        "2333_A Deific Simulacrum"
+,
+        "2335_The Coeurl and the Colossus"
+,
+        "2336_Biggs and Wedge's Excellent Adventure"
+,
+        "2337_Thus Spake Quickthinx"
+,
+        "2338_Judgment Day"
+,
+        "2339_Of Endings and Beginnings"
+,
+        "2341_Promises Kept"
+,
+        "2342_Shadows of the First"
+,
+        "2343_Two Sides of a Coin"
+,
+        "2344_Unlikely Allies"
+,
+        "2345_The Beast That Mourned at the Heart of the Mountain"
+,
+        "2346_Beneath a Star-filled Sky"
+,
+        "2347_When We Were Free"
+,
+        "2348_Honorable Heroes"
+,
+        "2349_One Life for One World"
+,
+        "2350_An Ending to Mark a New Beginning"
+,
+        "2351_Tidings from Gyr Abania"
+,
+        "2352_An Envoy for Ishgard"
+,
+        "2353_An Allied Decision"
+,
+        "2354_Griffin, Griffin on the Wall"
+,
+        "2355_Louisoix's Finest Student"
+,
+        "2356_The Obvious Solution"
+,
+        "2357_The Greater Obeisance"
+,
+        "2358_Fly Free, My Pretty"
+,
+        "2359_The Far Edge of Fate"
+,
+        "2361_The Student Body's Revenge"
+,
+        "2362_The Whipping Boy"
+,
+        "2363_Letters from No One"
+,
+        "2364_The Life and Lies of Father Saturnois"
+,
+        "2369_A Gazebo to Call Our Own"
+,
+        "2370_Don't Trust Anyone over Sixty"
+,
+        "2371_The Proud and the Pointy-eyed"
+,
+        "2372_If I Could Turn Back Time"
+,
+        "2373_Where Shadows Reign"
+,
+        "2374_A Redbill Farewell"
+,
+        "2382_When Good Dragons Go Bad"
+,
+        "2383_Who Was That Masked Man"
+,
+        "2384_Lift Me to the Moon"
+,
+        "2385_Eternity, Loyalty, Honesty"
+,
+        "2386_Let Me Gubal That for You"
+,
+        "2392_Keeping Up with the Aliapohs"
+,
+        "2394_The Last Pillar to Fall"
+,
+        "2395_A Demonic Duplicate"
+,
+        "3672_Towards the Firmament"
+,
+        "3725_A Home in the Firmament"
+,
+        "3726_Overseer for a Day"
+,
+        "3727_Shadow of an Icy Past"
+,
+        "3728_To Thaw a Frozen Heart"
+,
+        "3890_An Ode to Unity"
+,
+        "3891_On Ehll Tou's Wings"
+,
+        "3955_The Making of a Market"
+,
+        "3956_Dealings in the Desert"
+,
+        "3957_A Parley with Pirates"
+,
+        "3958_May Featherfall Flourish"
+,
+        "3960_The Brume Lifts"
+,
+        "3999_Not by Bread Alone"
+,
+        "4000_Francel's Fervent Wish"
+,
+        "4001_An Unexpected Symphony"
+,
+        "4002_Smiles Cross the Sky"
+,
+        "4080_Those Who Serve"
+,
+        "4172_Ascending to Empyreum"
+,
+        "45_Toll Booty"
+,
+        "50_Li'l Rascals"
+,
+        "585_Better Axe Around"
+,
+        "586_Duty and the Beast"
+,
+        "588_The Bear Necessity"
+,
+        "596_Pirates of Shallow Water"
+,
+        "598_Slap an' Chop"
+,
+        "601_And My Axe"
+,
+        "A6_Vanu Vanu (all)"
+,
+        "A7_Vath"
+,
+        "N5_Ishgard"
+,
+        "N6_Idyllshire"
+,
+        "S1_Zhloe Aliapoh"
+
+      ]
+    }
+,
+    "4.x": {
+      "name": "4.x - Stormblood",
+      "available": [
+        "1555_The Newer King on the Block"
+,
+        "2409_East Meets West"
+,
+        "2410_Ride Like the Wind"
+,
+        "2411_Come Rain or Shrine"
+,
+        "2412_Behind Door Number Two"
+,
+        "2413_Foxfire"
+,
+        "2414_Unease in East End"
+,
+        "2415_An Aura for Trouble"
+,
+        "2416_A Beacon for Bad Things"
+,
+        "2417_The Problem with Padjals"
+,
+        "2418_What She Always Wanted"
+,
+        "2426_A Fistful of Resolve"
+,
+        "2427_Return of the Monk"
+,
+        "2428_Cross-fist Training"
+,
+        "2429_Choices and Paths"
+,
+        "2430_The Power to Protect"
+,
+        "2446_Beyond the Great Wall"
+,
+        "2447_Lyse Takes the Lead"
+,
+        "2448_The Promise of a New Beginning"
+,
+        "2449_A Haven for the Bold"
+,
+        "2450_A Bargain Struck"
+,
+        "2451_A Friend of a Friend in Need"
+,
+        "2452_Signed, Sealed, to Be Delivered"
+,
+        "2453_Best Served with Cold Steel"
+,
+        "2454_Let Fill Your Hearts with Pride"
+,
+        "2455_A Familiar Face Forgotten"
+,
+        "2456_The Prodigal Daughter"
+,
+        "2457_A Life More Ordinary"
+,
+        "2458_The Color of Angry Qiqirn"
+,
+        "2459_The Black Wolf's Pups"
+,
+        "2460_Homeward Bound"
+,
+        "2461_Where Men Go as One"
+,
+        "2462_Crossing the Velodyna"
+,
+        "2463_In Crimson It Began"
+,
+        "2464_The Fires Fade"
+,
+        "2465_Bereft of Hearth and Home"
+,
+        "2466_Divide and Conquer"
+,
+        "2467_Lies, Damn Lies, and Pirates"
+,
+        "2468_Tales from the Far East"
+,
+        "2469_Not without Incident"
+,
+        "2470_The Man from Ul'dah"
+,
+        "2471_Where the Streets Are Paved with Koban"
+,
+        "2472_By the Grace of Lord Lolorito"
+,
+        "2473_A Good Samurai Is Hard to Find"
+,
+        "2474_It's Probably a Trap"
+,
+        "2475_Making the Catfish Sing"
+,
+        "2476_Once More, to the Ruby Sea"
+,
+        "2477_Open Water"
+,
+        "2478_Boys with Boats"
+,
+        "2479_To Bend with the Wind"
+,
+        "2480_Confederate Consternation"
+,
+        "2481_Alisaie's Stones"
+,
+        "2482_Under the Sea"
+,
+        "2483_Of Kojin and Kami"
+,
+        "2484_In Soroban We Trust"
+,
+        "2485_Forever and Ever Apart"
+,
+        "2486_In Darkness the Magatama Dreams"
+,
+        "2487_The Whims of the Divine"
+,
+        "2488_Breaking and Delivering"
+,
+        "2489_The Lord of the Revel"
+,
+        "2490_Tide Goes in, Imperials Go Out"
+,
+        "2491_A Silence in Three Parts"
+,
+        "2492_Life after Doma"
+,
+        "2493_The Stubborn Remainder"
+,
+        "2494_The Ones We Leave Behind"
+,
+        "2495_A New Ruby Tithe"
+,
+        "2496_The Will to Live"
+,
+        "2497_Daughter of the Deep"
+,
+        "2498_The Time between the Seconds"
+,
+        "2499_All the Little Angels"
+,
+        "2500_The Search for Lord Hien"
+,
+        "2501_A Season for War"
+,
+        "2502_An Impossible Dream"
+,
+        "2503_Stars in the Dark"
+,
+        "2504_A Warrior's Welcome"
+,
+        "2505_The Heart of Nations"
+,
+        "2506_A Trial Before the Trial"
+,
+        "2507_In the Footsteps of Bardam the Brave"
+,
+        "2508_The Children of Azim"
+,
+        "2509_The Labors of Magnai"
+,
+        "2510_For Love of the Moon"
+,
+        "2511_Sworn Enemies of the Sun"
+,
+        "2512_The Undying Ones"
+,
+        "2513_A Final Peace"
+,
+        "2514_As the Gods Will"
+,
+        "2515_Naadam"
+,
+        "2516_Glory to the Khagan"
+,
+        "2517_In Crimson They Walked"
+,
+        "2518_The Hour of Reckoning"
+,
+        "2519_The Room Where It Happened"
+,
+        "2520_Seeds of Despair"
+,
+        "2521_The Limits of Our Endurance"
+,
+        "2522_The Doma Within"
+,
+        "2523_On the Eve of Destiny"
+,
+        "2524_The Die Is Cast"
+,
+        "2525_The World Turned Upside Down"
+,
+        "2526_A Swift and Secret Departure"
+,
+        "2527_While You Were Away"
+,
+        "2528_Rhalgr's Beacon"
+,
+        "2529_The Fortunes of War"
+,
+        "2530_Rising Fortunes, Rising Spirits"
+,
+        "2531_The Lure of the Dream"
+,
+        "2532_The Lady of Bliss"
+,
+        "2533_The Silence of the Gods"
+,
+        "2534_The First of Many"
+,
+        "2535_Strong and Unified"
+,
+        "2536_Hells Open"
+,
+        "2537_Heavens Weep"
+,
+        "2538_The Road Home"
+,
+        "2539_For the Living and the Dead"
+,
+        "2540_Above the Churning Waters"
+,
+        "2541_The Path Forward"
+,
+        "2542_With Tired Hands We Toil"
+,
+        "2543_Where Courage Endures"
+,
+        "2544_The Price of Freedom"
+,
+        "2545_Raubahn's Invitation"
+,
+        "2546_Liberty or Death"
+,
+        "2547_The Lady in Red"
+,
+        "2548_Upon the Great Loch's Shore"
+,
+        "2549_The Key to Victory"
+,
+        "2550_The Resonant"
+,
+        "2551_The Legacy of Our Fathers"
+,
+        "2552_The Measure of His Reach"
+,
+        "2553_Stormblood"
+,
+        "2559_The Way of the Samurai"
+,
+        "2560_Master Musosai"
+,
+        "2561_The Sands of Debt"
+,
+        "2562_Blood on the Deck"
+,
+        "2563_A Fraudster in the Forest"
+,
+        "2564_Tears in the Snow"
+,
+        "2565_The Face of True Evil"
+,
+        "2566_A Dignified Visitor"
+,
+        "2567_Trials of the Sekiseigumi"
+,
+        "2568_Matsuba Mayhem"
+,
+        "2569_The Hunt for Ugetsu"
+,
+        "2570_The Battle on Bekko"
+,
+        "2571_Tournament of the Century"
+,
+        "2572_In Thal's Name"
+,
+        "2573_In Nald's Name"
+,
+        "2574_Fade to Black Lotus"
+,
+        "2575_Raising the Sword"
+,
+        "2576_Taking the Red"
+,
+        "2577_The Crimson Duelist"
+,
+        "2578_A Rewarding Struggle"
+,
+        "2579_Tracking the Cabal"
+,
+        "2580_A Vermilion Vendetta"
+,
+        "2581_On Lambard's Trail"
+,
+        "2582_Stained in Scarlet"
+,
+        "2583_The Color of Her Hair"
+,
+        "2584_Traced in Blood"
+,
+        "2585_Nightkin"
+,
+        "2586_Child of Lilith"
+,
+        "2587_With Heart and Steel"
+,
+        "2588_Shades of Shatotto"
+,
+        "2589_Golems Gone Wild"
+,
+        "2590_When the Golems Get Tough"
+,
+        "2591_Unnatural Selection"
+,
+        "2592_One Golem to Rule Them All"
+,
+        "2622_Walking for Walker's"
+,
+        "2623_The White Death"
+,
+        "2624_Edgyth's Winning Streak"
+,
+        "2625_A Book with Bite"
+,
+        "2626_Performing for Prin"
+,
+        "2627_An Egi-stential Crisis"
+,
+        "2628_Off the Record"
+,
+        "2629_An Art for the Living"
+,
+        "2630_Here There Be Xaela"
+,
+        "2631_I Dream of Shirogane"
+,
+        "2632_The Palace of Lost Souls"
+,
+        "2635_Future Rust, Future Dust"
+,
+        "2636_A Dash of Green"
+,
+        "2637_Ye Wayward Brothers"
+,
+        "2638_Token of Faith"
+,
+        "2639_Magiteknical Failure"
+,
+        "2655_Saint Sayer"
+,
+        "2661_The Hidden Truth"
+,
+        "2662_Drawing a Blank"
+,
+        "2663_Seeking Answers"
+,
+        "2664_The Honest Truth"
+,
+        "2668_A Picture Is Worth a Thousand Moms"
+,
+        "2669_Zero Tolerance Teahouse"
+,
+        "2673_The Price of Betrayal"
+,
+        "2679_The Last Voyage"
+,
+        "2681_The Solace of the Sea"
+,
+        "2687_Pulling Double Booty"
+,
+        "2693_The Sword in the Stone"
+,
+        "2704_Fathoms Below"
+,
+        "2705_A Part of Your World"
+,
+        "2706_The Elixir of Life"
+,
+        "2707_The Two Princesses of Sui-no-Sato"
+,
+        "2724_Something Smells"
+,
+        "2728_Fly, My Pretties"
+,
+        "2730_Whacking Day"
+,
+        "2733_Wolves and Weeds"
+,
+        "2734_Perchance to Hanami"
+,
+        "2736_Courage the Cowardly Lupin"
+,
+        "2737_Kurobana vs the Rice Sacks"
+,
+        "2738_Kurobana vs the Arrowheads"
+,
+        "2739_Kurobana Holmes"
+,
+        "2740_Kurobana vs Gyorin"
+,
+        "2747_Amber Alert"
+,
+        "2748_Gyorin the Namazu"
+,
+        "2749_No Wealth Like Mineral Wealth"
+,
+        "2750_Fresh Flesh"
+,
+        "2751_Show Me the New Money"
+,
+        "2758_Purbol Rain"
+,
+        "2760_Words Are Very Unnecessary"
+,
+        "2771_Sheep Snatcher"
+,
+        "2782_Forty Years and Counting"
+,
+        "2791_Mauci of the Seven Worries"
+,
+        "2813_Child Labor"
+,
+        "2816_Unexpected Guests"
+,
+        "2821_Eyes Bigger than Her Stomach"
+,
+        "2824_A New Contender"
+,
+        "2825_Down but Not Out"
+,
+        "2826_Make a Man Out of You"
+,
+        "2827_Honoring Family"
+,
+        "2828_The Rose Blooms Twice"
+,
+        "2842_Out of Sight"
+,
+        "2851_A Hunger for Trade"
+,
+        "2860_Closing Up Shop"
+,
+        "2877_It's a Zu Out There"
+,
+        "2880_A Rite to Rest"
+,
+        "2881_If I Were a Fish"
+,
+        "2883_Are They Ill-tempered"
+,
+        "2890_Three's a Company"
+,
+        "2891_Masked Motives"
+,
+        "2892_One Autumn's Secret"
+,
+        "2893_Sleeping Truths Lie"
+,
+        "2894_Sweet Dreams Are Made of Peace"
+,
+        "2900_Curious Gorge Meets His Match"
+,
+        "2901_Field Training"
+,
+        "2902_When Push Comes to Shove"
+,
+        "2903_Going the Distance"
+,
+        "2904_The Heart of the Problem"
+,
+        "2905_The Machinists' Choice"
+,
+        "2906_The Hrunting Heist"
+,
+        "2907_Release the Hounds"
+,
+        "2908_Snouts Down, Tails Up"
+,
+        "2909_The Mongrel and the Knight"
+,
+        "2910_Friends through Eternity"
+,
+        "2911_Drowsy Dragons"
+,
+        "2912_Serpent and the Sea of Rubies"
+,
+        "2913_Dark as the Night Sky"
+,
+        "2914_Dragon Sound"
+,
+        "2915_In Memories We Walked"
+,
+        "2916_The Widow and Her Love"
+,
+        "2917_The Orphans and the Broken Blade"
+,
+        "2918_We Can Never Go Home"
+,
+        "2919_Our Compromise"
+,
+        "2920_Sights of Crimson and Dawn"
+,
+        "2921_Leves of Kugane"
+,
+        "2923_The Vanishing Act"
+,
+        "2924_A Safe Place to Hide"
+,
+        "2925_In Loving Memory"
+,
+        "2926_The Chase"
+,
+        "2927_Our Unsung Heroes"
+,
+        "2928_The Hunt for Omega"
+,
+        "2929_Into the Deltascape"
+,
+        "2930_A Catastrophe Waiting"
+,
+        "2931_The Croak Queen"
+,
+        "2932_A Void at All Costs"
+,
+        "2933_The Anomaly"
+,
+        "2934_A Glimpse of Madness"
+,
+        "2935_Path of No Return"
+,
+        "2936_One-star Veteran Clan Hunt"
+,
+        "2937_Two-star Veteran Clan Hunt"
+,
+        "2938_Three-star Veteran Clan Hunt"
+,
+        "2939_Elite Veteran Clan Hunt"
+,
+        "2940_Another Striking Opportunity"
+,
+        "2941_Reach Long and Prosper"
+,
+        "2943_Songs in the Key of Kugane"
+,
+        "2946_How Tataru Got Her Groove Back"
+,
+        "2947_Broken Steel, Broken Men"
+,
+        "2948_Search for the Stolen Scroll"
+,
+        "2949_Ninja Bathin' Redux"
+,
+        "2950_A Game of Life and Death"
+,
+        "2951_True Enlightenment"
+,
+        "2952_When Clans Collide"
+,
+        "2953_The Arrows of Misfortune"
+,
+        "2954_Hard Country"
+,
+        "2955_Death by a Thousand Rocks"
+,
+        "2962_Arenvald's Adventure"
+,
+        "2963_The Darkness Below"
+,
+        "2964_The Mad King's Trove"
+,
+        "2965_The Butcher's Blood"
+,
+        "2966_Echoes of an Echo"
+,
+        "2967_A Sultana's Strings"
+,
+        "2968_A Sultana's Duty"
+,
+        "2969_A Sultana's Resolve"
+,
+        "2970_Securing the Saltery"
+,
+        "2971_A Blissful Arrival"
+,
+        "2972_Return of the Bull"
+,
+        "2974_Under Wraps"
+,
+        "2975_The Value of Silence"
+,
+        "2976_Misdelivered"
+,
+        "2977_A Test of Courage"
+,
+        "2978_True-blue"
+,
+        "2979_Best Served Foul"
+,
+        "2980_A Real Pearler"
+,
+        "2981_You Have the Rite"
+,
+        "2982_Krilled to Pieces"
+,
+        "2983_Tonight We Dine in Shells"
+,
+        "2984_Pickles of Partnership"
+,
+        "2985_Little Kojin Lost"
+,
+        "2986_Much at Steak"
+,
+        "2987_Confused Courier"
+,
+        "2988_Buoyant Bounty"
+,
+        "2989_Anala-lyze This"
+,
+        "2990_Sand-sifting Specialist"
+,
+        "2991_Forever Blowing Bubbles"
+,
+        "2992_No, Not the Boo Box"
+,
+        "2993_Pleasure Doing Business"
+,
+        "2994_Deep Turquoise Sea"
+,
+        "2995_Holy Mother of Pearl"
+,
+        "2996_Flotsam and Jetsam"
+,
+        "2997_Clammed Up"
+,
+        "2998_Tale of Roe"
+,
+        "2999_You Blow It Up"
+,
+        "3000_Tentacles of Trade"
+,
+        "3001_The Hot-blooded Kojin"
+,
+        "3002_Disciplinary Action"
+,
+        "3003_Dramatis Personae"
+,
+        "3004_A City Fallen"
+,
+        "3005_None Forgotten, None Forsaken"
+,
+        "3008_A Hingan Tale - Nashu Goes East"
+,
+        "3015_An Auspicious Encounter"
+,
+        "3016_Tortoise in Time"
+,
+        "3020_Life Imitates Art Imitates Life"
+,
+        "3021_Of Wolves and Gentlemen"
+,
+        "3022_Tidings from the East"
+,
+        "3023_The Sword in the Store"
+,
+        "3024_Hope on the Waves"
+,
+        "3025_Elation and Trepidation"
+,
+        "3026_Storm on the Horizon"
+,
+        "3027_His Forgotten Home"
+,
+        "3028_A Guilty Conscience"
+,
+        "3029_Rise of a New Sun"
+,
+        "3031_Return to the Rift"
+,
+        "3032_No Slowing Down"
+,
+        "3033_An Unfinished Masterpiece"
+,
+        "3034_Won't Let You Pass"
+,
+        "3035_Test World of Ruin"
+,
+        "3036_Brooding Broodmother"
+,
+        "3037_Griffins Rampant"
+,
+        "3038_Chance of Gales"
+,
+        "3039_It Can Be Cruel Sometimes"
+,
+        "3040_Schism between Sisters"
+,
+        "3041_Celebratory Smorgasbord"
+,
+        "3042_Have I Got News for You"
+,
+        "3043_A Real Fixer-upper"
+,
+        "3044_A Sluggish Endeavor"
+,
+        "3045_Deep-rooted Problems"
+,
+        "3046_Beating the Heat"
+,
+        "3047_Out for Delivery"
+,
+        "3048_A Bit of Home Cooking"
+,
+        "3049_Snack between Meals"
+,
+        "3050_A Signal for the Senses"
+,
+        "3051_Criminal Crossings"
+,
+        "3052_When Feathers Fly"
+,
+        "3053_Sparring Lesson"
+,
+        "3054_Funnel and Games"
+,
+        "3055_A Swarm Welcome"
+,
+        "3056_Keeping an Eye off Things"
+,
+        "3057_Bhoot Camps"
+,
+        "3058_The Very Hungry Marid"
+,
+        "3059_The Antlion's Share"
+,
+        "3060_Hearts of Precious Stone"
+,
+        "3061_Ants in the Pants"
+,
+        "3062_Up Sheet Creek"
+,
+        "3063_Let There Be Lard"
+,
+        "3064_Thin-skinned"
+,
+        "3065_A Delicate Operation"
+,
+        "3066_A Business Proposal"
+,
+        "3067_For Fast, Temporary Relief"
+,
+        "3068_Soothing the Sting"
+,
+        "3069_Catching and Fletching"
+,
+        "3070_Gosetsu and Tsuyu"
+,
+        "3071_Gone Like the Morning Dew"
+,
+        "3072_Fruits of Her Labor"
+,
+        "3073_Conscripts and Contingencies"
+,
+        "3074_The Primary Agreement"
+,
+        "3075_Under the Moonlight"
+,
+        "3076_Emissary of the Dawn"
+,
+        "3078_And We Shall Call It Eureka"
+,
+        "3086_Precious Reclamation"
+,
+        "3087_A Thousand and One Farewells"
+,
+        "3089_Uninvited"
+,
+        "3090_My Power, My Pleasure, My Pain"
+,
+        "3091_Desire"
+,
+        "3092_Annihilation"
+,
+        "3094_In the Eye of the Hingan"
+,
+        "3095_The Blade Mislaid"
+,
+        "3096_Something Fishy This Way Comes"
+,
+        "3097_One Size Fits All"
+,
+        "3098_Big, Big Fish"
+,
+        "3099_Waiting for Gyodo"
+,
+        "3100_Out of the Frypan"
+,
+        "3101_Into the Fire"
+,
+        "3102_Disciples of Creation"
+,
+        "3103_The Importance of Being Yes, Yes"
+,
+        "3104_Pilgrim's Regress"
+,
+        "3105_Unidentified Festive Objects"
+,
+        "3106_Carry That Crate"
+,
+        "3107_Free for Most"
+,
+        "3108_Simpler Gifts"
+,
+        "3109_Catching Catfish"
+,
+        "3110_Wood You Believe It"
+,
+        "3111_Ghosts of Honor"
+,
+        "3112_Carving a Niche"
+,
+        "3113_Great Buuz Up"
+,
+        "3114_Local Special Tea"
+,
+        "3115_Collision of Cultures"
+,
+        "3116_A Stable's Condition"
+,
+        "3117_Beat of the Drum"
+,
+        "3118_Cannot Say Neigh"
+,
+        "3119_Ready the Confetti"
+,
+        "3120_Surprise Offerings"
+,
+        "3121_Bearers Wanted"
+,
+        "3122_Roasting a New Dish"
+,
+        "3123_Give till It Hurts"
+,
+        "3124_Bull's-eye"
+,
+        "3125_Taking the Plunge"
+,
+        "3127_In Steep Trouble"
+,
+        "3128_A Welcome Surprise"
+,
+        "3129_The Deadliest Sport"
+,
+        "3130_Overcommitment"
+,
+        "3139_The Seaweed Is Always Greener"
+,
+        "3140_Up Where They Trade All Day in the Sun"
+,
+        "3141_It Takes an Enclave"
+,
+        "3142_Secret of the Ooze"
+,
+        "3143_Sisterly Act"
+,
+        "3144_Feel the Burn"
+,
+        "3145_Shadows in the Empire"
+,
+        "3146_A Power in Slumber"
+,
+        "3147_The Will of the Moon"
+,
+        "3148_The Call"
+,
+        "3149_Prelude in Violet"
+,
+        "3150_The Black Heart Beneath"
+,
+        "3151_Good Swords, Good Dogs"
+,
+        "3152_The Fire-bird Down Below"
+,
+        "3153_Lighting the Way"
+,
+        "3154_In the Beginning, There Was Chaos"
+,
+        "3155_And Like Fire Was His Mane"
+,
+        "3156_In the End, There Is Omega"
+,
+        "3157_To Kweh under Distant Skies"
+,
+        "3161_The Ananta Maid's Tail"
+,
+        "3162_Ruby Seas under Ruby Skies"
+,
+        "3163_Fish in a Barrel"
+,
+        "3164_What a Wonder-full World"
+,
+        "3165_Surpassing the Samurai"
+,
+        "3166_The Fifth Lord"
+,
+        "3167_The Past Is Never Past"
+,
+        "3168_Don't Do the Dewprism"
+,
+        "3177_Between a Rock and the Hard Place"
+,
+        "3178_He Ain't Piggy, He's My Brother"
+,
+        "3179_Soul Searching"
+,
+        "3180_A Defector's Tidings"
+,
+        "3181_Seiryu's Wall"
+,
+        "3182_Parley on the Front Lines"
+,
+        "3183_The Face of War"
+,
+        "3184_A Brief Reprieve"
+,
+        "3185_A Requiem for Heroes"
+,
+        "3187_The Path of Most Resistance"
+,
+        "3188_Welcome to Their Jungle"
+,
+        "3189_The City of Lost Angels"
+,
+        "3190_In Bad Taste"
+,
+        "3192_Out of the Blue"
+,
+        "3193_Blue Leading the Blue"
+,
+        "3194_Blue Collar Work"
+,
+        "3195_Why They Call It the Blues"
+,
+        "3196_Scream Blue Murder"
+,
+        "3197_Blue Gold"
+,
+        "3198_The Real Folk Blues"
+,
+        "3199_Turning Over a Blue Leaf"
+,
+        "N7_Rhalgr's Reach"
+,
+        "N8_Kugane"
+,
+        "N9_Doman Enclave"
+,
+        "S2_M'naago"
+,
+        "S3_Kurenai"
+,
+        "S4_Adkiragh"
+
+      ]
+    }
+,
+    "5.x": {
+      "name": "5.x - Shadowbringers",
+      "available": [
+        "3210_Worth Fighting For"
+,
+        "3211_A Monk's Legacy"
+,
+        "3212_Once, Twice, Three Times a Warrior"
+,
+        "3213_Gone but Not Forgiven"
+,
+        "3214_A Harmony from the Heavens"
+,
+        "3215_Whence the Healing Springs"
+,
+        "3216_A Home for a Tome"
+,
+        "3218_True Beauty"
+,
+        "3219_Oboro's Big Idea"
+,
+        "3220_Machinists for the Morrow"
+,
+        "3221_Our Closure"
+,
+        "3222_Love, Astrologically"
+,
+        "3223_The Legend of Musosai"
+,
+        "3224_Succession of Steel"
+,
+        "3225_Gunblades of the Patriots"
+,
+        "3226_Rising to the Occasion"
+,
+        "3228_To Struggle Nu Mou"
+,
+        "3229_The Iron Bellows"
+,
+        "3232_The Notes of Bond Restoring"
+,
+        "3234_Where We Belong"
+,
+        "3235_Healing Old Wounds"
+,
+        "3243_The Man with Too Many Scars"
+,
+        "3244_Shaped by Tragedy"
+,
+        "3245_Defined by Loss"
+,
+        "3246_The Princess and Her Knight"
+,
+        "3247_The Hardened Heart"
+,
+        "3248_To Have Loved and Lost"
+,
+        "3249_Shall We Dance"
+,
+        "3250_Gamboling for Gil"
+,
+        "3251_A Soirée in the Sultanate"
+,
+        "3252_Dances with Duskwights"
+,
+        "3253_High-steppin' in the Holy See"
+,
+        "3254_Save the Last Dance for Me"
+,
+        "3255_In the Middle of Nowhere"
+,
+        "3256_Deploy the Core"
+,
+        "3257_One Fell Swoop"
+,
+        "3258_Nor Any Drop to Drink"
+,
+        "3259_Super Seismic"
+,
+        "3260_The Next Piece of the Puzzle"
+,
+        "3261_The Makings of a Gunbreaker"
+,
+        "3262_Hired Gunblades"
+,
+        "3263_For Better or Worse"
+,
+        "3264_Confessions of a Flaming Mongrel"
+,
+        "3265_Of Defectors and Defenders"
+,
+        "3266_Steel against Steel"
+,
+        "3267_Traditions and Travails"
+,
+        "3268_Affronts and Allies"
+,
+        "3269_The Scientific Method"
+,
+        "3270_The Lost and the Found"
+,
+        "3271_Never to Return"
+,
+        "3272_The Soul of Temperance"
+,
+        "3273_No Greater Sport"
+,
+        "3274_Vengeance in Defeat"
+,
+        "3275_Freedom from Privilege"
+,
+        "3276_The Hunter's Legacy"
+,
+        "3277_Fellowship Restored"
+,
+        "3278_Courage Born of Fear"
+,
+        "3279_The Syrcus Trench"
+,
+        "3280_City of the First"
+,
+        "3281_Travelers of Norvrandt"
+,
+        "3282_In Search of Alphinaud"
+,
+        "3283_A Still Tide"
+,
+        "3284_Open Arms, Closed Gate"
+,
+        "3285_A Fickle Existence"
+,
+        "3286_City of Final Pleasures"
+,
+        "3287_Free to Sightsee"
+,
+        "3288_A Taste of Honey"
+,
+        "3289_A Blessed Instrument"
+,
+        "3290_Emergent Splendor"
+,
+        "3291_In Search of Alisaie"
+,
+        "3292_City of the Mord"
+,
+        "3293_Working Off the Meal"
+,
+        "3294_A Desert Crossing"
+,
+        "3295_Following in Her Footprints"
+,
+        "3296_Culling Their Ranks"
+,
+        "3297_A Purchase of Fruit"
+,
+        "3298_The Time Left to Us"
+,
+        "3299_Tears on the Sand"
+,
+        "3300_The Lightwardens"
+,
+        "3301_Warrior of Darkness"
+,
+        "3302_An Unwelcome Guest"
+,
+        "3303_The Crystarium's Resolve"
+,
+        "3304_Logistics of War"
+,
+        "3305_The Oracle of Light"
+,
+        "3306_Il Mheg, the Faerie Kingdom"
+,
+        "3307_Sul Uin's Request"
+,
+        "3308_Ys Iala's Errand"
+,
+        "3309_Oul Sigun's Plea"
+,
+        "3310_Unto the Truth"
+,
+        "3311_Courting Cooperation"
+,
+        "3312_The Key to the Castle"
+,
+        "3313_A Visit to the Nu Mou"
+,
+        "3314_A Fitting Payment"
+,
+        "3315_Spore Sweeper"
+,
+        "3316_The Lawless Ones"
+,
+        "3317_The Elder's Answer"
+,
+        "3318_A Resounding Roar"
+,
+        "3319_Memento of a Friend"
+,
+        "3320_Acht-la Ormh Inn"
+,
+        "3321_The Wheel Turns"
+,
+        "3322_A Party Soon Divided"
+,
+        "3323_A Little Faith"
+,
+        "3324_Into the Dark"
+,
+        "3325_A Day in the Neighborhood"
+,
+        "3326_A Helping Hand"
+,
+        "3327_Lost but Not Forgotten"
+,
+        "3328_Saying Good-bye"
+,
+        "3329_Stirring Up Trouble"
+,
+        "3330_A Beeautiful Plan"
+,
+        "3331_An Unwanted Proposal"
+,
+        "3332_Put to the Proof"
+,
+        "3333_Into the Wood"
+,
+        "3334_Top of the Tree"
+,
+        "3335_Look to the Stars"
+,
+        "3336_Mi Casa, Toupasa"
+,
+        "3337_Legend of the Not-so-hidden Temple"
+,
+        "3338_The Aftermath"
+,
+        "3339_In Good Faith"
+,
+        "3340_The Burden of Knowledge"
+,
+        "3341_Bearing with It"
+,
+        "3342_Out of the Wood"
+,
+        "3343_A Cry for Help"
+,
+        "3344_Rate and Review"
+,
+        "3345_Pour One Out"
+,
+        "3346_A Dirty Trick"
+,
+        "3347_From a Distance"
+,
+        "3348_A Fitting Challenge"
+,
+        "3360_A Plankless Task"
+,
+        "3371_Village of Woe"
+,
+        "3372_Talos, Interrupted"
+,
+        "3373_The Cape in Bloom"
+,
+        "3374_Wright for the Job"
+,
+        "3375_Work to Live or Live to Work"
+,
+        "3379_Do You Believe in Magic"
+,
+        "3380_A Jobb Well Done"
+,
+        "3384_Imperative Repairs"
+,
+        "3385_The Astute Amaro"
+,
+        "3386_An Unreasonable Request"
+,
+        "3395_The Forbidden Lran"
+,
+        "3398_Delightful Decorations"
+,
+        "3404_The Path to Popularity"
+,
+        "3427_A New Amaro"
+,
+        "3444_What We Do for Family"
+,
+        "3467_Suit Up"
+,
+        "3478_Stand on Ceremony"
+,
+        "3479_Seeing Eye to Eye"
+,
+        "3480_Mending Fences"
+,
+        "3481_Hearts as One"
+,
+        "3482_Protectors of the Wood"
+,
+        "3503_Scavengers Assemble"
+,
+        "3511_Charmless Man"
+,
+        "3516_My Heart Will (Not) Go On"
+,
+        "3517_Near, Far, Wherever You Are"
+,
+        "3518_The Invisible Hand"
+,
+        "3519_Scattered to the Winds"
+,
+        "3520_One Good Meal"
+,
+        "3521_Little and Late"
+,
+        "3522_Children of the Derelicts"
+,
+        "3523_Rebuild, Reuse, Recycle"
+,
+        "3524_Of Legacies Lost and Reclaimed"
+,
+        "3525_A Vein Pursuit"
+,
+        "3533_Scars of War"
+,
+        "3534_His Secret Shame"
+,
+        "3535_A Much-needed Respite"
+,
+        "3536_Resolve Regained"
+,
+        "3537_Fugitive of Fear"
+,
+        "3556_A Disagreeable Dwarf"
+,
+        "3557_Almost a Friend"
+,
+        "3558_A Practiced Greeting"
+,
+        "3559_Learning to Lali-ho"
+,
+        "3560_Ronitt to the Rescue"
+,
+        "3564_Simple Gifts"
+,
+        "3565_His Own Medicine"
+,
+        "3566_Welcome to the Future"
+,
+        "3567_Made, Not Born"
+,
+        "3568_The Poet Doesn't Know It"
+,
+        "3588_Koal of the Cups"
+,
+        "3592_Responsible Creation"
+,
+        "3593_Debate and Discourse"
+,
+        "3594_Community Cohesion"
+,
+        "3595_By the Time You Hear This"
+,
+        "3596_Akadaemia Anyder"
+,
+        "3597_Nuts to You"
+,
+        "3598_Two Nuts Too Nutty"
+,
+        "3599_How Do You Like Three Nuts"
+,
+        "3600_Too Many Nutters"
+,
+        "3601_Yet Another Striking Opportunity"
+,
+        "3602_Leves of the Crystarium"
+,
+        "3603_The Boutique Always Wins"
+,
+        "3605_The Aspiring Skywatcher"
+,
+        "3606_When It Rains"
+,
+        "3607_Word from On High"
+,
+        "3608_Small Favors"
+,
+        "3609_The Best Way Out"
+,
+        "3610_Free Trade"
+,
+        "3611_The Trolley Problem"
+,
+        "3612_Rust and Ruin"
+,
+        "3613_On Track"
+,
+        "3614_Down for Maintenance"
+,
+        "3615_The Truth Hurts"
+,
+        "3616_A Convenient Distraction"
+,
+        "3617_A Dirty Job"
+,
+        "3618_Have a Heart"
+,
+        "3619_Full Steam Ahead"
+,
+        "3620_Crossroads"
+,
+        "3621_A Fresh Start"
+,
+        "3622_More than a Hunch"
+,
+        "3623_Hollow Pursuits"
+,
+        "3624_A Voice from the Void"
+,
+        "3625_Echoes of the Past"
+,
+        "3626_Nyelbert's Lament"
+,
+        "3627_Taynor's Training Day"
+,
+        "3628_A Tearful Reunion"
+,
+        "3629_Shadow Walk with Me"
+,
+        "3630_Return to Eulmore"
+,
+        "3631_A Feast of Lies"
+,
+        "3632_Paradise Fallen"
+,
+        "3633_The Ladder"
+,
+        "3634_The View from Above"
+,
+        "3635_In Mt Gulg's Shadow"
+,
+        "3636_A Gigantic Undertaking"
+,
+        "3637_Meet the Tholls"
+,
+        "3638_A-Digging We Will Go"
+,
+        "3639_The Duergar's Tewel"
+,
+        "3640_Rich Veins of Hope"
+,
+        "3641_That None Shall Ever Again"
+,
+        "3642_A Breath of Respite"
+,
+        "3643_Extinguishing the Last Light"
+,
+        "3644_Reassuring the Masses"
+,
+        "3645_In His Garden"
+,
+        "3646_The Unbroken Thread"
+,
+        "3647_To Storm-tossed Seas"
+,
+        "3648_Waiting in the Depths"
+,
+        "3649_City of the Ancients"
+,
+        "3650_The Light of Inspiration"
+,
+        "3651_The Illuminated Land"
+,
+        "3652_The End of a World"
+,
+        "3653_A Greater Purpose"
+,
+        "3654_Shadowbringers"
+,
+        "3656_The Great Deceiver"
+,
+        "3657_Slither Along"
+,
+        "3658_Snake the Lead"
+,
+        "3659_Snakes in the Grass"
+,
+        "3671_Word about Komra"
+,
+        "3673_Shaken Resolve"
+,
+        "3674_A Grand Adventure"
+,
+        "3675_A Welcome Guest"
+,
+        "3676_Good for the Soul"
+,
+        "3677_Nowhere to Turn"
+,
+        "3678_A Notable Absence"
+,
+        "3679_For the People"
+,
+        "3680_Finding Good Help"
+,
+        "3681_Moving Forward"
+,
+        "3682_Vows of Virtue, Deeds of Cruelty"
+,
+        "3683_Manic Pixie Dream Realm"
+,
+        "3684_Sustenance for the Soul"
+,
+        "3685_The Heart's Oasis"
+,
+        "3686_A Cry from the Ashes"
+,
+        "3687_As the Heart Bids"
+,
+        "3688_Forever and a Dream"
+,
+        "3689_Where There's Wool, There's a Way"
+,
+        "3690_A Flowery Frolic"
+,
+        "3691_Sharing Is Caring"
+,
+        "3692_The Aesthetician of Il Mheg"
+,
+        "3693_Sweet as Honey"
+,
+        "3694_I Dream of Shinies"
+,
+        "3695_The Wonder of Witchweed"
+,
+        "3696_Of Marvelous Mallow"
+,
+        "3697_The Moss Fungus Menace"
+,
+        "3698_Porxine Perfection"
+,
+        "3699_The Big Sleep"
+,
+        "3700_Best of Boat Worlds"
+,
+        "3701_Amazing Graze"
+,
+        "3702_Pure Imagination"
+,
+        "3703_Raiders of the Lost Pork"
+,
+        "3704_Pebble without a Cause"
+,
+        "3705_There's Always a Stupider Fish"
+,
+        "3706_Bring Your Water to the Slaughter"
+,
+        "3707_Not the Beavers"
+,
+        "3708_The Once and Future Marchioness"
+,
+        "3709_No Accounting for Taste"
+,
+        "3710_What the Phooka"
+,
+        "3711_No Grown-ups Allowed"
+,
+        "3712_Pride-and-Seek"
+,
+        "3713_A Porxie Before Swine"
+,
+        "3714_Snot My Problem"
+,
+        "3715_Aim High"
+,
+        "3716_The Chaser"
+,
+        "3717_A Scandal in Komra"
+,
+        "3718_On the Threshold"
+,
+        "3719_An Academic Dispute"
+,
+        "3720_Tails, You Lose"
+,
+        "3721_Heads, I Win"
+,
+        "3729_Oh, Beehive Yourself"
+,
+        "3730_Commercially Flyable"
+,
+        "3731_A Ship on His Shoulder"
+,
+        "3732_Into the Blue Again"
+,
+        "3733_Something Borrowed, Something Blue"
+,
+        "3734_Bolt from the Blue"
+,
+        "3735_Blue in the Face"
+,
+        "3736_Blue Scream of Death"
+,
+        "3737_Blue Cheese"
+,
+        "3750_One Final Journey"
+,
+        "3761_Old Enemies, New Threats"
+,
+        "3762_The Way Home"
+,
+        "3763_Seeking Council"
+,
+        "3764_Facing the Truth"
+,
+        "3765_A Sleep Disturbed"
+,
+        "3766_An Old Friend"
+,
+        "3767_Deep Designs"
+,
+        "3768_A Whale's Tale"
+,
+        "3769_Beneath the Surface"
+,
+        "3770_Echoes of a Fallen Star"
+,
+        "3771_In the Name of the Light"
+,
+        "3772_Heroic Dreams"
+,
+        "3773_Fraying Threads"
+,
+        "3774_Food for the Soul"
+,
+        "3775_Faded Memories"
+,
+        "3776_Etched in the Stars"
+,
+        "3777_The Converging Light"
+,
+        "3778_Hope's Confluence"
+,
+        "3779_Nothing Unsaid"
+,
+        "3780_The Journey Continues"
+,
+        "3781_Unto the Morrow"
+,
+        "3782_Reflections in Crystal"
+,
+        "3783_Ruby Doomsday"
+,
+        "3784_Carnivals and Confrontations"
+,
+        "3785_One Way to Do It"
+,
+        "3787_Away with the Faerie"
+,
+        "3788_Blood and Thunder"
+,
+        "3789_Into the Firestorm"
+,
+        "3790_Heart of Darkness"
+,
+        "3791_On Thin Ice"
+,
+        "3792_Life Finds a Way"
+,
+        "3793_Worlds Apart"
+,
+        "3794_The Stewards of Note"
+,
+        "3795_Wisdom of the Night"
+,
+        "3796_Delving Deeper"
+,
+        "3797_A Chilling Fate"
+,
+        "3798_What Ails the Forest"
+,
+        "3799_Glory Be to the Scree"
+,
+        "3800_The First Stela Of Ronkan Might"
+,
+        "3801_The First Stela Of Ronkan Benevolence"
+,
+        "3802_The Second Stela The Hunters and the Hunted"
+,
+        "3803_The Second Stela Fast Friends"
+,
+        "3804_The Third Stela A Famine for Fishmen"
+,
+        "3805_The Third Stela A Feast for Fishmen"
+,
+        "3806_A Tool's Errand"
+,
+        "3807_Where the Sun Don't Shine"
+,
+        "3808_A Touch of Home"
+,
+        "3809_Mother's Recipe"
+,
+        "3810_Power to the Vegetables"
+,
+        "3811_Rational Thinking"
+,
+        "3812_Making Scents"
+,
+        "3813_Marks of Friendship"
+,
+        "3814_Prayers and Poison"
+,
+        "3815_Salve Our Souls"
+,
+        "3816_Rings of Pattern"
+,
+        "3817_You Dirty Rats"
+,
+        "3818_If It's Broke, Fix It"
+,
+        "3819_La-hee"
+,
+        "3820_The Qitari Book of Records"
+,
+        "3821_Meat and Greet"
+,
+        "3822_I Have Never Exploded"
+,
+        "3823_By the Power Invested in Scree"
+,
+        "3824_Rock 'n Ronka"
+,
+        "3825_There's No Clean Like Qhoterl Clean"
+,
+        "3826_Legends of the Ronkan Temple"
+,
+        "3827_Her Splendid Materials"
+,
+        "3828_Splendid Eats"
+,
+        "3829_Eggspotting"
+,
+        "3830_Safety Is No Accident"
+,
+        "3831_One Fish, Two Fish, Bread Fish, Stew Fish"
+,
+        "3832_Serpent's Will Be Done"
+,
+        "3833_Qhoterl's Chronicles"
+,
+        "3834_Hail to the Queen"
+,
+        "3835_Path to the Past"
+,
+        "3836_The Bozja Incident"
+,
+        "3837_If Songs Had Wings"
+,
+        "3842_Weapon of Choice"
+,
+        "3889_O Crafter, My Crafter"
+,
+        "3895_Sleep Now in Sapphire"
+,
+        "3896_It's Dwarfin' Time"
+,
+        "3897_A Piss-up in a Brewery"
+,
+        "3898_I Heard You Like Tanks"
+,
+        "3899_Tanking Is Hard"
+,
+        "3900_Chief Concerns"
+,
+        "3901_Tanks for the Memory"
+,
+        "3902_Lakeland Neighbors"
+,
+        "3903_Clean Beard, Clear Mind"
+,
+        "3904_Quality Parts, Guaranteed"
+,
+        "3905_The New Batch"
+,
+        "3906_The Telltale Axles"
+,
+        "3907_A Blueprint a Day"
+,
+        "3908_Foundations of Steel"
+,
+        "3909_How Do You Do, Fellow Dwarves"
+,
+        "3910_Wood for What Ales You"
+,
+        "3911_The Heart of Tankiness"
+,
+        "3912_Boom and Dust"
+,
+        "3913_One Hundred Tankards of Solitude"
+,
+        "3914_Cooler Tanks Prevail"
+,
+        "3915_What's in a Locket"
+,
+        "3916_Wayward 'Tons"
+,
+        "3917_Taking the Heat"
+,
+        "3918_Sealing the Deal"
+,
+        "3919_Spreading the Word"
+,
+        "3920_Targets Required"
+,
+        "3921_Unbreakable Plate"
+,
+        "3922_Close to Clearmeltdown"
+,
+        "3923_Demolition Demo"
+,
+        "3924_A Crude Awakening"
+,
+        "3925_Fast and Loud"
+,
+        "3926_Not for Drinking"
+,
+        "3927_Remote Repairs"
+,
+        "3928_Tip-top Gear"
+,
+        "3929_Substitute Tester"
+,
+        "3952_We Can Rebuild Her"
+,
+        "3953_Everything You Know Is Wrong"
+,
+        "3954_Crime and Punishment"
+,
+        "3975_Empty Promise"
+,
+        "3976_Fear of the Dark"
+,
+        "3977_Shadows of the Past"
+,
+        "3978_Voice of the Soul"
+,
+        "3979_Where I Belong"
+,
+        "3980_Blood of Emerald"
+,
+        "3981_In Memory"
+,
+        "3985_Safekeeping"
+,
+        "3986_The Hero's Journey"
+,
+        "3987_One Step Closer"
+,
+        "3988_A Bounty of Hunters"
+,
+        "3989_Second-rate Entertainment"
+,
+        "3990_Everybody Was Fukumen Fighting"
+,
+        "3991_Azuro and Goliath"
+,
+        "3992_Where the Gold Goes"
+,
+        "3993_Master of Mimicry"
+,
+        "3994_A Future in Blue"
+,
+        "3998_To Make Amends"
+,
+        "4007_Alisaie's Quest"
+,
+        "4008_The Wisdom of Allag"
+,
+        "4009_Reviving the Legacy"
+,
+        "4010_Forget Us Not"
+,
+        "4011_Like Master, Like Pupil"
+,
+        "4012_The Admiral's Resolve"
+,
+        "4013_The Search for Sicard"
+,
+        "4014_On Rough Seas"
+,
+        "4015_The Great Ship Vylbrand"
+,
+        "4016_Futures Rewritten"
+,
+        "4031_Duty in the Sky with Diamond"
+,
+        "4032_Forever at Your Side"
+,
+        "4033_To Be Second Best"
+,
+        "4034_Konogg, Alone"
+,
+        "4035_Brave New World"
+,
+        "4036_It Takes a Village"
+,
+        "4043_Komra Wasn't Built in a Day"
+,
+        "4044_A Message from Konogg"
+,
+        "4045_Dwarves of a Beard"
+,
+        "4046_Strange Glagg"
+,
+        "4047_Dwarves of a Beard Freshened"
+,
+        "4048_Stranger Glagg"
+,
+        "4049_All's Well That Ends with Ale"
+,
+        "4050_All That Grinds Is Not Gloom"
+,
+        "4051_The Merchant of Komra"
+,
+        "4053_Whence the Heart Leads"
+,
+        "4058_Unto the Breach"
+,
+        "4059_Here Be Dragons"
+,
+        "4060_Righteous Indignation"
+,
+        "4061_For Vengeance"
+,
+        "4062_The Flames of War"
+,
+        "4063_When the Dust Settles"
+,
+        "4064_The Company We Keep"
+,
+        "4065_On Official Business"
+,
+        "4066_Death Unto Dawn"
+,
+        "4079_You Can Count on It"
+,
+        "N10_The Crystarium"
+,
+        "N11_Eulmore"
+,
+        "S5_Kai-Shirr"
+,
+        "S6_Ehll Tou"
+,
+        "S7_Charlemend"
+
+      ]
+    }
+,
+    "6.x": {
+      "name": "6.x - Endwalker",
+      "available": [
+        "4052_How to Catch an Automaton"
+,
+        "4067_Sage's Path"
+,
+        "4068_Sage's Focus"
+,
+        "4069_Sands of Despair"
+,
+        "4070_A Poisoned Gift"
+,
+        "4071_Pledge of Hope"
+,
+        "4072_Life Ephemeral, Path Eternal"
+,
+        "4073_The Killer Instinct"
+,
+        "4074_The Harvest Begins"
+,
+        "4075_On the Hunt"
+,
+        "4076_Dark Days"
+,
+        "4077_Thicker than Blood"
+,
+        "4078_The Killing Art"
+,
+        "4102_Shrouded in Peril"
+,
+        "4103_To Give Voice"
+,
+        "4104_A Gift Undone"
+,
+        "4105_A Pact Proven"
+,
+        "4106_Hearts True"
+,
+        "4107_A Path Unveiled"
+,
+        "4108_Far from Free"
+,
+        "4109_The Butcher's Blade"
+,
+        "4110_A New Battleground"
+,
+        "4111_Laying the Past to Rest"
+,
+        "4112_Trail of Skulls"
+,
+        "4113_The Gift of Mercy"
+,
+        "4114_Storm Clouds Brewing"
+,
+        "4115_The Crushing Tide"
+,
+        "4116_Old Heroes Never Die"
+,
+        "4117_A Mother's Suffering"
+,
+        "4118_Out of the Shadows"
+,
+        "4119_To Calmer Seas"
+,
+        "4120_Seeds of Disquiet"
+,
+        "4121_When the Kami Answer"
+,
+        "4122_Home No Longer"
+,
+        "4123_The Devoted Daughter"
+,
+        "4124_A Singular Gift"
+,
+        "4125_Laid to Rest"
+,
+        "4126_Our Aching Souls"
+,
+        "4127_No Forgiveness, No Deliverance"
+,
+        "4128_Only Justice, Only Vengeance"
+,
+        "4129_Wills Unending, Faith Unbending"
+,
+        "4130_O Mighty Fury, Guide Us to Victory"
+,
+        "4131_Ever March Heavensward"
+,
+        "4153_Cultured Pursuits"
+,
+        "4154_Cooking Up a Culture"
+,
+        "4155_The Culture of Ceruleum"
+,
+        "4156_The Culture of Carrots"
+,
+        "4157_Hinageshi in Hingashi"
+,
+        "4158_The Culture of the Past"
+,
+        "4159_The Culture of Love"
+,
+        "4170_Leves of Old Sharlayan"
+,
+        "4173_A Place to Train"
+,
+        "4176_The Hunt for Specimens"
+,
+        "4177_That Specimen Came from the Moon"
+,
+        "4178_A Hunt for the Ages"
+,
+        "4179_Perfect Specimens"
+,
+        "4180_A Waiting Love"
+,
+        "4181_Scholarly Perspective"
+,
+        "4182_A Literary Delivery"
+,
+        "4183_Doll Dash"
+,
+        "4196_Fruit Savior"
+,
+        "4197_Shelling Out"
+,
+        "4198_Tikka Hike"
+,
+        "4199_The Great Heist"
+,
+        "4200_Wish Upon a Crystal"
+,
+        "4201_High Importance, Low Urgency"
+,
+        "4202_Paint, Perfume, and Pecs"
+,
+        "4203_Alchemist or Dancer"
+,
+        "4204_A Nose for Trouble"
+,
+        "4205_Missing Alchemist"
+,
+        "4206_Hamsa Retrieval"
+,
+        "4207_High Hopes for the Hatchery"
+,
+        "4208_Cutting Edge Solutions"
+,
+        "4209_Rushing up That Hill"
+,
+        "4210_A Volatile Education"
+,
+        "4211_The Light of Progress"
+,
+        "4212_My Fair Mammet"
+,
+        "4213_The Creature from the Wooden Crate"
+,
+        "4214_Fast Fashion"
+,
+        "4215_Booking Books"
+,
+        "4216_Best Delivered Cold"
+,
+        "4217_Armored Up"
+,
+        "4218_A Dream of Home"
+,
+        "4219_Your Inventory Is Not Full"
+,
+        "4220_Help Me to Help You"
+,
+        "4221_Heroes All"
+,
+        "4222_Scouting for Scouts"
+,
+        "4223_Bear Baiting"
+,
+        "4224_Under Lock and Code"
+,
+        "4225_And Then a Hero Comes Along"
+,
+        "4226_With Folded Hands"
+,
+        "4227_A Light That Never Goes Out"
+,
+        "4228_PS I Love You"
+,
+        "4229_Brick by Brick, Tank by Tank"
+,
+        "4230_Rest, Thy Warfare O'er"
+,
+        "4231_Some Like It Hot"
+,
+        "4232_Children Are Our Future"
+,
+        "4233_Mama, She Is in Rubble Deep"
+,
+        "4234_Put Your Plasma Where Your Mouth Is"
+,
+        "4235_The Hero Never Bombs"
+,
+        "4236_Beasts of the Imperial Wild"
+,
+        "4237_Ordnance Cleanup Committee"
+,
+        "4238_A Place of Greater Safety"
+,
+        "4239_In the Skies above Garlemald"
+,
+        "4240_True Carrot Crimes"
+,
+        "4241_Carrots Its Whats for Dinner"
+,
+        "4253_Alluring Allag"
+,
+        "4257_In Agamas Footsteps"
+,
+        "4259_Radiant Patrol"
+,
+        "4269_A Bond Eternal"
+,
+        "4270_A Gift of Flowers"
+,
+        "4271_Tidings from Afar"
+,
+        "4272_The Pangs of Hunger"
+,
+        "4273_Silks for a Babe"
+,
+        "4274_Hungry Hungry Hamsa"
+,
+        "4275_Operation Ring Retrieval"
+,
+        "4288_You and the Ailouros"
+,
+        "4313_The Perks of Being a Lost Flower"
+,
+        "4316_For the Love of Pudding"
+,
+        "4317_Secret in the Box"
+,
+        "4318_Leveilleur Philanthropy"
+,
+        "4319_Sandwiches and Pretzels"
+,
+        "4320_Gleaners Wish"
+,
+        "4326_Seeing Red"
+,
+        "4329_Let the Good Times Troll"
+,
+        "4337_Futures Lost"
+,
+        "4338_That Once Rang Clear"
+,
+        "4339_The Sound of Fear"
+,
+        "4340_Stars Like Gems"
+,
+        "4341_Aimless Protector"
+,
+        "4342_Ending as One"
+,
+        "4346_A Most Stimulating Discussion"
+,
+        "4348_Left Alive"
+,
+        "4350_A Parent's Love"
+,
+        "4354_Combat Evolved"
+,
+        "4355_Learn to Love"
+,
+        "4357_The Next Ship to Sail"
+,
+        "4358_Old Sharlayan New to You"
+,
+        "4359_Hitting the Books"
+,
+        "4360_A Seat at the Last Stand"
+,
+        "4361_A Labyrinthine Descent"
+,
+        "4362_Glorified Ratcatcher"
+,
+        "4363_Deeper into the Maze"
+,
+        "4364_The Medial Circuit"
+,
+        "4365_The Full Reports Warts and All"
+,
+        "4366_A Guide of Sorts"
+,
+        "4367_Estate Visitor"
+,
+        "4368_For Thavnair Bound"
+,
+        "4369_On Low Tide"
+,
+        "4370_A Fishermans Friend"
+,
+        "4371_House of Divinities"
+,
+        "4372_The Great Work"
+,
+        "4373_Shadowed Footsteps"
+,
+        "4374_A Boys Errand"
+,
+        "4375_Tipping the Scale"
+,
+        "4376_The Satrap of Radz at Han"
+,
+        "4377_In the Dark of the Tower"
+,
+        "4378_The Jewel of Thavnair"
+,
+        "4379_The Color of Joy"
+,
+        "4380_Sound the Bell, Schools in"
+,
+        "4381_A Capital Idea"
+,
+        "4382_Best of the Best"
+,
+        "4383_A Frosty Reception"
+,
+        "4384_Tracks in the Snow"
+,
+        "4385_How the Mighty Are Fallen"
+,
+        "4386_At the End of the Trail"
+,
+        "4387_A Way Forward"
+,
+        "4388_The Last Bastion"
+,
+        "4389_Personae non Gratae"
+,
+        "4390_His Park Materials"
+,
+        "4391_No Good Deed"
+,
+        "4392_Alea Iacta Est"
+,
+        "4393_Strange Bedfellows"
+,
+        "4394_In from the Cold"
+,
+        "4395_Gateway of the Gods"
+,
+        "4396_A Trip to the Moon"
+,
+        "4397_Sea of Sorrow"
+,
+        "4398_The Martyr"
+,
+        "4399_In_Shadows_Wake"
+,
+        "4400_Helping Hands"
+,
+        "4401_A Harey Situation"
+,
+        "4402_A Taste of the Moon"
+,
+        "4403_Styled a Hero"
+,
+        "4404_Alls Vale That Endsvale"
+,
+        "4405_Back to Old Tricks"
+,
+        "4406_Setting Things Straight"
+,
+        "4407_Heart of the Matter"
+,
+        "4408_Returning Home"
+,
+        "4409_Skies Aflame"
+,
+        "4410_The Blasphemy Unmasked"
+,
+        "4411_Amidst the Apocalypse"
+,
+        "4412_Beyond the Depths of Despair"
+,
+        "4413_That We Might Live"
+,
+        "4414_When All Hope Seems Lost"
+,
+        "4415_Warm Hearts, Rekindled Hopes"
+,
+        "4416_Simple Pleasures"
+,
+        "4417_Under His Wing"
+,
+        "4418_At Worlds End"
+,
+        "4419_Return to the Crystarium"
+,
+        "4420_Hope Upon a Flower"
+,
+        "4421_Petalouda Hunt"
+,
+        "4422_In Search of Hermes"
+,
+        "4423_Ponder Warrant Cherish Welcome"
+,
+        "4424_Lives Apart"
+,
+        "4425_Their Greatest Contribution"
+,
+        "4426_Aether to Aether"
+,
+        "4427_A Sentimental Gift"
+,
+        "4428_Verdict and Execution"
+,
+        "4429_Travelers at the Crossroads"
+,
+        "4430_A Past Not Yet Come to Pass"
+,
+        "4431_Witness to the Spectacle"
+,
+        "4432_Worthy of His Back"
+,
+        "4433_A Flower upon Your Return"
+,
+        "4434_Hunger in the Garden"
+,
+        "4435_Words without Sound"
+,
+        "4436_Follow Wander Stumble Listen"
+,
+        "4437_Caging the Messenger"
+,
+        "4438_Thou Must Live Die and Know"
+,
+        "4439_As the Heavens Burn"
+,
+        "4440_Outside Help"
+,
+        "4441_Going Underground"
+,
+        "4442_No Job Too Small"
+,
+        "4443_Wise Guides"
+,
+        "4444_Agriculture Shock"
+,
+        "4445_Sage Council"
+,
+        "4446_Hither and Yarns"
+,
+        "4447_Once Forged"
+,
+        "4448_Bonds of Adamantite"
+,
+        "4449_Her Children One and All"
+,
+        "4450_A Bold Decision"
+,
+        "4451_Friends Gathered"
+,
+        "4452_Unto the Heavens"
+,
+        "4453_A Strange New World"
+,
+        "4454_On Burdened Wings"
+,
+        "4455_A Test of Will"
+,
+        "4456_Roads Paved of Sacrifice"
+,
+        "4457_Flesh Abandoned"
+,
+        "4458_Where Knowledge Leads"
+,
+        "4459_Victory x Lost"
+,
+        "4460_x"
+,
+        "4461_Hello World"
+,
+        "4462_Forge Ahead"
+,
+        "4463_You're Not Alone"
+,
+        "4464_Endwalker"
+,
+        "4473_The Faculty"
+,
+        "4475_The Crystal from Beyond"
+,
+        "4476_Where Familiars Dare"
+,
+        "4477_Under the Surface"
+,
+        "4478_The Fires of Creation"
+,
+        "4479_Who Wards the Warders"
+,
+        "4480_Lost Little Troll"
+,
+        "4484_The Lad in Labyrinthos"
+,
+        "4489_Steppe Child"
+,
+        "4490_The Matanga along the Way"
+,
+        "4491_Ogul Repays Her Favors"
+,
+        "4492_The Yedlihmad Hunt"
+,
+        "4493_What's in a Parent"
+,
+        "4494_Curing What Ails"
+,
+        "4495_The Sins We Bear"
+,
+        "4496_Societal Alchemy"
+,
+        "4497_A Budding Adventure"
+,
+        "4498_In Pursuit of Power"
+,
+        "4499_Camp Broken Engines"
+,
+        "4500_Operation Reactivation"
+,
+        "4501_Energy for All"
+,
+        "4502_Stranded at the Station"
+,
+        "4503_Longing for Home"
+,
+        "4504_Palatial Possibilities"
+,
+        "4505_Mum Is the Word"
+,
+        "4506_Who Is Your Daddy"
+,
+        "4507_Touring Anagnorisis Part 1"
+,
+        "4511_An Expected Guest"
+,
+        "4516_Name That Way"
+,
+        "4517_A Way to Make a Living"
+,
+        "4518_One Way or Another"
+,
+        "4519_Dream a Little Dream"
+,
+        "4523_Of Mothers and Merchants"
+,
+        "4526_Newfound Adventure"
+,
+        "4527_Bountiful Ruins"
+,
+        "4528_Friends for the Road"
+,
+        "4529_Alzadaals Legacy"
+,
+        "4530_A Brothers Grief"
+,
+        "4531_Sharing the Wealth"
+,
+        "4532_Bridging the Rift"
+,
+        "4533_Restricted Reading"
+,
+        "4534_Void Theory"
+,
+        "4535_A Satraps Duty"
+,
+        "4536_A Mission in Mor Dhona"
+,
+        "4537_The Realm of the Gods"
+,
+        "4538_A Divine Dilemma"
+,
+        "4539_The Face of an Explorer"
+,
+        "4542_The Sleeping Gentleman"
+,
+        "4543_A Soulful Reunion"
+,
+        "4545_Hippos Born to Run"
+,
+        "4546_A Pachyderm's Promptitude"
+,
+        "4547_Hippo Healing"
+,
+        "4548_Defiant Ogul, Deified"
+,
+        "4549_Leader to Leader"
+,
+        "4550_The Hippo Riders"
+,
+        "4551_Ridin' Flyers for Flyin' Riders"
+,
+        "4552_Deal by the Docks"
+,
+        "4553_Do It for the Vine"
+,
+        "4554_Missing Rider"
+,
+        "4555_Flowers for Sanduruva"
+,
+        "4556_Anxious Rookie"
+,
+        "4557_Gulal Generosity"
+,
+        "4558_Essential Eggredients"
+,
+        "4559_Darling Defender"
+,
+        "4560_Bloomin' Ocean"
+,
+        "4561_Fresh Eats and Ripe Sweets"
+,
+        "4562_Waste Not, Want None of That"
+,
+        "4563_Seedy Affair"
+,
+        "4564_Olfactory Warfare"
+,
+        "4565_Ridin' Hazards"
+,
+        "4566_Hippo Scrub"
+,
+        "4567_Vanaspati's Blessing"
+,
+        "4568_Hells Hath No Fury as a Hippo Scorned"
+,
+        "4569_Tusk Trouble"
+,
+        "4570_Patching Up"
+,
+        "4571_A Hippo's Best Friend"
+,
+        "4572_An Explosive Brew"
+,
+        "4573_Gathering Moss"
+,
+        "4574_Blood from a Stonemason"
+,
+        "4575_A Radiant Delivery"
+,
+        "4576_Like a Crate to Water"
+,
+        "4577_Manusyan for a Day"
+,
+        "4578_Steep the Legs"
+,
+        "4579_Bitter Snow"
+,
+        "4580_Frozen Hope"
+,
+        "4581_Misguided Few"
+,
+        "4582_Forlorn Glory"
+,
+        "4583_Small Business, Big Dreams"
+,
+        "4586_A Heartless Hypothesis"
+,
+        "4587_Good-bye, x"
+,
+        "4592_In Search of Azdaja"
+,
+        "4593_Shadowed Remnants"
+,
+        "4594_Where Everything Begins"
+,
+        "4595_Groping in the Dark"
+,
+        "4596_Nowhere to Run"
+,
+        "4597_The Wind Rises"
+,
+        "4598_Return from the Void"
+,
+        "4599_A World with Light and Life"
+,
+        "4600_Buried Memory"
+,
+        "4601_The Café at the End of the Universe"
+,
+        "4602_Longing So for All the Fish"
+,
+        "4603_And Another Question"
+,
+        "4604_The Restaurateur's Guide to the Dragonstar"
+,
+        "4605_Mostly Heartless"
+,
+        "4606_Life, the Universe, and Coffee Beans"
+,
+        "4607_Signs of the Past"
+,
+        "4608_Coffee Talk"
+,
+        "4609_Well Below Standard"
+,
+        "4610_A Brewing Reputation"
+,
+        "4611_Grounds for Improvement"
+,
+        "4612_A Fertile Blend"
+,
+        "4613_The Hunger Pangs"
+,
+        "4614_The Robot and the Sea"
+,
+        "4615_Using Their Heads"
+,
+        "4616_Working Up a Thirst"
+,
+        "4617_I'll Fish It Myself"
+,
+        "4618_Sold Out"
+,
+        "4619_A Grebuloff Out of Water"
+,
+        "4620_A Taste of the Sea"
+,
+        "4621_It's Electric!"
+,
+        "4622_Ea Epicurious"
+,
+        "4623_I, Omicron"
+,
+        "4624_Guardians of the Galaxy"
+,
+        "4625_Corporeal Hand to Proverbial Mouth"
+,
+        "4626_Mush for Miw Miisv"
+,
+        "4627_Corporeal Comforts"
+,
+        "4628_Remote Debugging"
+,
+        "4629_A Light in the Dark"
+,
+        "4630_Reclaiming the Taste of Home"
+,
+        "4631_Not Forgotten"
+,
+        "4632_Checking for Cavities"
+,
+        "4633_Brainstorm"
+,
+        "4634_The Lost World"
+,
+        "4635_An Unwelcome Visitor"
+,
+        "4636_Masks of the Father"
+,
+        "4637_A Keyward's Gaol"
+,
+        "4638_Servant of Violence"
+,
+        "4639_One Final Wish"
+,
+        "4640_Truth Imperfect"
+,
+        "4641_Lunar Conspiracy"
+,
+        "4642_The Imperfect Gentleman"
+,
+        "4644_Seeing the Cieldalaes"
+,
+        "4650_Soaring Profits"
+,
+        "4652_Make It a Manderville"
+,
+        "4653_Make Another Manderville"
+,
+        "4660_Shadowed Pasts"
+,
+        "4661_Shadowed Pasts Once More"
+,
+        "4662_An Auspicious Opportunity"
+,
+        "4666_Return to the Phantom Realm"
+,
+        "4667_In Heavenly Company"
+,
+        "4668_Divine Nonintervention"
+,
+        "4669_The Secret of the Twelve"
+,
+        "4670_Once More unto the Void"
+,
+        "4671_A Cold Reunion"
+,
+        "4672_Kindled Spirit"
+,
+        "4673_An Unforeseen Bargain"
+,
+        "4674_King of the Mountain"
+,
+        "4675_A Dragons Resolve"
+,
+        "4676_Paths Barred"
+,
+        "4677_Desires Untold"
+,
+        "4678_Gods Revel Lands Tremble"
+,
+        "4681_Must Be Dreaming(way)"
+,
+        "4682_The Incredible Machines"
+,
+        "4683_Too Few Cooks"
+,
+        "4684_Teamwork Makes the Dream Work"
+,
+        "4685_A Million Malms Away"
+,
+        "4686_Dreams Come True"
+,
+        "4687_Don't Stop the Music"
+,
+        "4688_A Pipe Dream"
+,
+        "4689_Money Makes the Moon Go Round"
+,
+        "4690_Dancing King"
+,
+        "4691_Pieces of You"
+,
+        "4692_Underneath the Starry Lights"
+,
+        "4693_Carrotlight, Carrot Bright"
+,
+        "4694_Pitch Perfect"
+,
+        "4695_Clean Times"
+,
+        "4696_A Sound Endeavor"
+,
+        "4697_Prototypical Retrieval"
+,
+        "4698_Always Wear Protection"
+,
+        "4699_Hare-raising Thrills"
+,
+        "4700_Be Carrotful What You Wish For"
+,
+        "4701_Hungry for Knowledge"
+,
+        "4702_No Chill"
+,
+        "4703_Fungi Frustrations"
+,
+        "4704_For Every Mouth, a Carrot"
+,
+        "4705_Whisks for Whiskers"
+,
+        "4706_Sets, Reps, and Loporrits"
+,
+        "4707_Lunar Beats for Hopping"
+,
+        "4708_Most Like It Sparkly"
+,
+        "4709_Spatial Cleanse"
+,
+        "4710_Clean Paws Make Good Artists"
+,
+        "4711_By the Muse Forsaken"
+,
+        "4712_Art Is an Explosion!"
+,
+        "4713_Craft, Craft, Fashion, Baby"
+,
+        "4714_Sparking Artist"
+,
+        "4715_That's So Anden"
+,
+        "4716_Every Anden of the Rainbow"
+,
+        "4717_A Labor of Leaf"
+,
+        "4718_The Spectacle of Inspection"
+,
+        "4719_Generational Bonding"
+,
+        "4725_Well-oiled"
+,
+        "4726_The Next Mander-level"
+,
+        "4735_Currying Flavor"
+,
+        "4736_Going Haam"
+,
+        "4737_Like Fear to Flame"
+,
+        "4738_The Fallen Empire"
+,
+        "4739_Bonds of Trust"
+,
+        "4740_Lunar Rendezvous"
+,
+        "4741_The Red Side of the Moon"
+,
+        "4742_Abyssal Dark"
+,
+        "4743_The Dark Throne"
+,
+        "4744_Seeking the Light"
+,
+        "4745_Appealing the Masses"
+,
+        "4746_In Defiance of Fate"
+,
+        "4747_Back to Action"
+,
+        "4748_Down in the Dark"
+,
+        "4749_Reunited at Last"
+,
+        "4750_Growing Light"
+,
+        "4751_When One Door Closes"
+,
+        "4752_The Game Is Afoot"
+,
+        "4753_The Coming Dawn"
+,
+        "4754_By Agents Unknown"
+,
+        "4755_Not from Around Here"
+,
+        "4756_Eater of Souls"
+,
+        "4757_Pandæmonium Awakens"
+,
+        "4758_The Emissary's Judgment"
+,
+        "4759_A Mother's Touch"
+,
+        "4760_Guided by the Past"
+,
+        "4761_Aggressive Expansion"
+,
+        "4762_Forever in Our Hearts"
+,
+        "4771_A Spirited Reforging"
+,
+        "4772_In Need of Adjustment"
+,
+        "4773_And the Crowd Goes Mild"
+,
+        "4774_The Beard, the Myth, the Legend"
+,
+        "4775_Gridania's Most Wanted"
+,
+        "4776_No Butts About It"
+,
+        "4777_A New Gold Standard"
+,
+        "4778_The Brave and the Blue"
+,
+        "4779_Remembering the Past"
+,
+        "4780_Preserving the Future"
+,
+        "4787_Dinner and a Show"
+,
+        "4788_A Dream Worth Chasing"
+,
+        "4791_The Heart of the Myth"
+,
+        "4792_Embraced by Gods"
+,
+        "4794_Where Worries Melt Away"
+,
+        "4799_Of Duplicity and Duplication"
+,
+        "4800_Gentlemen at Heart"
+,
+        "4806_Resonating with Perfection"
+,
+        "4807_Positively Mandervillous"
+,
+        "4812_Treasured Bonds"
+,
+        "4813_More Precious than Gil"
+,
+        "4815_A Request of One's Own"
+,
+        "4816_The Pride of Labyrinthos"
+,
+        "5252_A Present from the Present"
+,
+        "N12_Old Sharlayan"
+,
+        "N13_Radz-at-Han"
+,
+        "S10_Margrat"
+,
+        "S8_Ameliance"
+,
+        "S9_Anden"
+
+      ]
+    }
+,
+    "7.x": {
+      "name": "7.x - Dawntrail",
+      "available": [
+        "4801_Just Crowning Around"
+,
+        "4817_Uncouth Customers"
+,
+        "4818_The Narwhal Beckons"
+,
+        "4819_Sleepless in Ishgard"
+,
+        "4820_Between Sleep and Death"
+,
+        "4821_Beacon in the Darkness"
+,
+        "4822_Awakened, not Stirred"
+,
+        "4823_Dreams of a New Day"
+,
+        "4824_In the Sting of Things"
+,
+        "4825_Causing Problems on Purpose"
+,
+        "4826_Living among the Deadly"
+,
+        "4827_Taste of a Toxin Paradise"
+,
+        "4828_Downed by the River"
+,
+        "4829_An Antidote for Anarchy"
+,
+        "4830_The Hunter and the Hunted"
+,
+        "4831_A Sea of Blood"
+,
+        "4832_Who's Who"
+,
+        "4833_Cornered Prey"
+,
+        "4834_Impostor Syndrome"
+,
+        "4835_A Hunter True"
+,
+        "4836_To Steal a Steelhog"
+,
+        "4837_Bandits Abound"
+,
+        "4838_Take Me to Your Leader"
+,
+        "4839_The Milk of Mamool Ja Kindness"
+,
+        "4840_Ally in the Alley"
+,
+        "4841_The Mightiest Shield"
+,
+        "4842_Power Forgotten"
+,
+        "4843_A Brand of Justice"
+,
+        "4844_The Seeds of Popularity"
+,
+        "4845_Floundering Fame"
+,
+        "4846_Behind the Helm"
+,
+        "4847_Heroes and Pretenders"
+,
+        "4848_Enter the Viper"
+,
+        "4849_Fangs of the Viper"
+,
+        "4850_Viper in the Vidraal's Shadow"
+,
+        "4851_Vipers on the Hunt"
+,
+        "4852_Into the Viper Pit"
+,
+        "4853_Vengeance of the Viper"
+,
+        "4854_The Joy of Pictomancy"
+,
+        "4855_Mind over Manor"
+,
+        "4856_Perspectives in Pursuit"
+,
+        "4857_The Crate Beyond"
+,
+        "4858_Beruru's Clues"
+,
+        "4859_Somewhere Only She Knows"
+,
+        "4860_A New World to Explore"
+,
+        "4861_The Nation of Tuliyollal"
+,
+        "4862_A City of Stairs"
+,
+        "4863_A Saga in Stone"
+,
+        "4864_The Rite of Succession"
+,
+        "4865_To Kozama'uka"
+,
+        "4866_A Festive People"
+,
+        "4867_The Feat of Reeds"
+,
+        "4868_A Well-mannered Shipwright"
+,
+        "4869_The Lifting of Wings"
+,
+        "4870_Knowing the Hanuhanu"
+,
+        "4871_To Urqopacha"
+,
+        "4872_Traders of Happiness"
+,
+        "4873_The Feat of Gold"
+,
+        "4874_Mablu's Dream"
+,
+        "4875_A Premium Deal"
+,
+        "4876_Wuk Lamat in the Saddle"
+,
+        "4877_Knowing the Pelupelu"
+,
+        "4878_The Success of Others"
+,
+        "4879_For All Turali"
+,
+        "4880_A Leaking Workpot"
+,
+        "4881_Lending a Helphand"
+,
+        "4882_The Feat of Pots"
+,
+        "4883_A Father First"
+,
+        "4884_The Shape of Peace"
+,
+        "4885_Lost Promise"
+,
+        "4886_A Brother's Duty"
+,
+        "4887_Feeding the River"
+,
+        "4888_Sibiling Rescue"
+,
+        "4889_History's Keepers"
+,
+        "4890_The Feat of Proof"
+,
+        "4891_The High Luminary"
+,
+        "4892_An Echo of Madness"
+,
+        "4893_Pointing the Way"
+,
+        "4894_The Skyruin"
+,
+        "4895_The Feat of Ice"
+,
+        "4896_The Promise of Peace"
+,
+        "4897_The Leap to Yak T'el"
+,
+        "4898_Village of the Hunt"
+,
+        "4899_A History of Violence"
+,
+        "4900_The Feat of Repast"
+,
+        "4901_A Father's Grief"
+,
+        "4902_Taking a Stand"
+,
+        "4903_Into the Traverse"
+,
+        "4904_City of Silence"
+,
+        "4905_Blessed Sibilings"
+,
+        "4906_Scale of Trust"
+,
+        "4907_Mamook Speaks"
+,
+        "4908_The Feat of Brotherhood"
+,
+        "4909_Road to the Golden City"
+,
+        "4910_Dawn of a New Tomorrow"
+,
+        "4911_Ever Greater, Ever Brighter"
+,
+        "4912_The Long Road to Xak Tural"
+,
+        "4913_Saddled Up"
+,
+        "4914_Braced for Trouble"
+,
+        "4915_Blowing Smoke"
+,
+        "4916_Law of the Land"
+,
+        "4917_On Track"
+,
+        "4918_One With Nature"
+,
+        "4919_And the Land Would Tremble"
+,
+        "4920_No Time for Tears"
+,
+        "4921_Pick up the Pieces"
+,
+        "4922_Together as One"
+,
+        "4923_In Yyasulani's Shadow"
+,
+        "4924_Putting Plans into Locomotion"
+,
+        "4925_A Hot Commodity"
+,
+        "4926_All Aboard"
+,
+        "4927_The Land of Levin"
+,
+        "4928_A Royal Welcome"
+,
+        "4929_A Day in the Life"
+,
+        "4930_On the Cloud"
+,
+        "4931_Gone and Forgotten"
+,
+        "4932_Embracing Oblivion"
+,
+        "4933_Solution Nine"
+,
+        "4934_The Queen's Tour"
+,
+        "4935_Her People, Her Family"
+,
+        "4936_Scales of Blue"
+,
+        "4937_Gives You Teeth"
+,
+        "4938_Little Footfalls"
+,
+        "4939_Drowned Vestiges"
+,
+        "4940_Memories of a Knight"
+,
+        "4941_At a Crossroads"
+,
+        "4942_The Protector and the Destroyer"
+,
+        "4943_A Comforting Hand"
+,
+        "4944_Unto the Summit"
+,
+        "4945_The Resilient Son"
+,
+        "4946_A New Family"
+,
+        "4947_In Pursuit of Sphene"
+,
+        "4948_Through the Gate of Gold"
+,
+        "4949_Those Who Live Forever"
+,
+        "4950_In Serenity and Sorrow"
+,
+        "4951_The Land of Dreams"
+,
+        "4952_A Knight of Alexandria"
+,
+        "4953_The Sanctuary of the Strong"
+,
+        "4954_The Taste of Family"
+,
+        "4955_Leafing through the Past"
+,
+        "4956_An Explorer's Delight"
+,
+        "4957_In Search of Discovery"
+,
+        "4958_A Journey Never-ending"
+,
+        "4959_Dawntrail"
+,
+        "4960_A New Challenger Appears"
+,
+        "4961_The Claw in the Dark"
+,
+        "4962_Sweet Poison"
+,
+        "4963_Yaana's Yarn"
+,
+        "4964_Vile Heat"
+,
+        "4965_The Neoteric Witch"
+,
+        "4966_Wrought in Wachumeqimeqi"
+,
+        "4967_Appreciated Value"
+,
+        "4989_Hands for Hire"
+,
+        "4990_Test of Talents"
+,
+        "4991_A Discerning Eye"
+,
+        "4992_As Nature Intends"
+,
+        "4993_The Cycle of Life"
+,
+        "4994_Digging Up the Truth"
+,
+        "4995_Wellspring of Tears"
+,
+        "5003_Leves of Tuliyollal"
+,
+        "5004_How the West Was Sung"
+,
+        "5005_Trial by Spire"
+,
+        "5006_Sights of the West"
+,
+        "5007_Sights of the West and Beyond"
+,
+        "5008_Dawn of a New Deal"
+,
+        "5009_A New Dawn, A New Hunt"
+,
+        "5010_Why We Hunt"
+,
+        "5011_Hunting the Hunter"
+,
+        "5012_The Hunt Goes On"
+,
+        "5013_It Belongs in a Museum"
+,
+        "5014_Something Stray in the Neighborhood"
+,
+        "5015_Rising to the Call"
+,
+        "5016_We Who Are About to Set Sail Salute You"
+,
+        "5017_The Many Multitudes fo Mamool Ja"
+,
+        "5018_How Far He'll Go"
+,
+        "5019_Culinary Import"
+,
+        "5020_Curious Corn"
+,
+        "5021_Painter on the Hill"
+,
+        "5022_For Whom the Drum Beats"
+,
+        "5023_Special Orders, Special Deliveries"
+,
+        "5024_Mulch Ado About Nothing"
+,
+        "5025_Ferocious Beasts on Foreign Shores"
+,
+        "5026_Once a Riddler, Now a Ruler"
+,
+        "5027_A Trying Breed"
+,
+        "5028_Of Crates and Correspondence"
+,
+        "5029_Guilding the Lily"
+,
+        "5030_An Unlikely Inspector"
+,
+        "5031_The Carmine Secret"
+,
+        "5032_Dirty Dancing"
+,
+        "5033_Gone Doll"
+,
+        "5034_A Blend for Every Taste"
+,
+        "5035_Mate is the Medicine"
+,
+        "5036_The Reeking Robber"
+,
+        "5037_A Sordid Situation"
+,
+        "5038_In Pursuit of Mezcal"
+,
+        "5039_Traveler to the Rescue"
+,
+        "5040_Too Much of a Good Thing"
+,
+        "5041_Grandmother's Grave Gift"
+,
+        "5042_The Might Be Giant"
+,
+        "5043_Putting Out Fires"
+,
+        "5044_Paws off That Pigment"
+,
+        "5045_Big Wounds to Heal"
+,
+        "5046_A Tradition Best Preserved"
+,
+        "5047_An Illuminating Ritual"
+,
+        "5048_Soothing the Salty"
+,
+        "5049_The Biggest Sucker"
+,
+        "5050_Bearing Fruit"
+,
+        "5051_Crisis of Corruption"
+,
+        "5052_To Catch a Merchant"
+,
+        "5053_Finding Bait"
+,
+        "5054_Springing the Trap"
+,
+        "5055_The Flame Burns No More"
+,
+        "5056_Sparks of Joy"
+,
+        "5057_A Giant's Footsteps"
+,
+        "5058_Resolve Reignited"
+,
+        "5059_Brains and Brawn"
+,
+        "5060_A Strong Foundation"
+,
+        "5061_Molting Season"
+,
+        "5062_Danger at the Dock"
+,
+        "5063_Reeding the Room"
+,
+        "5064_Ripe for the Offering"
+,
+        "5065_Secrets of the Wind"
+,
+        "5066_Leap into the Unknown"
+,
+        "5067_Mesmerizing Moss"
+,
+        "5068_Dry Run"
+,
+        "5069_Dumpling Delivery"
+,
+        "5070_Stretched Thin"
+,
+        "5071_Broken Vessels"
+,
+        "5072_Pole Apart"
+,
+        "5073_Twinkle Twinkle Little Stones"
+,
+        "5074_Divine Inspiration"
+,
+        "5075_Water Colors"
+,
+        "5076_Take a Powder"
+,
+        "5077_Pact Away"
+,
+        "5078_Last Call for Earthenshire"
+,
+        "5079_Many Fires, Many Mouths"
+,
+        "5080_Lost Property"
+,
+        "5081_Rite of the Wind's Chosen"
+,
+        "5082_One Feather at a Time"
+,
+        "5083_The Wind's Blessing"
+,
+        "5084_Nahanshe's Answer"
+,
+        "5085_All Good Potpacts Must Come to an End"
+,
+        "5086_Movamuq's Treasure"
+,
+        "5087_Helping the Helphand"
+,
+        "5088_Give as Good as You Get"
+,
+        "5089_The Landsguard's New Clothes"
+,
+        "5090_Preying Mantises"
+,
+        "5091_Getting to the Bottom of Things"
+,
+        "5092_The Crimson Cenote"
+,
+        "5093_Watching the Watchtowers"
+,
+        "5094_Secrets in the Cinderfield"
+,
+        "5095_Hunters with Bite"
+,
+        "5096_Reminders of the Past"
+,
+        "5097_Sick Day"
+,
+        "5098_To Forge in the Forest"
+,
+        "5099_A Stomach for Change"
+,
+        "5100_Carved in Stone"
+,
+        "5101_Two Hearts Aflutter"
+,
+        "5102_Proper Respects"
+,
+        "5103_Beast of the Heartlands"
+,
+        "5104_Spirit's Call"
+,
+        "5105_Seek the Sun"
+,
+        "5106_Secret of Sweetness"
+,
+        "5107_Growing Grove"
+,
+        "5108_Age Is Just a Number"
+,
+        "5109_I'm with Wivre"
+,
+        "5110_Aiming High"
+,
+        "5111_Hunting for the Family"
+,
+        "5112_A Hunter's Dream"
+,
+        "5113_The Trial Commences"
+,
+        "5114_Lost and Powerless"
+,
+        "5115_Remembering a Dream"
+,
+        "5116_Budding Promise"
+,
+        "5117_Skill of a Veteran"
+,
+        "5118_One Forest"
+,
+        "5119_A Private Delivery"
+,
+        "5120_A Sobering Proposition"
+,
+        "5121_Taste of the Wilds"
+,
+        "5122_Fruitful Endeavors"
+,
+        "5123_Gentle Giants"
+,
+        "5124_Waiting One's Turn"
+,
+        "5125_Bomb Disposal"
+,
+        "5126_A Refined Perspective"
+,
+        "5127_Surprising Source of Fiber"
+,
+        "5128_A Grave Matter"
+,
+        "5129_Working on a Full Stomach"
+,
+        "5130_Meeting of the Spirits"
+,
+        "5131_Watching Big Brother"
+,
+        "5132_Death by Popoto"
+,
+        "5133_A Tool Tale"
+,
+        "5134_Tastes Like Home"
+,
+        "5135_Snakes on a Train(line)"
+,
+        "5136_It's a Terrible Ring to Lose"
+,
+        "5137_A Mount with a View"
+,
+        "5138_Rroneek Seeker"
+,
+        "5139_The Horns That Bind Us"
+,
+        "5140_When the Bill Comes Due"
+,
+        "5141_Broken Record"
+,
+        "5142_Back on Stage"
+,
+        "5143_A Family's Worth"
+,
+        "5144_Bad Case of the Blue Devils"
+,
+        "5145_Down in the Mouth"
+,
+        "5146_Listen to Your Elders"
+,
+        "5147_Back in Blue"
+,
+        "5148_Dig for Victory"
+,
+        "5149_Gwok Away"
+,
+        "5150_Natural Selection"
+,
+        "5151_The Miracle of Electrope"
+,
+        "5152_Fear and Lightning in the Thunderyards"
+,
+        "5153_Stressed Testing"
+,
+        "5154_Refined Tastes"
+,
+        "5155_History Reforged"
+,
+        "5156_Phyt for Survival"
+,
+        "5157_A Well-oiled Machine"
+,
+        "5158_Storm's Traces"
+,
+        "5159_He Who Remembers"
+,
+        "5160_Auntie Knows Best"
+,
+        "5161_Yyupye's Dirt"
+,
+        "5162_What She Left Behind"
+,
+        "5163_All That She Carried"
+,
+        "5164_Credits Where Credits are Due"
+,
+        "5165_True Vue Blues"
+,
+        "5166_Problem Child, Solution Nine"
+,
+        "5167_An Usher's Lament"
+,
+        "5168_Towering Troubles"
+,
+        "5169_A Fitting Send-off"
+,
+        "5170_Rousing Mister Robot"
+,
+        "5171_Of Lightning Rings and Romance"
+,
+        "5172_Warrior of Light, Wrangler of Cats"
+,
+        "5173_Tasteful Memories"
+,
+        "5174_Well-wishing at the Wishing Well"
+,
+        "5175_The Canals of History"
+,
+        "5176_Perplexing Puzzles, Endless Fun"
+,
+        "5177_Brotherly Bonds Know No Barrier"
+,
+        "5178_Volcanic Disruptions"
+,
+        "5179_Blueprint Protocol"
+,
+        "5180_Lindblum, We Hardly Knew Ye"
+,
+        "5181_Leaving This Place for Good"
+,
+        "5182_Fire Red, Beast Green"
+,
+        "5183_Festival Fan Frenzy"
+,
+        "5184_The Aether-starved Ahriman"
+,
+        "5185_All Fiends Sated on All Saints' Wake"
+,
+        "5186_Heavensssturn Trivia"
+,
+        "5188_Picking Up the Torch"
+,
+        "5189_Imposing Views"
+,
+        "5190_Enforcing Freedom"
+,
+        "5191_Bar the Passage"
+,
+        "5192_The Case of the Displaced Inspector"
+,
+        "5193_An Intrepid New Enterprise"
+,
+        "5194_A Tentative First Tour"
+,
+        "5195_Earthenshire Awaits"
+,
+        "5196_Recruitment Drive"
+,
+        "5197_A Guest from Across the Salt"
+,
+        "5198_Partners in Pel"
+,
+        "5199_A Notion of Promotion"
+,
+        "5200_A Sackful of Memories"
+,
+        "5201_Ferocious Foliage, Fearful Tourists"
+,
+        "5202_Community Outreach in Kozanuakiy"
+,
+        "5203_Preventative Measures"
+,
+        "5204_Burden of Beasts"
+,
+        "5205_Growing as a Guide"
+,
+        "5206_Bag Your Pardon"
+,
+        "5207_Thrilled to Be Here"
+,
+        "5208_Canvassing in Kozama'uka"
+,
+        "5209_Reed between the Lines"
+,
+        "5210_The Rudiments of Fiend Removal"
+,
+        "5211_The Nectar Collector"
+,
+        "5212_Starting from Scrap"
+,
+        "5213_Advisor vs Predator"
+,
+        "5214_Let Mobbie Be Your Guide"
+,
+        "5215_The Popularity of Punutiys"
+,
+        "5216_Breath of Foul Air"
+,
+        "5217_Big Bellies to Fill"
+,
+        "5218_The Hand That Feeds"
+,
+        "5219_Born to Run Away"
+,
+        "5220_Bird Meat's Back on the Menu"
+,
+        "5221_A Sympathetic Ear"
+,
+        "5222_Worth the Weight"
+,
+        "5223_In Time for Lunch"
+,
+        "5224_His Swarm Enemy"
+,
+        "5225_Seasoned Adventurer"
+,
+        "5226_Animal Friendship"
+,
+        "5227_Reach for the Stalls"
+,
+        "5228_Spreading the Warmth and Cheer"
+,
+        "5233_An Otherworldly Encounter"
+,
+        "5234_It All Began with a Stone"
+,
+        "5235_That World Was Called Vana'diel"
+,
+        "5236_Jeuno"
+,
+        "5237_A Princely Persona"
+,
+        "5238_A Princely Debut"
+,
+        "5239_Laying New Tracks"
+,
+        "5240_The Weight of a Train"
+,
+        "5241_His Heart Blazes On"
+,
+        "5242_In Pursuit of Eggcellence"
+,
+        "5243_Eggceeding Expectations"
+,
+        "5244_A Royal Invitation"
+,
+        "5245_Alexandria Mourns"
+,
+        "5246_In Search of the Past"
+,
+        "5247_Among the Abandoned"
+,
+        "5248_Guidance of the Hhetso"
+,
+        "5249_The Warmth of Family"
+,
+        "5250_Crossroads"
+,
+        "5251_I Promise You a Rose Garden"
+,
+        "5253_A Cosmic Homecoming"
+,
+        "5254_Passion, Thy Name Is Ardorum"
+,
+        "5255_Cultivating Hope"
+,
+        "5256_Doppro Tradition"
+,
+        "5257_A Hoobigo's Return"
+,
+        "5258_The Boon of Boonewa"
+,
+        "5259_A New Yak T'el"
+,
+        "5260_The Pride of Mamook"
+,
+        "5261_Root of the Problem"
+,
+        "5262_Taking Your Leavings"
+,
+        "5263_Cultivating Data"
+,
+        "5264_Toil for the Soil"
+,
+        "5265_Stem's the Breaks"
+,
+        "5266_All Tools' Maintenance"
+,
+        "5267_Healing the Fields"
+,
+        "5268_Bonding with Branchbearers"
+,
+        "5269_Bugs Begone"
+,
+        "5270_Pain Relief"
+,
+        "5271_Stimulating Growth"
+,
+        "5272_Fresh Cleaning Supplies"
+,
+        "5273_Shine a Light on the Problem"
+,
+        "5274_A Measure of Influence"
+,
+        "5275_Promoting Produce"
+,
+        "5276_Rough Around the Edges"
+,
+        "5277_Building a Better Smoke Bomb"
+,
+        "5278_Remedies at the Ready"
+,
+        "5279_A Welcoming Fragrance"
+,
+        "5280_Fruit of Friendship"
+,
+        "5281_Vital Vegetables"
+,
+        "5282_Creative Composting"
+,
+        "5283_Stores to Dry For"
+,
+        "5284_Keeping the Lights On"
+,
+        "5285_Gifts of the Gainery"
+,
+        "5286_A Seasoning for Soup"
+,
+        "5287_Store-to-door Delivery"
+,
+        "5288_Above-average Beverage"
+,
+        "5289_Souls under Siege"
+,
+        "5290_The Dancing King"
+,
+        "5291_Art at War"
+,
+        "5292_Twisted Vengeance"
+,
+        "5293_Family Matters"
+,
+        "5294_The Lone Wolf"
+,
+        "5295_Wizened Testimony"
+,
+        "5296_The Case of the Fiendish Fugitives"
+,
+        "5297_An Adventurous Ambition"
+,
+        "5298_A Light That Ever Burns"
+,
+        "5299_A Glimmer of the Past"
+,
+        "5300_Memories of a Bygone Age"
+,
+        "5301_In Search of Meaning"
+,
+        "5302_A Jewel Shattered"
+,
+        "5303_The Meeting"
+,
+        "5304_Descent to the Foundation"
+,
+        "5305_Shared Paths"
+,
+        "5306_Seekers of Eternity"
+,
+        "5307_When Death Comes to Dinner"
+,
+        "5309_One Last Hurrah"
+,
+        "5310_The Phantom Village"
+,
+        "5311_Unfamiliar Territory"
+,
+        "5312_New Job, Old Tricks"
+,
+        "5313_The Ancient Arts of War"
+,
+        "5319_Arcane Artistry"
+,
+        "5321_Dressed to Protect"
+,
+        "5322_Royal Rumblings"
+,
+        "5323_A Manager's Patience"
+,
+        "5324_A Manager's Persistence"
+,
+        "5326_Dreams of Paradise"
+,
+        "5327_Northward"
+,
+        "5328_For Whom the Verse Is Sung"
+,
+        "5329_Apocalypse Nigh"
+,
+        "5330_Frosty Neighbors"
+,
+        "5331_Still as Stone"
+,
+        "5332_Buried Memories"
+,
+        "5333_The Pact"
+,
+        "5334_Forged in Corn"
+,
+        "5335_With High Spirits"
+,
+        "5336_Snow on the Mountain"
+,
+        "5337_A Work of Cart"
+,
+        "5338_Will Work for Supplies"
+,
+        "5339_Getting a Glow On"
+,
+        "5340_Hold My Hand Warmers"
+,
+        "5341_For a Goods Cause"
+,
+        "5342_Happiness Is a Warm Poncho"
+,
+        "5343_Worth Their Salt"
+,
+        "5344_Tradition for Trade"
+,
+        "5345_A Few Tools Short of a Toolbox"
+,
+        "5346_Romanced by the Stone"
+,
+        "5347_Every Last Pebble"
+,
+        "5348_Trail Fix"
+,
+        "5349_Working Stew Hard"
+,
+        "5350_Snack in Hand"
+,
+        "5351_Seasoned Stories"
+,
+        "5352_Larder for the Long Term"
+,
+        "5353_Table for Too Few"
+,
+        "5354_I Want to Trade My Icicle"
+,
+        "5355_Larder Logistics"
+,
+        "5356_The Weight of Generosity"
+,
+        "5357_A Growing Field"
+,
+        "5358_The Crystals' Favor"
+,
+        "5359_Big Mountain, Little Climbers"
+,
+        "5360_Scouring for Flowers"
+,
+        "5361_A Rock-solid Repair Job"
+,
+        "5362_Mad about Brew"
+,
+        "5363_A Feast of Indecision"
+,
+        "5364_Targeted Tragedy"
+,
+        "5365_The Endless Choice"
+,
+        "5366_My Memories and Yours"
+,
+        "5367_A Darkness in the Heart"
+,
+        "5368_Preservation Their Purpose"
+,
+        "5369_A Calculated Evolution"
+,
+        "5370_One of Our Own"
+,
+        "5371_A Terminal Invitation"
+,
+        "5372_Blades in Waiting"
+,
+        "5373_The Promise of Tomorrow"
+,
+        "5374_The White Wanderer"
+,
+        "5375_Frights of Fancy"
+,
+        "5376_Dressed to Impresario"
+,
+        "5378_A Vandal in the Wild"
+,
+        "5379_On the Trail of Destruction"
+,
+        "5380_Keeping the Old Ways Alive"
+,
+        "5381_Aether, Aether, Everywhere"
+,
+        "5382_Wrought by Hands Phantasmal"
+,
+        "5405_Pilgrimage of Light"
+,
+        "5406_Faerie Tale"
+,
+        "5407_A Branch and Their Sapling"
+,
+        "5409_Go Forth, Brave Explorers"
+,
+        "5410_The Brightest Star"
+,
+        "5411_A Manager's Discernment"
+,
+        "5412_Perspective Reflected"
+,
+        "5413_Pilot Wanted"
+,
+        "5414_A Manager's Delegation"
+,
+        "5426_With the Winds"
+,
+        "5427_Through the Thunder"
+,
+        "5428_Beyond the Mountains"
+,
+        "5429_Around the City"
+,
+        "5430_To Work"
+,
+        "5431_In Her Heart"
+,
+        "5432_Toward Trouble"
+,
+        "5433_Where We Call Home"
+,
+        "5434_Into the Mist"
+,
+        "5435_Feral Fandom"
+,
+        "5436_The Breathtaker"
+,
+        "5437_Daring Devils"
+,
+        "5438_Challenger and Champion"
+,
+        "5439_Iron Fist"
+,
+        "5440_Glory Incarnate"
+,
+        "N14_Tuliyollal"
+,
+        "N15_Solution Nine"
+,
+        "S11_Nitowikwe"
+,
+        "U506_Patch 7 2 Fantasia"
+,
+        "U568_Patch 7 3 Fantasia"
+
+      ]
+    }
+
+  }
+}
