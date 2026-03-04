@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T12:07:18Z",
+  "lastUpdated": "2026-03-04T18:11:13Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -1290,6 +1290,8 @@
 ,
         "599_My First Pickaxe"
 ,
+        "59_Simply the Hest"
+,
         "5_Weapons of a Feather"
 ,
         "600_Know Thy Land"
@@ -1355,6 +1357,10 @@
         "68_Violators Will Be Shot"
 ,
         "690_High Society"
+,
+        "693_Leves of Swiftperch"
+,
+        "696_Leves of Costa del Sol"
 ,
         "697_Hallo Halatali"
 ,
