@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T07:08:16Z",
+  "lastUpdated": "2026-06-25T12:45:21Z",
   "expansions": {
     "2.x": {
       "name": "2.x - A Realm Reborn",
@@ -5696,6 +5696,8 @@
     "7.x": {
       "name": "7.x - Dawntrail",
       "available": [
+        "1288_Breaking Brick Mountains"
+,
         "2206_A Journey to Remember"
 ,
         "4801_Just Crowning Around"
